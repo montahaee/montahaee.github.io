@@ -1,0 +1,98 @@
+- title: Allgemeine Informationen
+  type: map
+  contents:
+    - name: Vollständiger Name
+      value: Albert Einstein
+    - name: Geburtsdatum
+      value: 14. März 1879
+    - name: Sprachen
+      value: Englisch, Deutsch
+
+- title: Bildung
+  type: time_table
+  contents:
+    - title: Doktor
+      institution: Universität Zürich, Zürich, Schweiz
+      year: 1905
+      description:
+        - Beschreibung 1.
+        - Beschreibung 2.
+        - title: Beschreibung 3.
+          contents:
+            - Unterbeschreibung 1.
+            - Unterbeschreibung 2.
+    - title: Bundeslehrdiplom
+      institution: Eidgenössische Technische Hochschule, Zürich, Schweiz
+      year: 1900
+      description:
+        - Beschreibung 1.
+        - Beschreibung 2.
+
+- title: Erfahrung
+  type: time_table
+  contents:
+    - title: Professor für theoretische Physik
+      institution: Institute for Advanced Study, Princeton University
+      year: 1933 - 1955
+      description:
+        - Beschreibung 1.
+        - Beschreibung 2.
+        - title: Beschreibung 3.
+          contents:
+            - Unterbeschreibung 1.
+            - Unterbeschreibung 2.
+    - title: Gastprofessor
+      institution: California Institute of Technology, Pasadena, Kalifornien, USA
+      year: 1933
+      description:
+        - Beschreibung 1.
+        - Beschreibung 2.
+
+    - title: Direktor
+      institution: Kaiser-Wilhelm-Institut für Physik, Berlin, Deutschland.
+      year: 1917-1933
+
+    - title: Professor für theoretische Physik
+      institution: Karl-Ferdinand-Universität, Prag, Tschechoslowakei
+      year: 1911 - 1917
+      description:
+
+    - title: Associate Professor für theoretische Physik
+      institution: Universität Zürich, Zürich, Schweiz
+      year: 1909 - 1911
+
+- title: Open-Source-Projekte
+  type: time_table
+  contents:
+    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+      year: 2015-jetzt
+      description: Ein schönes, einfaches, sauberes und responsives Jekyll-Thema für Akademiker.
+
+- title: Ehrungen und Auszeichnungen
+  type: time_table
+  contents:
+    - year: 1921
+      items: 
+        - Nobelpreis für Physik 
+        - Matteucci-Medaille
+    - year: 2029
+      items: 
+        - Max-Planck-Medaille
+
+- title: Akademische Interessen
+  type: nested_list
+  contents:
+    - title: Thema 1.
+      items: 
+        - Beschreibung 1.
+        - Beschreibung 2.
+    - title: Thema 2.
+      items:
+        - Beschreibung 1.
+        - Beschreibung 2.
+
+- title: Andere Interessen
+  type: list
+  contents:
+    - <u>Hobbys:</u> Hobby 1, Hobby 2, usw.
+
