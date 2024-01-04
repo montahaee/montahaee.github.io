@@ -29,12 +29,12 @@ layout: default
               alt=page.profile.image
               cache_bust=true -%}
             {% endif -%}
-<!--            {% assign more_info_size = site.translations[site.lang].main.more_info | size %}-->
-<!--            {% if more_info_size > 0 %}-->
-<!--            <div class="more-info">-->
-<!--              {% t main.more_info %}-->
-<!--            </div>-->
-<!--            {%- endif %}-->
+            {% assign more_info_size = site.translations[site.lang].main.more_info | size %}
+            {% if more_info_size > 0 %}
+            <div class="more-info">
+              {% t main.more_info %}
+            </div>
+            {%- endif %}
             {%- if page.profile.address %}
             <div class="address">
               {{ page.profile.address }}
