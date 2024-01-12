@@ -5,88 +5,77 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="136a4eba-8fca-4949-b295-efe345b562fa" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/src.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/src.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jekyll-metadata" beforeDir="false" afterPath="$PROJECT_DIR$/.jekyll-metadata" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_bibliography/papers.bib" beforeDir="false" afterPath="$PROJECT_DIR$/_bibliography/papers.bib" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/en/cv.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/en/cv.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_i18n/en.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_i18n/en.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/audio.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/audio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/cv/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/cv/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/cv/list_groups.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/cv/list_groups.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/cv/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/cv/map.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/cv/nested_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/cv/nested_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/date_format.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/date_format.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/disqus.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/disqus.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/figure.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/figure.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_includes/giscus.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/giscus.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/news.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/projects_horizontal.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/projects_horizontal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/reading_time.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/reading_time.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/repository/repo_trophies.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/repository/repo_trophies.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/scripts/analytics.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/scripts/analytics.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/scripts/badges.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/scripts/badges.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/scripts/bootstrap.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/scripts/bootstrap.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/scripts/jquery.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/scripts/jquery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/scripts/masonry.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/scripts/masonry.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/scripts/mathjax.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/scripts/mathjax.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/scripts/misc.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/scripts/misc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/archive-category.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/archive-category.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/archive-tag.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/archive-tag.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/bib.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/bib.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/cv.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/cv.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_news/announcement_1.md" beforeDir="false" afterPath="$PROJECT_DIR$/_news/announcement_1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/en/dropdown.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/en/dropdown.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/en/projects.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/en/projects.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/en/repositories.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/en/repositories.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/_distill.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/_distill.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/_layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/_layout.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/_themes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/_themes.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/_variables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/_site/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/_pages/blog.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/_pages/dropdown/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/_pages/profiles.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/css/academicons.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/css/academicons.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/css/bootstrap-toc.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/css/bootstrap-toc.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/css/jupyter-grade3.css" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/css/jupyter-grade3.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/css/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/css/mdb.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/css/mdb.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/img/myPic_3_4.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/img/myPic_3_4.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/img/myPic_3_4_1.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/img/myPic_3_4_1.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/img/myProfile.png" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/img/myProfile.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/img/publications-screenshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/img/publications-screenshot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/js/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/js/distillpub/template.v2.js" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/js/distillpub/template.v2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/js/no_defer.js" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/js/no_defer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/js/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/js/theme.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/pdf/de/apply/FMR_zeugnis.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/pdf/de/apply/FMR_zeugnis.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/pdf/de/apply/bild_verarbeitung_zeugnis.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/pdf/de/apply/bild_verarbeitung_zeugnis.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/pdf/de/apply/bsc_sem_arb.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/pdf/de/apply/bsc_sem_arb.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/pdf/de/apply/ihk_zeugnis.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/pdf/de/apply/ihk_zeugnis.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/pdf/de/apply/optimierungc_zeugnis.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/pdf/de/apply/optimierungc_zeugnis.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/pdf/de/apply/recommandation_letter.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/pdf/de/apply/recommandation_letter.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/pdf/de/apply/sprach_zeugnis.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/pdf/de/apply/sprach_zeugnis.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/pdf/en/apply/bsc_degree.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/pdf/en/apply/bsc_degree.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/jupyter/blog.ipynb.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/jupyter/blog.ipynb.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/2015/code/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/2015/code/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/2015/disqus-comments/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/2015/disqus-comments/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/2015/formatting-and-links/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/2015/formatting-and-links/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/2015/images/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/2015/images/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/2015/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/2015/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/2015/math/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/2015/math/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/2020/github-metadata/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/2020/github-metadata/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/2020/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/2020/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/2020/twitter/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/2020/twitter/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/2021/diagrams/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/2021/diagrams/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/2021/distill/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/2021/distill/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/2021/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/2021/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/2022/giscus-comments/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/2022/giscus-comments/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/2022/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/2022/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/2022/redirect/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/2022/redirect/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/2023/audios/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/2023/audios/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/2023/custom-blockquotes/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/2023/custom-blockquotes/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/2023/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/2023/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/2023/sidebar-table-of-contents/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/2023/sidebar-table-of-contents/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/2023/table-of-contents/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/2023/table-of-contents/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/2023/tables/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/2023/tables/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/2023/videos/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/2023/videos/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/category/blockquotes/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/category/blockquotes/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/category/external-services/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/category/external-services/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/category/sample-posts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/category/sample-posts/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/category/sidebar/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/category/sidebar/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/category/toc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/category/toc/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/tag/audios/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/tag/audios/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/tag/code/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/tag/code/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/tag/formatting/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/tag/formatting/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/tag/images/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/tag/images/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/tag/including/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/tag/including/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/tag/links/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/tag/links/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/tag/math/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/tag/math/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/tag/videos/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/tag/videos/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/cv/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/cv/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/de-de/_pages/blog.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/de-de/_pages/dropdown/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/de-de/_pages/profiles.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/de/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/de/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/blog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/de/assets/jupyter/blog.ipynb.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/assets/jupyter/blog.ipynb.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/de/blog/2015/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/blog/2015/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/de/blog/2020/github-metadata/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/blog/2020/github-metadata/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/de/blog/2020/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/blog/2020/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/de/blog/2021/diagrams/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/blog/2021/diagrams/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/de/blog/2021/distill/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/blog/2021/distill/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/de/blog/2021/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/blog/2021/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/de/blog/2022/giscus-comments/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/blog/2022/giscus-comments/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/de/blog/2022/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/blog/2022/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/de/blog/2023/custom-blockquotes/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/blog/2023/custom-blockquotes/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/de/blog/2023/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/blog/2023/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/de/blog/2023/sidebar-table-of-contents/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/blog/2023/sidebar-table-of-contents/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/de/blog/2023/table-of-contents/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/blog/2023/table-of-contents/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/de/blog/2023/tables/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/blog/2023/tables/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/de/blog/category/blockquotes/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/blog/category/blockquotes/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/de/blog/category/external-services/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/blog/category/external-services/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/de/blog/category/sample-posts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/blog/category/sample-posts/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/de/blog/category/sidebar/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/blog/category/sidebar/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/de/blog/category/toc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/blog/category/toc/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/de/blog/tag/audios/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/blog/tag/audios/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/de/blog/tag/code/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/blog/tag/code/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/de/blog/tag/formatting/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/blog/tag/formatting/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/de/blog/tag/images/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/blog/tag/images/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/de/blog/tag/including/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/blog/tag/including/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/de/blog/tag/links/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/blog/tag/links/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/de/blog/tag/math/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/blog/tag/math/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/de/blog/tag/videos/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/blog/tag/videos/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/de/cv/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/cv/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/de/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/feed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/de/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/index.html" afterDir="false" />
@@ -94,16 +83,9 @@
       <change beforePath="$PROJECT_DIR$/_site/de/news/announcement_2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/news/announcement_2/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/de/news/announcement_3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/news/announcement_3/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/de/news/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/news/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/de/projects/1_project/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/projects/1_project/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/de/projects/2_project/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/projects/2_project/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/de/projects/3_project/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/projects/3_project/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/de/projects/4_project/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/projects/4_project/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/de/projects/5_project/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/projects/5_project/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/de/projects/6_project/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/projects/6_project/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/de/projects/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/projects/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/de/publications/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/publications/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/de/repositories/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/repositories/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/de/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/robots.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/de/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/sitemap.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/de/teaching/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/teaching/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
@@ -123,37 +105,6 @@
       <change beforePath="$PROJECT_DIR$/_site/repositories/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/repositories/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/sitemap.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/teaching/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/teaching/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap-toc.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/bootstrap-toc.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/mdb.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/mdb.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/distillpub/template.v2.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/distillpub/template.v2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/no_defer.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/no_defer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/theme.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/pdf/de/apply/FMR_zeugnis.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/pdf/de/apply/FMR_zeugnis.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/pdf/de/apply/bild_verarbeitung_zeugnis.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/pdf/de/apply/bild_verarbeitung_zeugnis.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/pdf/de/apply/bsc_sem_arb.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/pdf/de/apply/bsc_sem_arb.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/pdf/de/apply/ihk_zeugnis.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/pdf/de/apply/ihk_zeugnis.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/pdf/de/apply/optimierungc_zeugnis.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/pdf/de/apply/optimierungc_zeugnis.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/pdf/de/apply/recommandation_letter.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/pdf/de/apply/recommandation_letter.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/pdf/de/apply/sprach_zeugnis.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/pdf/de/apply/sprach_zeugnis.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/pdf/en/apply/bsc_degree.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/pdf/en/apply/bsc_degree.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/deploy" beforeDir="false" afterPath="$PROJECT_DIR$/bin/deploy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/entry_point.sh" beforeDir="false" afterPath="$PROJECT_DIR$/bin/entry_point.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cv/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/news/announcement_1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/news/announcement_2/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/news/announcement_3/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/news/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/1_project/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/2_project/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/3_project/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/4_project/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/5_project/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/6_project/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/publications/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/repositories/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/teaching/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -262,7 +213,8 @@
       <workItem from="1704871812076" duration="36815000" />
       <workItem from="1704958139529" duration="8830000" />
       <workItem from="1704967102120" duration="30496000" />
-      <workItem from="1705044784192" duration="2648000" />
+      <workItem from="1705044784192" duration="3966000" />
+      <workItem from="1705055025100" duration="3855000" />
     </task>
     <servers />
   </component>

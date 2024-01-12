@@ -22,10 +22,12 @@ group :jekyll_plugins do
     gem 'unicode_utils'
     gem 'webrick'
     gem 'localization'
+    gem 'jekyll-github-metadata'
    # gem 'htmlcompressor'
    # gem 'htmlbeautifier'
 end
 group :other_plugins do
     gem 'feedjira'
     gem 'httparty'
+    gem 'netrc'
 end

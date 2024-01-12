@@ -227,6 +227,7 @@ plugins:
   - jekyll-jupyter-notebook
   - jekyll-link-attributes
   - jekyll-minifier
+  - jekyll-github-metadata
   - jekyll-multiple-languages-plugin
   - jekyll-paginate-v2
   - jekyll/scholar
