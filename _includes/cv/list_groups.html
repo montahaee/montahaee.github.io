@@ -34,6 +34,10 @@
           {% if item.link %}
           <td class="list-group-link"><a href="{{ item.link }}" target="_blank" class="btncv z-depth-0">{% if item.linkname %}{{ item.linkname }}{% else %}DOC{% endif %}</a></td>
           {% endif %}
+<!--          {% for desc in item.description %}-->
+<!--          <h6 class="title font-weight-bold ml-1 ml-md-4">{{desc.title}}</h6>-->
+<!--          <p class="ml-1 ml-md-4 ">{{ desc.item }}</p>-->
+<!--          {% endfor %}-->
         </tr>
         {% endfor %}
       </tbody>
