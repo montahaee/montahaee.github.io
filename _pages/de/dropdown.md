@@ -20,6 +20,6 @@
 
 [//]: # (    - title: EN)
 
-[//]: # (      permalink: ../)
+[//]: # (      permalink: en/)
 
 [//]: # (---)

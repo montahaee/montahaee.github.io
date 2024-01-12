@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Repositories
-description: selected_publication
-
-permalink: /repositories/
+description: Arsch
+selected_publication:
+permalink: de/repositories/
 nav: true
 nav_order: 4
 published: true
