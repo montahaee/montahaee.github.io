@@ -4,12 +4,17 @@
 @charset "utf-8";
 
 // Dimensions
-$max-content-width: {{ site.max_width }};
+$max-content-width: 100;
+
 
 @import
-  "variables",
-  "themes",
-  "layout",
-  "base",
-  "distill"
-;
+"../../_sass/variables",
+"../../_sass/themes",
+"../../_sass/layout",
+"../../_sass/base",
+"../../_sass/distill",
+"../../_sass/cv",
+"../../_sass/font-awesome/fontawesome",
+"../../_sass/font-awesome/brands",
+"../../_sass/font-awesome/solid",
+"../../_sass/font-awesome/regular";

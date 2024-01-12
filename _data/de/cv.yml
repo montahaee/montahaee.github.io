@@ -1,0 +1,117 @@
+- title: Allgemeine Informationen
+  type: map
+  contents:
+    - name: Name
+      value: Morteza Montahaee
+    - name: Geburtsdatum
+      value: 17. September 1984
+    - name: Sprache
+      value: Persisch, Englisch, Deutsch
+
+- title: Akademische Interessen
+  type: nested_list
+  contents:
+    - title: Variationsrechnung
+      items:
+        - Gesamtvariation-Regularisierung
+        - MAP-Schätzung
+    - title: Differentialgeometrie
+      items:
+        - Geometrische Transformation zur Bildregistrierung
+        - Geometrische Verarbeitung
+    - title: Datenwissenschaft
+      items:
+        - Merkmalsbasierte Bildregistrierung
+        - Vorhersageanalyse
+
+- title: Hobbies
+  type: list
+  contents:
+    - Ringen, Fußball, Wandern, Geschichte, Mathematik
+
+- title: Bildung
+  type: time_table
+  contents:
+    - title: B.Sc. in Angewandter Mathematik
+      institution: Universität von Payame Noor, Pakdasht-Tehran, Iran
+      year: 10/2005 - 07/2009
+      description:
+        - Bachelorarbeit: Anwendung nichtlinearer konjugierter Gradientenalgorithmen zur Schätzung der elektromagnetischen Inversion.
+        - Schwerpunkte: Lineare Algebra, Numerische ODE, Mathematische Analyse, Mathematische Statistik, Graphentheorie, Mathematische Modelle der Natur (ODE).
+    - title: B.Sc. in Angewandter Mathematik und Informatik
+      institution: FH Aachen – Hochschule für angewandte Wissenschaften
+      year: 10/2019 - Heute
+      description:
+        - Schwerpunkte: Lineare Algebra, Statistik, Numerik, Programmierung (OOP), Algorithmen und Datenstrukturen, Datenwissenschaft, Datenbanken, Softwaretechnik, Web- und Kommunikationssysteme.
+        - Voraussichtlicher Abschluss: März 2024
+
+- title: Erfahrung
+  type: time_table
+  contents:
+    - title: Ausbildung
+      institution: DAP RWTH Universität, Aachen
+      year: 10/2019 - 08/2023
+      description:
+        - Arbeit an der Entwicklung einer NX CAD-Bibliothek zur Erzeugung von Gittern in C# unter Verwendung der Protobuf-Serialisierung.
+        - Entworfenes Workflow-Management additiver Prozesse in einem UML-konformen Prozessmodell (IDAM) mit Enterprise Architect (EA).
+        - Teilnahme an der Entwicklung von Forschungsdatenmodellen in Python auf der Coscine-Plattform.
+        - Unterstützung von MAT.TRAFFIC GmbH im Rahmen eines MATSE-Projektwerks in Python: Geodetektion von Kreuzungen für intelligente Verkehrssysteme und Stadtplanung unter Verwendung von Metadaten von OpenStreetMap (OSM).
+    - title: Kellner und Eventassistent
+      institution: Event Probat GMBH, Aachen, Deutschland
+      year: 11/2014 - 10/2019
+      description:
+        - Bedienung und Vorbereitung für Veranstaltungen und Hochzeiten.
+        - Aufräumen nach Veranstaltungen und Hochzeiten.
+
+    - title: Bibliotheksassistent
+      institution: Zentralbibliothek der RWTH, Aachen
+      year: 07/2016 - 09/2016
+      description:
+        - Bereitstellung von Medien
+        - Arbeit an der Restaurierung
+        - Inventarpflege
+    - title: Lieferassistent
+      institution: Dachser Logistik, Alsdorf, Deutschland
+      year: 11/2014 - 06/2015
+      description:
+        - Beladen von Waren im Logistikzentrum in einen Lastwagen zur Auslieferung von Gütern in Ostbelgien.
+        - Abholen von Gegenständen und Rückkehr zum Logistikzentrum zum Ausladen der abgeholt Gegenstände
+
+    - title: Zeitarbeit
+      institution: Frankenberg, Würselen, Deutschland
+      year: 07/2012 - 10/2014
+      description:
+        - Unterstützung in verschiedenen Stadien der Flugzeugverpflegung:
+            - Vorbereitung von Zutaten für Flugmahlzeiten
+            - Verpackung von Mahlzeiten in Behälter
+            - Verpackung von Behältern in Kartons
+
+    - title: Wehrdienst
+      institution: Polizei-Zentralabteilung, Teheran
+      year: 08/2009 - 04/2011
+      description:
+        - Unterstützung bei verschiedenen Büroaufgaben:
+            - Tippen von Briefen
+            - Sortieren von Post
+            - Auslieferung von Briefen an verschiedene Unterabteilungen
+
+    - title: Verkaufsassistent
+      institution: Fahrradbasar, Teheran
+      year: 08/2003 - 09/2005
+      description:
+        - Verkauf verschiedener Waren an Kunden
+        - Transport von Waren vom Lagerbereich auf den Verkaufsflur
+        - Abholung von Waren aus dem Lagerbereich für Kundenkäufe
+        - Zusammenbau von Fahrrädern für den Verkauf
+        - Sicherstellen, dass der Geschäftsladen gut bestückt und organisiert ist
+
+    - title: Bauarbeiter
+      institution: Unternehmen für Sanierungen und Renovierungen von Gebäuden Rahmatie, Teheran
+      year: 08/2009 - 04/2011
+      description:
+        - Abbruch:
+            Entfernen bestimmter Teile des Gebäudes. Abriss der gesamten Struktur
+        - Transport von Baumaterialien:
+            Bewegen von Materialien auf der Baustelle und Entladen neuer Materialien von Lastwagen
+        - Vorbereitung von Materialien:
+            Mischen von Materialien (Zement, Sand und Wasser) für den Gebrauch
