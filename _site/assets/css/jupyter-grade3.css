@@ -1,4 +1,19 @@
 /* From https://github.com/dunovank/jupyter-themes/blob/master/jupyterthemes/styles/compiled/grade3.css */
+.notebook-bg {
+    background-color: #1A2028; /* Replace with the desired color or image */
+}
+
+.notebook-fg {
+    color: #A2B0C7; /* Replace with the desired color */
+}
+
+.notebook-base {
+    color: #30394A; /* Replace with the desired color */
+}
+
+
+
+
 div#notebook {
     font-family: sans-serif;
     font-size: 13pt;
@@ -211,7 +226,7 @@ span#sort-name.btn.btn-xs.btn-default.sort-action:hover .fa {
     display: inline-flex;
     padding-left: 7px;
     margin-left: -2px;
-    text-align: -webkit-auto;
+    text-align: -webkit-center;
     vertical-align: baseline;
     font-size: 18px;
 }
@@ -491,8 +506,8 @@ ul#tabs a {
 
 .nav-tabs>li>a:hover:before {
     visibility: visible;
-    -webkit-transform: perspective(1)scaleX(1);
-    transform: perspective(1)scaleX(1);
+    -webkit-transform: perspective(100cqmax)scaleX(1);
+    transform: perspective(100cqmax)scaleX(1);
 }
 
 .nav-tabs>li.active>a:before {
@@ -504,8 +519,8 @@ ul#tabs a {
     left: 0;
     background-color: #ef5c00;
     visibility: visible;
-    -webkit-transform: perspective(1)scaleX(1);
-    transform: perspective(1)scaleX(1);
+    -webkit-transform: perspective(100cqmax)scaleX(1);
+    transform: perspective(100cqmax)scaleX(1);
     -webkit-font-smoothing: subpixel-antialiased !important;
 }
 
@@ -997,7 +1012,7 @@ i.fa.fa-icon {
     font-size: 12.0pt;
     font-weight: normal;
     color: #828892;
-    padding: none;
+    padding: 0;
     display: block;
     clear: both;
     white-space: nowrap;
@@ -1469,11 +1484,10 @@ div.modal-footer>button:hover {
     margin-top: -5px;
     font-size: 25pt;
 }
-
 .modal-backdrop,
 .modal-backdrop.in {
     opacity: 0.85;
-    background-color: notebook-bg;
+    background-color: #ffffff;
 }
 
 div.panel,
@@ -2460,7 +2474,7 @@ div.widget-hbox .widget-label,
 .widget-hbox .widget-label,
 .widget-inline-hbox .widget-label,
 div.widget-label {
-    text-align: -webkit-auto !important;
+    text-align: -webkit-center !important;
     margin-left: 15px !important;
     max-width: 240px !important;
     min-width: 100px !important;
@@ -2534,7 +2548,7 @@ div.cell.text_cell a.anchor-link:link {
     font-size: inherit;
     text-decoration: none;
     padding: 0px 20px;
-    visibility: none;
+    visibility: collapse;
     color: rgba(0, 0, 0, .32);
 }
 
@@ -2869,7 +2883,7 @@ div.collapsible_headings_toggle .fa-caret-right:before {
     transition: transform 1000ms !important;
     -webkit-transform: inherit !important;
     -moz-transform: inherit !important;
-    -ms-transform: inherit !important;
+    -ms-transform: scale(1) !important;
     -o-transform: inherit !important;
     transform: inherit !important;
     padding-right: 0px !important;
@@ -3432,7 +3446,7 @@ div.js-error {
 }
 
 div#tooltip.ipython_tooltip {
-    overflow-x: wrap;
+    overflow-x: auto;
     overflow-y: visible;
     max-width: 800px;
 }

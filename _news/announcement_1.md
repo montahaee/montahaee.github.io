@@ -13,7 +13,7 @@ The American Mathematical Society (<a href="https://www.ams.org/home/page">AMS</
 "Elements of Applied Functional Analysis" serves as a cornerstone publication within the AMS collection, demonstrating the society's commitment to promoting excellence in mathematical research and education. As an open book, it is freely accessible to anyone seeking to expand their understanding of functional analysis and its applications.
 
 
-#### Requesting New Icons
+#### Collaborative Learning
 >
 By embracing the <a href="https://www.ams.org/open-math-notes/omn-view-listing?listingId=111364">open book</a> format, the AMS aims to democratize access to high-quality mathematical content, empowering individuals from diverse backgrounds to engage with advanced mathematical concepts. The open nature of the book encourages collaboration, as readers are encouraged to share their insights, comments, and suggestions to enhance its overall quality.It is good book to embark on a transformative journey in the realm of functional analysis.
 >

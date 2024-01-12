@@ -2,8 +2,22 @@
 <module type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$" />
-    <orderEntry type="inheritedJdk" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/venv" />
+    </content>
+    <orderEntry type="jdk" jdkName="Python 3.11" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="d3.v7" level="application" />
+    <orderEntry type="library" name="mermaid" level="application" />
+    <orderEntry type="library" name="medium-zoom" level="application" />
+    <orderEntry type="library" name="script" level="application" />
+    <orderEntry type="library" name="embed" level="application" />
+    <orderEntry type="library" name="badge" level="application" />
+    <orderEntry type="library" name="mdbootstrap" level="application" />
+    <orderEntry type="library" name="jquery" level="application" />
+    <orderEntry type="library" name="masonry-layout" level="application" />
+    <orderEntry type="library" name="imagesloaded" level="application" />
+    <orderEntry type="library" name="mathjax" level="application" />
+    <orderEntry type="library" name="bootstrap-table" level="application" />
   </component>
 </module>

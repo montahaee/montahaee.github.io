@@ -7,8 +7,8 @@ first_name: Morteza
 middle_name:
 last_name: Montahaee
 email: morteza.montahaee@outlook.com
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+#description: > # the ">" symbol means to ignore newlines until "footer_text:"
+#  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -19,7 +19,7 @@ lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://montahaee.github.io # the base hostname & protocol for your site
-baseurl: ""  # the subpath of your site, e.g. /blog/
+baseurl: # the subpath of your site, e.g. /blog/
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
@@ -28,8 +28,8 @@ impressum_path:  # set to path to include impressum link in the footer, use the 
 # -----------------------------------------------------------------------------
 
 # code highlighter theme
-highlight_theme_light: github   # https://github.com/jwarby/jekyll-pygments-themes
-highlight_theme_dark: native    # https://github.com/jwarby/jekyll-pygments-themes
+#highlight_theme_light: github   # https://github.com/jwarby/jekyll-pygments-themes
+#highlight_theme_dark: native    # https://github.com/jwarby/jekyll-pygments-themes
 
 # repo color theme
 repo_theme_light: default       # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
@@ -37,7 +37,7 @@ repo_theme_dark: dark           # https://github.com/anuraghazra/github-readme-s
 repo_trophies:
   enabled: true
   theme_light: flat    # https://github.com/ryo-ma/github-profile-trophy
-  theme_dark: gitdimmed  # https://github.com/ryo-ma/github-profile-trophy
+  theme_dark: alduin # https://github.com/ryo-ma/github-profile-trophy
 
 # -----------------------------------------------------------------------------
 # RSS Feed
@@ -46,6 +46,7 @@ repo_trophies:
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
 rss_icon: true
+#orcid_icon: true
 # -----------------------------------------------------------------------------
 # Layout
 # -----------------------------------------------------------------------------
@@ -108,7 +109,9 @@ social:
   - label: "Skype"
     icon: "fab fa-skype"
     url: "skype:Morteza Montahaee?chat"
-
+# -----------------------------------------------------------------------------
+# Analytics and search engine verification
+# -----------------------------------------------------------------------------
 google_analytics:  # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
 panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 
@@ -121,7 +124,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 
 blog_name: montaha # blog_name will be displayed in your blog page
 blog_nav_title: Blog # your blog must have a title for it to be displayed in the nav bar
-blog_description:  Venturing through the realms of academia with a discerning perspective.
+blog_description:  Venturing through the realms of academia with a discerning perspective
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -130,13 +133,13 @@ pagination:
   title: ':title - pagination.page :num'
 related_blog_posts:
   enabled: true
-  max_related: 5
+  max_related: 5gem
 
 # Giscus comments (RECOMMENDED)
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out
 # the information below.
 giscus:
-  repo: montahaee      # <your-github-user-name>/<your-github-repo-name>
+  repo: montahaee/montahaee      # <your-github-user-name>/<your-github-repo-name>
   repo_id: MDEwOlJlcG9zaXRvcnk2MDAyNDM2NQ==
   category: Comments             # name of the category under which discussions will be created
   category_id: DIC_kwDOA5PmLc4CTBt6
@@ -149,7 +152,7 @@ giscus:
     #lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: #al-folio # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
@@ -202,6 +205,7 @@ kramdown:
 
 # Includes & excludes
 include: ['_pages']
+#include: ['_i18n']
 exclude:
   - bin
   - Gemfile
@@ -233,7 +237,7 @@ plugins:
 
 sass:
   style: compressed
-
+#  sass_dir: _sass
 # Sitemap settings
 defaults:
   - scope:
@@ -244,8 +248,7 @@ defaults:
 # multi language settings
 default_locale_in_subfolder: false
 exclude_from_localizations: ["assets"]
-languages: ["en", "de-de"]
-
+languages: ["en", "de"]
 # -----------------------------------------------------------------------------
 # Jekyll Minifier
 # -----------------------------------------------------------------------------
@@ -330,7 +333,6 @@ external_links:
   target: _blank
   exclude:
 
-
 # -----------------------------------------------------------------------------
 # Responsive WebP Images
 # -----------------------------------------------------------------------------
@@ -349,7 +351,8 @@ imagemagick:
     - ".png"
     - ".tiff"
   output_formats:
-    webp: "-resize 800x"
+#    webp: "-resize 800x"
+    webp: "-quality 85"
 
 # -----------------------------------------------------------------------------
 # Jekyll Diagrams
@@ -418,12 +421,12 @@ medium_zoom:
 # -----------------------------------------------------------------------------
 # Get external JSON data
 # -----------------------------------------------------------------------------
-
-jekyll_get_json:
-  - data: resume_en
-    json: "assets/json/resume_en.json" # it can also be an url
-  - data: resume_de-de
-    json: "assets/json/resume_de-de.json" # it can also be an url
+#
+#jekyll_get_json:
+#  - data: resume_en
+#    json: "assets/json/resume_en.json" # it can also be an url
+#  - data: resume_de-de
+#    json: "assets/json/resume_de-de.json" # it can also be an url
 jsonresume:
   - basics
   - work
