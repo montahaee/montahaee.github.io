@@ -98,7 +98,7 @@ projects:
     project4: ein weiteres ohne Bild
     project5: ein Projekt mit einem Hintergrundbild
     project6: ein Projekt ohne Bild
-categories:
+  categories:
     fun: Spaß
     work: Arbeit
 repositories:

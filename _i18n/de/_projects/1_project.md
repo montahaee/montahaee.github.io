@@ -1,10 +1,10 @@
 ---
-layout: page
-title: project 1
-description: a project with a background image
+layout: Seite
+title: Projekt 1
+description: Ein Projekt mit einem Hintergrundbild
 img: assets/img/12.jpg
 importance: 1
-category: work
+category: Arbeit
 ---
 
 Every project has a beautiful feature showcase page.
