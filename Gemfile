@@ -23,8 +23,8 @@ group :jekyll_plugins do
     gem 'webrick'
     gem 'localization'
     gem 'jekyll-github-metadata'
-   # gem 'htmlcompressor'
-   # gem 'htmlbeautifier'
+   gem 'htmlcompressor'
+   gem 'htmlbeautifier'
 end
 group :other_plugins do
     gem 'feedjira'
