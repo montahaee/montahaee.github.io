@@ -77,7 +77,7 @@ pagination:
                     {% if post.external_source == blank %}
                       {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
                     {% else %}
-                      {% assign read_time = post.feed_content | strip_html | number_of_words | divided_by: 180 | plus: 1 %}
+                      {% assign read_time = post.feed_content | strip_liquid | number_of_words | divided_by: 180 | plus: 1 %}
                     {% endif %}
                     {% assign year = post.date | date: "%Y" %}
 
@@ -111,7 +111,7 @@ pagination:
     {% if post.external_source == blank %}
       {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
     {% else %}
-      {% assign read_time = post.feed_content | strip_html | number_of_words | divided_by: 180 | plus: 1 %}
+      {% assign read_time = post.feed_content | strip_liquid | number_of_words | divided_by: 180 | plus: 1 %}
     {% endif %}
     {% assign year = post.date | date: "%Y" %}
     {% assign tags = post.tags | join: "" %}
@@ -136,8 +136,8 @@ pagination:
       </h3>
       <p>{{ post.description }}</p>
       <p class="post-meta">
-        {% include reading_time.html read_time=read_time %} &nbsp; &middot; &nbsp;
-        {% include date_format.html format="long" date_from=post %}
+        {% include reading_time.liquid read_time=read_time %} &nbsp; &middot; &nbsp;
+        {% include date_format.liquid format="long" date_from=post %}
         {%- if post.external_source %}
         &nbsp; &middot; &nbsp; {{ post.external_source }}
         {%- endif %}
@@ -175,7 +175,7 @@ pagination:
   </ul>
 
 {%- if page.pagination.enabled -%}
-{%- include pagination.html -%}
+{%- include pagination.liquid -%}
 {%- endif -%}
 
 </div>
