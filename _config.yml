@@ -73,7 +73,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 github_username: montahaee # your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username: Mor_Montahaee # your Twitter handle
+x_username: Mor_Montahaee # your Twitter/x_username handle
 skype_url: skype:Morteza Montahaee
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: # your LinkedIn user name
@@ -139,7 +139,7 @@ related_blog_posts:
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out
 # the information below.
 giscus:
-  repo: montahaee/montahaee      # <your-github-user-name>/<your-github-repo-name>
+  repo: montahaee     # <your-github-user-name>/<your-github-repo-name>
   repo_id: MDEwOlJlcG9zaXRvcnk2MDAyNDM2NQ==
   category: Comments             # name of the category under which discussions will be created
   category_id: DIC_kwDOA5PmLc4CTBt6
@@ -169,7 +169,7 @@ disqus_shortname: #al-folio # put your disqus shortname
 collections:
   news:
     defaults:
-      layout: post
+    layout: post
     output: true
     permalink: /news/:path/
   projects:
@@ -179,7 +179,7 @@ collections:
 announcements:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 3 # leave blank to include all the news in the `_news` folder
+  limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: true
