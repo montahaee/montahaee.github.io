@@ -1,5 +1,3 @@
-Hier ist die Übersetzung ins Deutsche:
-
 ---
 layout: post
 title: AMS stellt Elemente der Angewandten Funktionalanalysis vor
