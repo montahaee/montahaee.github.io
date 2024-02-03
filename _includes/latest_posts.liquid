@@ -1,6 +1,6 @@
 <div class="news">
-  {% if site.latest_posts != blank %}
-  {% assign latest_posts_size = site.posts | size %}
+  {% if site.latest_posts != blank -%}
+  {%- assign latest_posts_size = site.posts | size -%}
   <div
           class="table-responsive"
           {% if site.latest_posts.scrollable and latest_posts_size > 3 %}
@@ -20,6 +20,7 @@
         <td>
           {% if item.redirect == blank %}
           <a class="news-title" href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
+          {% comment %}<a class="news-title" href="{{ item.url | prepend: site.baseurl }}">{% t item.title %}</a>{% endcomment %}
           {% elsif item.redirect contains '://' %}
           <a class="news-title" href="{{ item.redirect }}" target="_blank">{{ item.title }}</a>
           <svg width="2rem" height="2rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
