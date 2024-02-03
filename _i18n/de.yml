@@ -28,9 +28,9 @@ titles:
   unk: Seite nicht gefunden
 descriptions:
   about: Ein einfaches, auf Weißraum basierendes Thema für Akademiker. Basierend auf dem *folio Design.
-  archive-category: ein Archiv von Beiträgen in dieser Kategorie
-  archive-tag: ein Archiv von Beiträgen mit diesem Tag
-  archive-year: ein Archiv von Beiträgen aus diesem Jahr
+  archive-category: Ein Archiv von Beiträgen in dieser Kategorie
+  archive-tag: Ein Archiv von Beiträgen mit diesem Tag
+  archive-year: Ein Archiv von Beiträgen aus diesem Jahr
   blog: Mit einem kritischen Blick durch die Sphären der Akademie
   cv: Dies ist eine Beschreibung der Seite. Sie können sie in '_pages/cv.md' ändern. Sie können auch den oberen PDF-Download-Button ändern oder entfernen.
   profiles: Mitglieder der Forschungsgruppe oder des Labors.
