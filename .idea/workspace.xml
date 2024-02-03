@@ -7,93 +7,15 @@
     <list default="true" id="136a4eba-8fca-4949-b295-efe345b562fa" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_i18n/de/_posts/2015-05-15-images.md" beforeDir="false" afterPath="$PROJECT_DIR$/_i18n/de/_posts/2015-05-15-images.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_i18n/de/_posts/2023-04-24-videos.md" beforeDir="false" afterPath="$PROJECT_DIR$/_i18n/de/_posts/2023-04-24-videos.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_i18n/de/_posts/2023-04-25-audios.md" beforeDir="false" afterPath="$PROJECT_DIR$/_i18n/de/_posts/2023-04-25-audios.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_i18n/de/_projects/1_project.md" beforeDir="false" afterPath="$PROJECT_DIR$/_i18n/de/_projects/1_project.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_i18n/de/_projects/2_project.md" beforeDir="false" afterPath="$PROJECT_DIR$/_i18n/de/_projects/2_project.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_i18n/de/_projects/3_project.md" beforeDir="false" afterPath="$PROJECT_DIR$/_i18n/de/_projects/3_project.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_i18n/de/_projects/4_project.md" beforeDir="false" afterPath="$PROJECT_DIR$/_i18n/de/_projects/4_project.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_i18n/de/_projects/5_project.md" beforeDir="false" afterPath="$PROJECT_DIR$/_i18n/de/_projects/5_project.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_i18n/de/_projects/6_project.md" beforeDir="false" afterPath="$PROJECT_DIR$/_i18n/de/_projects/6_project.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_i18n/en/_posts/2015-05-15-images.md" beforeDir="false" afterPath="$PROJECT_DIR$/_i18n/en/_posts/2015-05-15-images.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_i18n/en/_posts/2023-04-24-videos.md" beforeDir="false" afterPath="$PROJECT_DIR$/_i18n/en/_posts/2023-04-24-videos.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_i18n/en/_posts/2023-04-25-audios.md" beforeDir="false" afterPath="$PROJECT_DIR$/_i18n/en/_posts/2023-04-25-audios.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_i18n/en/_projects/1_project.md" beforeDir="false" afterPath="$PROJECT_DIR$/_i18n/en/_projects/1_project.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_i18n/en/_projects/2_project.md" beforeDir="false" afterPath="$PROJECT_DIR$/_i18n/en/_projects/2_project.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_i18n/en/_projects/3_project.md" beforeDir="false" afterPath="$PROJECT_DIR$/_i18n/en/_projects/3_project.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_i18n/en/_projects/4_project.md" beforeDir="false" afterPath="$PROJECT_DIR$/_i18n/en/_projects/4_project.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_i18n/en/_projects/5_project.md" beforeDir="false" afterPath="$PROJECT_DIR$/_i18n/en/_projects/5_project.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_i18n/en/_projects/6_project.md" beforeDir="false" afterPath="$PROJECT_DIR$/_i18n/en/_projects/6_project.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/audio.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/cv/list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/cv/list_groups.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/cv/map.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/cv/nested_list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/cv/time_table.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/date_format.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/disqus.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/figure.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/footer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/giscus.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/head.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/header.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/latest_posts.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/metadata.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/news.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/pagination.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/projects.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/projects_horizontal.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/reading_time.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/related_posts.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/repository/repo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/repository/repo_languages.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/repository/repo_trophies.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/repository/repo_user.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/resume/awards.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/resume/basics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/resume/certificates.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/resume/education.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/resume/interests.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/resume/languages.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/resume/projects.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/resume/publications.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/resume/references.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/resume/skills.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/resume/volunteer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/resume/work.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/scripts/analytics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/scripts/badges.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/scripts/bootstrap.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/scripts/jquery.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/scripts/masonry.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/scripts/mathjax.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/scripts/mermaid.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/scripts/misc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/scripts/progressBar.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/scripts/wechatModal.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/selected_papers.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/social.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/video.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/archive-category.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/archive-tag.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/archive-year.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/bib.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/cv.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/distill.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/news.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/none.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/post.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/profiles.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/blog.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/blog.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/projects.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/projects.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/repositories.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/repositories.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2015-05-15-images.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2015-05-15-images.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2023-04-24-videos.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2023-04-24-videos.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2023-04-25-audios.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2023-04-25-audios.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_i18n/de.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_i18n/de.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_i18n/de/_news/announcement_1.md" beforeDir="false" afterPath="$PROJECT_DIR$/_i18n/de/_news/announcement_1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/date_format.liquid" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/date_format.liquid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/latest_posts.liquid" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/latest_posts.liquid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/news.liquid" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/news.liquid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/about.liquid" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/about.liquid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/archive-tag.liquid" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/archive-tag.liquid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/archive-year.liquid" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/archive-year.liquid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_news/announcement_1.md" beforeDir="false" afterPath="$PROJECT_DIR$/_news/announcement_1.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/404.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/assets/jupyter/blog.ipynb.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/jupyter/blog.ipynb.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/blog/2015/code/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/2015/code/index.html" afterDir="false" />
@@ -183,7 +105,6 @@
       <change beforePath="$PROJECT_DIR$/_site/de/news/announcement_1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/news/announcement_1/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/de/news/announcement_2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/news/announcement_2/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/de/news/announcement_3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/news/announcement_3/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/de/news/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/de/projects/1_project/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/projects/1_project/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/de/projects/2_project/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/projects/2_project/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/de/projects/3_project/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/projects/3_project/index.html" afterDir="false" />
@@ -200,7 +121,6 @@
       <change beforePath="$PROJECT_DIR$/_site/news/announcement_1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/news/announcement_1/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/news/announcement_2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/news/announcement_2/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/news/announcement_3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/news/announcement_3/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/news/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/projects/1_project/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/projects/1_project/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/projects/2_project/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/projects/2_project/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/projects/3_project/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/projects/3_project/index.html" afterDir="false" />
@@ -212,7 +132,6 @@
       <change beforePath="$PROJECT_DIR$/_site/repositories/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/repositories/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/sitemap.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/teaching/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/teaching/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/news.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -251,7 +170,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;recovery&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/montaha/Documents/myWebpage/src_back_12124&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/montaha/Documents/myWebpage/src/_data/en&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -267,18 +186,18 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_data/en" />
+      <recent name="$PROJECT_DIR$/_data/de" />
       <recent name="$PROJECT_DIR$/_i18n/en/_pages" />
       <recent name="$PROJECT_DIR$/_i18n/de/_pages" />
       <recent name="$PROJECT_DIR$/_pages/de-de" />
-      <recent name="$PROJECT_DIR$/_data/de-de" />
-      <recent name="$PROJECT_DIR$/repositories/de-de" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_data/de" />
       <recent name="$PROJECT_DIR$/_pages" />
       <recent name="$PROJECT_DIR$/_data" />
       <recent name="$PROJECT_DIR$/_data/en" />
       <recent name="$PROJECT_DIR$/_pages/de-de" />
-      <recent name="$PROJECT_DIR$/_pages/eng" />
     </key>
   </component>
   <component name="RunManager">
@@ -324,7 +243,10 @@
       <workItem from="1705044784192" duration="3966000" />
       <workItem from="1705055025100" duration="3855000" />
       <workItem from="1706603891235" duration="483000" />
-      <workItem from="1706785896014" duration="21610000" />
+      <workItem from="1706785896014" duration="23284000" />
+      <workItem from="1706866671354" duration="10518000" />
+      <workItem from="1706900824475" duration="922000" />
+      <workItem from="1706947167814" duration="10180000" />
     </task>
     <servers />
   </component>
