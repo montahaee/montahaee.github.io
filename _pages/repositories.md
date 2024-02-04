@@ -1,14 +1,22 @@
 ---
 layout: page
 title: Repositories
-description: selected_publication
-
 permalink: /repositories/
 nav: true
 nav_order: 4
-published: true
+#published: true
 category: string
+#horizontal: true
 ---
+
+
+{% assign repo_description_size = site.translations[site.lang].repositories.description | size %}
+{% if repo_description_size > 0 %}
+
+ <h5>{% t repositories.description %}</h5>
+{% endif %}
+
+
 
 ## {% t repositories.users %}
 
@@ -45,3 +53,5 @@ category: string
   {% endfor %}
 </div>
 {% endif %}
+
+[//]: # (</div>)

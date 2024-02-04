@@ -6,7 +6,7 @@ not_found:
   footer_text: > # das ">" Symbol bedeutet, dass Zeilenumbrüche bis "titles:" ignoriert werden
     Betrieben von <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> mit dem <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a> Theme.
     Gehostet von <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-    Fotos von <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+#    Fotos von <a href="https://unsplash.com" target="_blank">Unsplash</a>.
   more_info: >
     <p>555 Ihre Büronummer</p>
     <p>123 Ihre Straßenadresse</p>
@@ -46,6 +46,10 @@ blog:
   related_posts:
     description: "Hier sind einige weitere Artikel, die Sie als nächstes lesen könnten:"
     title: Hat Ihnen dieser Artikel gefallen?
+repositories:
+  description: Miene ausgewählt öffentliche Github Repositorien und zugehörige Statistik
+  users: GitHub Benutzer
+  repos: GitHub Repositories
 months:
   long:
     january: Januar
@@ -78,7 +82,7 @@ news:
   titles:
     news1: Eine einfache Inline-Ankündigung.
     news2: Eine lange Ankündigung mit Details
-    news3: "Eine einfache Inline-Ankündigung mit Markdown-Emoji! :sparkles: :smile:"
+    news3: Eine einfache Inline-Ankündigung mit Markdown-Emoji!
 pagination:
   newer: Neuer
   older: Älter
@@ -92,18 +96,15 @@ projects:
     project5: Projekt 5
     project6: Projekt 6
   descriptions:
-    project1: ein Projekt mit einem Hintergrundbild
-    project2: ein Projekt mit einem Hintergrundbild und Giscus-Kommentaren
-    project3: ein Projekt, das auf eine andere Website umleitet
-    project4: ein weiteres ohne Bild
-    project5: ein Projekt mit einem Hintergrundbild
-    project6: ein Projekt ohne Bild
+    project1: Ein Projekt mit einem Hintergrundbild
+    project2: Ein Projekt mit einem Hintergrundbild und Giscus-Kommentaren
+    project3: Ein Projekt, das auf eine andere Website umleitet
+    project4: Ein weiteres ohne Bild
+    project5: Ein Projekt mit einem Hintergrundbild
+    project6: Ein Projekt ohne Bild
   categories:
     fun: Spaß
     work: Arbeit
-repositories:
-  users: GitHub Benutzer
-  repos: GitHub Repositories
 cv:
   address: Adresse
   area: Bereich

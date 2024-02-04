@@ -47,6 +47,10 @@ blog:
   related_posts:
     description: "Here are some more articles you might like to read next:"
     title: Enjoy Reading This Article?
+repositories:
+  description: My selected public repositories and Github statistics
+  users: GitHub Users
+  repos: GitHub Repositories
 months:
   long:
     january: January
@@ -79,7 +83,7 @@ news:
   titles:
     news1: A simple inline announcement.
     news2: A long announcement with details
-    news3: "A simple inline announcement with Markdown emoji! :sparkles: :smile:"
+    news3: A simple inline announcement with Markdown emoji!
 pagination:
   newer: Newer
   older: Older
@@ -102,9 +106,6 @@ projects:
   categories:
     fun: fun
     work: work
-repositories:
-  users: GitHub Users
-  repos: GitHub Repositories
 cv:
   address: Address
   area: Area
