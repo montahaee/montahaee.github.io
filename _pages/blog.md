@@ -2,7 +2,7 @@
 layout: default
 permalink: /blog/
 title: Blog
-description: descriptions.blog
+#description: descriptions.blog
 nav: true
 nav_order: 1
 pagination:
@@ -172,10 +172,9 @@ pagination:
     </li>
 
     {% endfor %}
-  </ul>
+</ul>
 
 {%- if page.pagination.enabled -%}
 {%- include pagination.liquid -%}
 {%- endif -%}
-
 </div>
