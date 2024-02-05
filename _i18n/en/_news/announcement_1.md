@@ -1,10 +1,4 @@
----
-layout: post
-title: AMS Introduces Elements of Applied Functional Analysis
-date: 2023-06-15 16:11:00-0400
-inline: false
-related_posts: false
----
+
 
 The American Mathematical Society (<a href="https://www.ams.org/home/page">AMS</a>) proudly presents <a href="https://www.ams.org/open-math-notes/files/course-material/OMN-202306-111364-1-Course_notes-v1.pdf">Elements of Applied Functional Analysis</a>, an exceptional open book that caters to the needs of mathematical enthusiasts. This comprehensive resource offers a deep dive into the field of applied functional analysis, providing invaluable insights and knowledge for researchers, faculty, and students alike.
 

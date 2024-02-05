@@ -1,10 +1,3 @@
----
-layout: post
-title: A specialist icon font for academics
-date: 2023-06-16 16:11:00-0400
-inline: false
-related_posts: false
----
 
 <a href="https://jpswalsh.github.io/academicons">Academicons</a> is a specialized icon font designed for academics and academic-related websites and organizations. It offers a collection of icons that are often missing from mainstream font packages. While it can be used independently, its main purpose is to complement larger icon sets.
 
