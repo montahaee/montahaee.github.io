@@ -1,12 +1,3 @@
----
-layout: Seite
-title: Projekt 1
-description: Ein Projekt mit einem Hintergrundbild
-img: assets/img/12.jpg
-importance: 1
-category: Arbeit
----
-
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
 Make your photos 1/3, 2/3, or full width.
