@@ -1,12 +1,12 @@
 [//]: # (---)
 
-[//]: # (layout: page)
+[//]: # (layout: profiles)
 
-[//]: # (permalink: /profiles/)
+[//]: # (permalink: /people/)
 
-[//]: # (title: profiles)
+[//]: # (title: titles.profiles)
 
-[//]: # (description: profiles)
+[//]: # (description: descriptions.profiles)
 
 [//]: # (nav: true)
 
@@ -29,11 +29,11 @@
 
 [//]: # (    more_info: >)
 
-[//]: # (#      <p>555 your office number</p>)
+[//]: # (      <p>555 your office number</p>)
 
-[//]: # (#      <p>123 your address street</p>)
+[//]: # (      <p>123 your address street</p>)
 
-[//]: # (#      <p>Your City, State 12345</p>)
+[//]: # (      <p>Your City, State 12345</p>)
 
 [//]: # (  - align: left)
 
@@ -42,5 +42,13 @@
 [//]: # (    content: _pages/about_einstein.md)
 
 [//]: # (    image_circular: false # crops the image to make it circular)
+
+[//]: # (    more_info: >)
+
+[//]: # (      <p>555 your office number</p>)
+
+[//]: # (      <p>123 your address street</p>)
+
+[//]: # (      <p>Your City, State 12345</p>)
 
 [//]: # (---)
