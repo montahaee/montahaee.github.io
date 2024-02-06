@@ -16,5 +16,4 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-During my apprenticeship, I gained practical experience in software development with a focus on differential geometry, database management, and data science.<br>
-My deep interest lies in the practical application of mathematical methods to solve complex and real problems, as well as in the investigation and description of mathematical models and their implementation according to design pattern principles.
+{% translate_file _pages/about.md %}

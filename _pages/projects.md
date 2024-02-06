@@ -17,7 +17,7 @@ horizontal: false
 <h1>{% t titles.projects %}</h1>
 {% endif %}
 {% if proj_description_size > 0 %}
-<h5>{% t descriptions.projects. %}</h5>
+<h5>{% t descriptions.projects %}</h5>
 {% endif %}
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
