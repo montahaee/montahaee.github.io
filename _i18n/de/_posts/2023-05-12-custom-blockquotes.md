@@ -1,20 +1,20 @@
 ---
 layout: post
-title: a post with custom blockquotes
+title: Benutzerdefinierten Blockquotes
 date: 2023-05-12 15:53:00-0400
-description: an example of a blog post with custom blockquotes
-categories: sample-posts blockquotes
+description: Ein Beispiel für einen Blogbeitrag mit benutzerdefinierten Blockquotes
+categories: beispiel-posts blockzitate
 giscus_comments: true
 related_posts: true
 ---
-This post shows how to add custom styles for blockquotes. Based on [jekyll-gitbook](https://github.com/sighingnow/jekyll-gitbook) implementation.
+Dieser Post zeigt, wie man auf Basis der [jekyll-gitbook](https://github.com/sighingnow/jekyll-gitbook) Implementierung benutzerdefinierte Stile für Blockzitate hinzufügen kann.
 
-We decided to support the same custom blockquotes as in [jekyll-gitbook](https://sighingnow.github.io/jekyll-gitbook/jekyll/2022-06-30-tips_warnings_dangers.html), which are also found in a lot of other sites' styles. The styles definitions can be found on the [_base.scss](https://github.com/alshedivat/al-folio/blob/master/_sass/_base.scss) file, more specifically:
+Wir haben uns entschieden, die gleichen benutzerdefinierten Blockzitate wie in [jekyll-gitbook](https://sighingnow.github.io/jekyll-gitbook/jekyll/2022-06-30-tips_warnings_dangers.html) zu unterstützen, die auch in vielen anderen Stilen von Websites zu finden sind. Die Stildefinitionen finden sich in der [_base.scss](https://github.com/alshedivat/al-folio/blob/master/_sass/_base.scss)-Datei, genauer gesagt:
 
 ```scss
-/* Tips, warnings, and dangers */
+/* Tipps, Warnungen und Gefahren */
 .post .post-content blockquote {
-    &.block-tip {
+  &.block-tip {
     border-color: var(--global-tip-block);
     background-color: var(--global-tip-block-bg);
 
@@ -55,56 +55,56 @@ We decided to support the same custom blockquotes as in [jekyll-gitbook](https:/
 }
 ```
 
-A regular blockquote can be used as following:
+Ein reguläres Blockzitat kann wie folgt verwendet werden:
 
 ```markdown
-> This is a regular blockquote
-> and it can be used as usual
+> Dies ist ein reguläres Blockzitat
+> und es kann wie gewohnt verwendet werden
 ```
 
-> This is a regular blockquote
-> and it can be used as usual
+> Dies ist ein reguläres Blockzitat
+> und es kann wie gewohnt verwendet werden
 
-These custom styles can be used by adding the specific class to the blockquote, as follows:
+Diese benutzerdefinierten Styles können verwendet werden, indem die spezifische Klasse dem Blockzitat hinzugefügt wird, wie folgt:
 
 ```markdown
-> ##### TIP
+> ##### TIPP
 >
-> A tip can be used when you want to give advice
-> related to a certain content.
+> Ein Tipp kann verwendet werden, wenn Sie Ratschläge geben möchten
+> im Zusammenhang mit bestimmten Inhalten.
 {: .block-tip }
 ```
 
-> ##### TIP
+> ##### TIPP
 >
-> A tip can be used when you want to give advice
-> related to a certain content.
+> Ein Tipp kann verwendet werden, wenn Sie Ratschläge geben möchten
+> im Zusammenhang mit bestimmten Inhalten.
 {: .block-tip }
 
 ```markdown
-> ##### WARNING
+> ##### WARNUNG
 >
-> This is a warning, and thus should
-> be used when you want to warn the user
+> Dies ist eine Warnung und sollte daher
+> verwendet werden, wenn Sie den Benutzer warnen möchten
 {: .block-warning }
 ```
 
-> ##### WARNING
+> ##### WARNUNG
 >
-> This is a warning, and thus should
-> be used when you want to warn the user
+> Dies ist eine Warnung und sollte daher
+> verwendet werden, wenn Sie den Benutzer warnen möchten
 {: .block-warning }
 
 ```markdown
-> ##### DANGER
+> ##### GEFAHR
 >
-> This is a danger zone, and thus should
-> be used carefully
+> Dies ist eine Gefahrenzone und sollte daher
+> vorsichtig verwendet werden
 {: .block-danger }
 ```
 
-> ##### DANGER
+> ##### GEFAHR
 >
-> This is a danger zone, and thus should
-> be used carefully
+> Dies ist eine Gefahrenzone und sollte daher
+> vorsichtig verwendet werden <br>
 {: .block-danger }
