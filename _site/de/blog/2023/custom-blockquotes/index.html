@@ -29,12 +29,12 @@
     
     
     
-    a post with custom blockquotes | Morteza  Montahaee
+    Benutzerdefinierten Blockquotes | Morteza  Montahaee
     
     
 </title>
 <meta name="author" content="Morteza  Montahaee">
-<meta name="description" content="an example of a blog post with custom blockquotes">
+<meta name="description" content="Ein Beispiel für einen Blogbeitrag mit benutzerdefinierten Blockquotes">
 <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
 
@@ -114,6 +114,8 @@
             </li>
 
             <!-- Other pages -->
+            
+            
             
             
             
@@ -283,7 +285,7 @@
 <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">a post with custom blockquotes</h1>
+    <h1 class="post-title">Benutzerdefinierten Blockquotes</h1>
     <p class="post-meta">
 
 
@@ -299,9 +301,9 @@
       <a href="/de/blog/2023"> <i class="fa-solid fa-calendar fa-sm"></i> 2023 </a>
       
         ·  
-      <a href="/de/blog/category/sample-posts"> <i class="fa-solid fa-tag fa-sm"></i> sample-posts</a>  
+      <a href="/de/blog/category/beispiel-posts"> <i class="fa-solid fa-tag fa-sm"></i> beispiel-posts</a>  
       
-      <a href="/de/blog/category/blockquotes"> <i class="fa-solid fa-tag fa-sm"></i> blockquotes</a>  
+      <a href="/de/blog/category/blockzitate"> <i class="fa-solid fa-tag fa-sm"></i> blockzitate</a>  
       
       
 
@@ -311,13 +313,13 @@
   <article class="post-content">
     
     <div id="markdown-content">
-      <p>This post shows how to add custom styles for blockquotes. Based on <a href="https://github.com/sighingnow/jekyll-gitbook" rel="external nofollow noopener" target="_blank">jekyll-gitbook</a> implementation.</p>
+      <p>Dieser Post zeigt, wie man auf Basis der <a href="https://github.com/sighingnow/jekyll-gitbook" rel="external nofollow noopener" target="_blank">jekyll-gitbook</a> Implementierung benutzerdefinierte Stile für Blockzitate hinzufügen kann.</p>
 
-<p>We decided to support the same custom blockquotes as in <a href="https://sighingnow.github.io/jekyll-gitbook/jekyll/2022-06-30-tips_warnings_dangers.html" rel="external nofollow noopener" target="_blank">jekyll-gitbook</a>, which are also found in a lot of other sites’ styles. The styles definitions can be found on the <a href="https://github.com/alshedivat/al-folio/blob/master/_sass/_base.scss" rel="external nofollow noopener" target="_blank">_base.scss</a> file, more specifically:</p>
+<p>Wir haben uns entschieden, die gleichen benutzerdefinierten Blockzitate wie in <a href="https://sighingnow.github.io/jekyll-gitbook/jekyll/2022-06-30-tips_warnings_dangers.html" rel="external nofollow noopener" target="_blank">jekyll-gitbook</a> zu unterstützen, die auch in vielen anderen Stilen von Websites zu finden sind. Die Stildefinitionen finden sich in der <a href="https://github.com/alshedivat/al-folio/blob/master/_sass/_base.scss" rel="external nofollow noopener" target="_blank">_base.scss</a>-Datei, genauer gesagt:</p>
 
-<div class="language-scss highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cm">/* Tips, warnings, and dangers */</span>
+<div class="language-scss highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cm">/* Tipps, Warnungen und Gefahren */</span>
 <span class="nc">.post</span> <span class="nc">.post-content</span> <span class="nt">blockquote</span> <span class="p">{</span>
-    <span class="k">&amp;</span><span class="nc">.block-tip</span> <span class="p">{</span>
+  <span class="k">&amp;</span><span class="nc">.block-tip</span> <span class="p">{</span>
     <span class="nl">border-color</span><span class="p">:</span> <span class="nf">var</span><span class="p">(</span><span class="o">--</span><span class="n">global-tip-block</span><span class="p">);</span>
     <span class="nl">background-color</span><span class="p">:</span> <span class="nf">var</span><span class="p">(</span><span class="o">--</span><span class="n">global-tip-block-bg</span><span class="p">);</span>
 
@@ -358,59 +360,59 @@
 <span class="p">}</span>
 </code></pre></div></div>
 
-<p>A regular blockquote can be used as following:</p>
+<p>Ein reguläres Blockzitat kann wie folgt verwendet werden:</p>
 
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gt">&gt; This is a regular blockquote</span>
-<span class="gt">&gt; and it can be used as usual</span>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gt">&gt; Dies ist ein reguläres Blockzitat</span>
+<span class="gt">&gt; und es kann wie gewohnt verwendet werden</span>
 </code></pre></div></div>
 
 <blockquote>
-  <p>This is a regular blockquote
-and it can be used as usual</p>
+  <p>Dies ist ein reguläres Blockzitat
+und es kann wie gewohnt verwendet werden</p>
 </blockquote>
 
-<p>These custom styles can be used by adding the specific class to the blockquote, as follows:</p>
+<p>Diese benutzerdefinierten Styles können verwendet werden, indem die spezifische Klasse dem Blockzitat hinzugefügt wird, wie folgt:</p>
 
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gt">&gt; ##### TIP</span>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gt">&gt; ##### TIPP</span>
 <span class="gt">&gt;</span>
-<span class="gt">&gt; A tip can be used when you want to give advice</span>
-<span class="gt">&gt; related to a certain content.</span>
+<span class="gt">&gt; Ein Tipp kann verwendet werden, wenn Sie Ratschläge geben möchten</span>
+<span class="gt">&gt; im Zusammenhang mit bestimmten Inhalten.</span>
 {: .block-tip }
 </code></pre></div></div>
 
 <blockquote class="block-tip">
-  <h5 id="tip">TIP</h5>
+  <h5 id="tipp">TIPP</h5>
 
-  <p>A tip can be used when you want to give advice
-related to a certain content.</p>
+  <p>Ein Tipp kann verwendet werden, wenn Sie Ratschläge geben möchten
+im Zusammenhang mit bestimmten Inhalten.</p>
 </blockquote>
 
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gt">&gt; ##### WARNING</span>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gt">&gt; ##### WARNUNG</span>
 <span class="gt">&gt;</span>
-<span class="gt">&gt; This is a warning, and thus should</span>
-<span class="gt">&gt; be used when you want to warn the user</span>
+<span class="gt">&gt; Dies ist eine Warnung und sollte daher</span>
+<span class="gt">&gt; verwendet werden, wenn Sie den Benutzer warnen möchten</span>
 {: .block-warning }
 </code></pre></div></div>
 
 <blockquote class="block-warning">
-  <h5 id="warning">WARNING</h5>
+  <h5 id="warnung">WARNUNG</h5>
 
-  <p>This is a warning, and thus should
-be used when you want to warn the user</p>
+  <p>Dies ist eine Warnung und sollte daher
+verwendet werden, wenn Sie den Benutzer warnen möchten</p>
 </blockquote>
 
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gt">&gt; ##### DANGER</span>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gt">&gt; ##### GEFAHR</span>
 <span class="gt">&gt;</span>
-<span class="gt">&gt; This is a danger zone, and thus should</span>
-<span class="gt">&gt; be used carefully</span>
+<span class="gt">&gt; Dies ist eine Gefahrenzone und sollte daher</span>
+<span class="gt">&gt; vorsichtig verwendet werden</span>
 {: .block-danger }
 </code></pre></div></div>
 
 <blockquote class="block-danger">
-  <h5 id="danger">DANGER</h5>
+  <h5 id="gefahr">GEFAHR</h5>
 
-  <p>This is a danger zone, and thus should
-be used carefully</p>
+  <p>Dies ist eine Gefahrenzone und sollte daher
+vorsichtig verwendet werden <br></p>
 </blockquote>
 
     </div>
@@ -419,41 +421,48 @@ be used carefully</p>
 
   
     
+    
     <br>
     <hr>
     <br>
+
     <ul class="list-disc pl-8"></ul>
 
     <!-- Adds related posts to the end of an article -->
-    <h2 class="text-3xl font-semibold mb-4 mt-12">Enjoy Reading This Article?</h2>
+    <h2 class="text-3xl font-semibold mb-4 mt-12">Hat Ihnen dieser Artikel gefallen?</h2>
     <p class="mb-2">Hier sind einige weitere Artikel, die Sie als nächstes lesen könnten:</p>
   
-
   <li class="my-2">
+    
+    
     <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/de/blog/2023/sidebar-table-of-contents/">a post with table of contents on a sidebar</a>
   </li>
 
   
-
   <li class="my-2">
+    
+    
     <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/de/blog/2023/audios/">a post with audios</a>
   </li>
 
   
-
   <li class="my-2">
+    
+    
     <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/de/blog/2023/videos/">a post with videos</a>
   </li>
 
   
-
   <li class="my-2">
+    
+    
     <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/de/blog/2023/tables/">displaying beautiful tables with Bootstrap Tables</a>
   </li>
 
   
-
   <li class="my-2">
+    
+    
     <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/de/blog/2023/table-of-contents/">a post with table of contents</a>
   </li>
 
@@ -496,7 +505,7 @@ be used carefully</p>
     <footer class="fixed-bottom">
       <div class="container mt-0">
         © Copyright 2024 Morteza  Montahaee. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>.
-Last updated: February 03, 2024.
+Last updated: February 06, 2024.
       </div>
     </footer>
 

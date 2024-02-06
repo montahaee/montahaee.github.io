@@ -18,6 +18,8 @@ titles:
   blog: blog
   cv: cv
   latest_posts: latest posts
+
+
   news: news
   profiles: people
   projects: projects
@@ -47,6 +49,8 @@ blog:
   related_posts:
     description: "Here are some more articles you might like to read next:"
     title: Enjoy Reading This Article?
+    subtitles:
+      post1: a post with table of contents on a sidebar
 repositories:
   description: My selected public repositories and Github statistics
   users: GitHub Users
