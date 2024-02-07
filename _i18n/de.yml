@@ -46,6 +46,12 @@ blog:
   related_posts:
     description: "Hier sind einige weitere Artikel, die Sie als nächstes lesen könnten:"
     title: Hat Ihnen dieser Artikel gefallen?
+    subtitles:
+      post1: Seitenleisten-Inhaltsverzeichnis in Posts
+      post2: Integration von Audiodateien in Posts
+      post3: Einbindung von Videos in Posts
+      post4: Darstellung ästhetischer Tabellen mittels Bootstrap
+      post5: Einfaches Inhaltsverzeichnis für Posts
 repositories:
   description: Miene ausgewählt öffentliche Github Repositorien und zugehörige Statistik
   users: GitHub Benutzer

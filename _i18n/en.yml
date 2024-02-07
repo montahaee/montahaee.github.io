@@ -50,7 +50,12 @@ blog:
     description: "Here are some more articles you might like to read next:"
     title: Enjoy Reading This Article?
     subtitles:
-      post1: a post with table of contents on a sidebar
+      post1: Table of contents on a sidebar of a post
+      post2: Insert audios into a post
+      post3: Insert videos into a post
+      post4: Displaying beautiful tables with Bootstrap Tables
+      post5: A simple table of contents inside a post
+
 repositories:
   description: My selected public repositories and Github statistics
   users: GitHub Users

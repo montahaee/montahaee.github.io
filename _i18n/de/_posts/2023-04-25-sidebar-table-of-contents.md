@@ -1,42 +1,42 @@
 ---
 layout: post
-title: a post with table of contents on a sidebar
+title: Seitenleisten-Inhaltsverzeichnis in Posts
 date: 2023-04-25 10:14:00-0400
-description: an example of a blog post with table of contents on a sidebar
-categories: sample-posts toc sidebar
+description: Ein Beispiel für einen Blog-Post mit Inhaltsverzeichnis in einer Seitenleiste
+categories: Normal-Posts Toc Seitenleiste
 giscus_comments: true
 related_posts: false
 toc:
   sidebar: left
 ---
-This post shows how to add a table of contents as a sidebar.
+Dieser Post zeigt uns, wie man ein Inhaltsverzeichnis als Seitenleiste hinzufügt.
 
-## Adding a Table of Contents
 
-To add a table of contents to a post as a sidebar, simply add
+## Hinzufügen eines Inhaltsverzeichnisses
+
+Um ein Inhaltsverzeichnis zu einem Beitrag als Seitenleiste hinzuzufügen, fügen Sie einfach
 ```yml
 toc:
   sidebar: left
 ```
-to the front matter of the post. The table of contents will be automatically generated from the headings in the post. If you wish to display the sidebar to the right, simply change `left` to `right`.
+in den Front-Matter des Beitrags ein. Das Inhaltsverzeichnis wird automatisch aus den Überschriften im Beitrag generiert. Wenn Sie die Seitenleiste rechts anzeigen möchten, ändern Sie einfach`left` in `right`.
 
-### Example of Sub-Heading 1
+### Beispiel für Unterüberschrift 1
 
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
+Jean Shorts Rohdenim Vice Normcore, Kunstparty High Life PBR Skateboard Stumptown Vinyl Kitsch. Vier Loko Meh 8-Bit, zerzaustes Banh Mi Tilde Forage Schlitz Traumfänger Twee 3 Wolf Moon. Chambray asymmetrisches Paleo Salvia, sartoriales Umami vier Loko Master Cleanse Trinkessig Brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentisches Schlitz, Kapuzenpullover Intelligentsia Metzger Trust Fund Brunch Shabby Chic Kickstarter Forage Flexitarian. Direkter Handel <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">kaltgepresst</a> Meggings Stumptown Plaid, Pop-up Tierpräparation. Kapuzenpullover XOXO Fingerstache Szenester Echo Park. Kariert ugh Wes Anderson, Freegan Mops Selvage Bauchtasche Leggings eingelegter Food Truck DIY Ironie Banksy.
 
-### Example of another Sub-Heading 1
+### Beispiel für eine weitere Unterüberschrift 1
 
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
+Jean Shorts Rohdenim Vice Normcore, Kunstparty High Life PBR Skateboard Stumptown Vinyl Kitsch. Vier Loko Meh 8-Bit, zerzaustes Banh Mi Tilde Forage Schlitz Traumfänger Twee 3 Wolf Moon. Chambray asymmetrisches Paleo Salvia, sartoriales Umami vier Loko Master Cleanse Trinkessig Brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentisches Schlitz, Kapuzenpullover Intelligentsia Metzger Trust Fund Brunch Shabby Chic Kickstarter Forage Flexitarian. Direkter Handel <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">kaltgepresst</a> Meggings Stumptown Plaid, Pop-up Tierpräparation. Kapuzenpullover XOXO Fingerstache Szenester Echo Park. Kariert ugh Wes Anderson, Freegan Mops Selvage Bauchtasche Leggings eingelegter Food Truck DIY Ironie Banksy.
 
-## Customizing Your Table of Contents
+## Anpassen Ihres Inhaltsverzeichnisses
 {:data-toc-text="Customizing"}
 
-If you want to learn more about how to customize the table of contents of your sidebar, you can check the [bootstrap-toc](https://afeld.github.io/bootstrap-toc/) documentation. Notice that you can even customize the text of the heading that will be displayed on the sidebar.
+Wenn Sie mehr darüber erfahren möchten, wie Sie das Inhaltsverzeichnis Ihrer Seitenleiste anpassen können, können Sie die [Bootstrap-Toc](https://afeld.github.io/bootstrap-toc/) Dokumentation überprüfen. Beachten Sie, dass Sie sogar den Text der Überschrift anpassen können, der in der Seitenleiste angezeigt wird.
+### Beispiel für Unterüberschrift 2
 
-### Example of Sub-Heading 2
+Jean Shorts Rohdenim Vice Normcore, Kunstparty High Life PBR Skateboard Stumptown Vinyl Kitsch. Vier Loko Meh 8-Bit, zerzaustes Banh Mi Tilde Forage Schlitz Traumfänger Twee 3 Wolf Moon. Chambray asymmetrisches Paleo Salvia, sartoriales Umami vier Loko Master Cleanse Trinkessig Brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentisches Schlitz, Kapuzenpullover Intelligentsia Metzger Trust Fund Brunch Shabby Chic Kickstarter Forage Flexitarian. Direkter Handel <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">kaltgepresst</a> Meggings Stumptown Plaid, Pop-up Tierpräparation. Kapuzenpullover XOXO Fingerstache Szenester Echo Park. Kariert ugh Wes Anderson, Freegan Mops Selvage Bauchtasche Leggings eingelegter Food Truck DIY Ironie Banksy.
 
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
+### Beispiel für eine weitere Unterüberschrift 2
 
-### Example of another Sub-Heading 2
-
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
+Jean Shorts Rohdenim Vice Normcore, Kunstparty High Life PBR Skateboard Stumptown Vinyl Kitsch. Vier Loko Meh 8-Bit, zerzaustes Banh Mi Tilde Forage Schlitz Traumfänger Twee 3 Wolf Moon. Chambray asymmetrisches Paleo Salvia, sartoriales Umami vier Loko Master Cleanse Trinkessig Brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentisches Schlitz, Kapuzenpullover Intelligentsia Metzger Trust Fund Brunch Shabby Chic Kickstarter Forage Flexitarian. Direkter Handel <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">kaltgepresst</a> Meggings Stumptown Plaid, Pop-up Tierpräparation. Kapuzenpullover XOXO Fingerstache Szenester Echo Park. Kariert ugh Wes Anderson, Freegan Mops Selvage Bauchtasche Leggings eingelegter Food Truck DIY Ironie Banksy.

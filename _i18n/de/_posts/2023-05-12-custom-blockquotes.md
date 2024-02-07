@@ -3,7 +3,7 @@ layout: post
 title: Benutzerdefinierten Blockquotes
 date: 2023-05-12 15:53:00-0400
 description: Ein Beispiel für einen Blogbeitrag mit benutzerdefinierten Blockquotes
-categories: beispiel-posts blockzitate
+categories: Normal-Posts Blockzitate
 giscus_comments: true
 related_posts: true
 ---
