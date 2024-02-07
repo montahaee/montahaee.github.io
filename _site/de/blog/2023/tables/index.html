@@ -29,12 +29,12 @@
     
     
     
-    displaying beautiful tables with Bootstrap Tables | Morteza  Montahaee
+    Darstellung ästhetischer Tabellen mittels Bootstrap | Morteza  Montahaee
     
     
 </title>
 <meta name="author" content="Morteza  Montahaee">
-<meta name="description" content="an example of how to use Bootstrap Tables">
+<meta name="description" content="Ein Beispiel zur Verwendung von Bootstrap-Tabellen">
 <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
 
@@ -114,6 +114,8 @@
             </li>
 
             <!-- Other pages -->
+            
+            
             
             
             
@@ -285,7 +287,7 @@
 <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">displaying beautiful tables with Bootstrap Tables</h1>
+    <h1 class="post-title">Darstellung ästhetischer Tabellen mittels Bootstrap</h1>
     <p class="post-meta">
 
 
@@ -301,7 +303,7 @@
       <a href="/de/blog/2023"> <i class="fa-solid fa-calendar fa-sm"></i> 2023 </a>
       
         ·  
-      <a href="/de/blog/category/sample-posts"> <i class="fa-solid fa-tag fa-sm"></i> sample-posts</a>  
+      <a href="/de/blog/category/normal-posts"> <i class="fa-solid fa-tag fa-sm"></i> Normal-Posts</a>  
       
       
 
@@ -311,47 +313,48 @@
   <article class="post-content">
     
     <div id="markdown-content">
-      <p>Using markdown to display tables is easy. Just use the following syntax:</p>
+      <p>Mit Markdown ist es einfach, Tabellen anzuzeigen. Verwenden Sie einfach die folgende Syntax:</p>
 
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>| Left aligned | Center aligned | Right aligned |
-| :----------- | :------------: | ------------: |
-| Left 1       | center 1       | right 1       |
-| Left 2       | center 2       | right 2       |
-| Left 3       | center 3       | right 3       |
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>| Links ausgerichtet | Zentriert ausgerichtet | Rechts ausgerichtet |
+| :----------------- | :--------------------: | ------------------: |
+| Links 1            | Zentrum 1              | Rechts 1            |
+| Links 2            | Zentrum 2              | Rechts 2            |
+| Links 3            | Zentrum 3              | Rechts 3            |
+
 </code></pre></div></div>
 
-<p>That will generate:</p>
+<p>Das erzeugt:</p>
 
 <table>
   <thead>
     <tr>
-      <th style="text-align: left">Left aligned</th>
-      <th style="text-align: center">Center aligned</th>
-      <th style="text-align: right">Right aligned</th>
+      <th style="text-align: left">Links ausgerichtet</th>
+      <th style="text-align: center">Zentriert ausgerichtet</th>
+      <th style="text-align: right">Rechts ausgerichtet</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left">Left 1</td>
-      <td style="text-align: center">center 1</td>
-      <td style="text-align: right">right 1</td>
+      <td style="text-align: left">Links 1</td>
+      <td style="text-align: center">Zentrum 1</td>
+      <td style="text-align: right">Rechts 1</td>
     </tr>
     <tr>
-      <td style="text-align: left">Left 2</td>
-      <td style="text-align: center">center 2</td>
-      <td style="text-align: right">right 2</td>
+      <td style="text-align: left">Links 2</td>
+      <td style="text-align: center">Zentrum 2</td>
+      <td style="text-align: right">Rechts 2</td>
     </tr>
     <tr>
-      <td style="text-align: left">Left 3</td>
-      <td style="text-align: center">center 3</td>
-      <td style="text-align: right">right 3</td>
+      <td style="text-align: left">Links 3</td>
+      <td style="text-align: center">Zentrum 3</td>
+      <td style="text-align: right">Rechts 3</td>
     </tr>
   </tbody>
 </table>
 
 <p></p>
 
-<p>It is also possible to use HTML to display tables. For example, the following HTML code will display a table with <a href="https://bootstrap-table.com/" rel="external nofollow noopener" target="_blank">Bootstrap Table</a>, loaded from a JSON file:</p>
+<p>Es ist auch möglich, HTML zur Anzeige von Tabellen zu verwenden. Zum Beispiel wird der folgende HTML-Code eine Tabelle mit <a href="https://bootstrap-table.com/" rel="external nofollow noopener" target="_blank">Bootstrap Table</a>, geladen aus einer JSON-Datei, anzeigen:</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;table</span>
   <span class="na">id=</span><span class="s">"table"</span>
@@ -379,7 +382,7 @@
 
 <p></p>
 
-<p>By using <a href="https://bootstrap-table.com/" rel="external nofollow noopener" target="_blank">Bootstrap Table</a> it is possible to create pretty complex tables, with pagination, search, and more. For example, the following HTML code will display a table, loaded from a JSON file, with pagination, search, checkboxes, and header/content alignment. For more information, check the <a href="https://examples.bootstrap-table.com/index.html" rel="external nofollow noopener" target="_blank">documentation</a>.</p>
+<p>Mit <a href="https://bootstrap-table.com/" rel="external nofollow noopener" target="_blank">Bootstrap Table</a> ist es möglich, ziemlich komplexe Tabellen zu erstellen, mit Paginierung, Suche und mehr. Zum Beispiel wird der folgende HTML-Code eine Tabelle anzeigen, geladen aus einer JSON-Datei, mit Paginierung, Suche, Kontrollkästchen und Kopf-/Inhaltsausrichtung. Für weitere Informationen überprüfen Sie  <a href="https://examples.bootstrap-table.com/index.html" rel="external nofollow noopener" target="_blank">Dokumentation</a>.</p>
 
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;table</span>
   <span class="na">data-click-to-select=</span><span class="s">"true"</span>
@@ -437,28 +440,28 @@
   <li class="my-2">
     
     
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/de/blog/2023/sidebar-table-of-contents/">a post with table of contents on a sidebar</a>
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/de/blog/2023/sidebar-table-of-contents/">Seitenleisten-Inhaltsverzeichnis in Posts</a>
   </li>
 
   
   <li class="my-2">
     
     
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/de/blog/2023/audios/">a post with audios</a>
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/de/blog/2023/audios/">Integration von Audiodateien in Posts</a>
   </li>
 
   
   <li class="my-2">
     
     
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/de/blog/2023/videos/">a post with videos</a>
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/de/blog/2023/videos/">Einbindung von Videos in Posts</a>
   </li>
 
   
   <li class="my-2">
     
     
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/de/blog/2023/table-of-contents/">a post with table of contents</a>
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/de/blog/2023/table-of-contents/">Einfaches Inhaltsverzeichnis für Posts</a>
   </li>
 
 <div id="giscus_thread" style="max-width: 900px; margin: 0 auto;">
@@ -500,7 +503,7 @@
     <footer class="fixed-bottom">
       <div class="container mt-0">
         © Copyright 2024 Morteza  Montahaee. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>.
-Last updated: February 06, 2024.
+Last updated: February 07, 2024.
       </div>
     </footer>
 

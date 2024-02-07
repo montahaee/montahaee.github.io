@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AMS stellt Elemente der Angewandten Funktionalanalysis vor
+title: news.titles.news1
 date: 2023-06-15 16:11:00-0400
 inline: false
 related_posts: false

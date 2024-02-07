@@ -1,22 +1,22 @@
 <div class="grid-sizer"></div>
 <div class="grid-item">
 
-  <a href="{% if project.redirect %}
-  {{ project.redirect }}{% else %}
+  <a href="{%- if project.redirect -%}
+  {{ project.redirect }}{%- else -%}
   {{ project.url | prepend: site.baseurl }}
-  {% endif %}">
+  {%- endif -%}">
     <div class="card hoverable">
-      {% if project.img %}
-      {%
+      {%- if project.img -%}
+      {%-
       include figure.liquid
       path=project.img
       sizes = "250px"
       alt="project thumbnail"
-      %}
-      {% endif %}
+      -%}
+      {%- endif -%}
         <div class="card-body">
-          <h2 class="card-title text-lowercase">{% t project.title %}</h2>
-          <p class="card-text">{% t project.description %}</p>
+          <h2 class="card-title text-lowercase">{%- t project.title -%}</h2>
+          <p class="card-text">{%- t project.description -%}</p>
           <div class="row ml-1 mr-1 p-0">
             {%- if project.github -%}
             <div class="github-icon">
@@ -28,9 +28,9 @@
                 <i class="fas fa-star"></i>
                 <span id="{{ project.github_stars }}-stars"></span>
               </span>
-              {%- endif %}
+              {%- endif -%}
             </div>
-            {%- endif %}
+            {%- endif -%}
           </div>
         </div>
       </div>

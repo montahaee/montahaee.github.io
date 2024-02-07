@@ -5,18 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="136a4eba-8fca-4949-b295-efe345b562fa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/_site/de/blog/category/normal-posts/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/de/news/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/news/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_i18n/de.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_i18n/de.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_i18n/de/_news/announcement_1.md" beforeDir="false" afterPath="$PROJECT_DIR$/_i18n/de/_news/announcement_1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/date_format.liquid" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/date_format.liquid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/latest_posts.liquid" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/latest_posts.liquid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/news.liquid" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/news.liquid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/about.liquid" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/about.liquid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/archive-tag.liquid" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/archive-tag.liquid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/archive-year.liquid" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/archive-year.liquid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/projects.liquid" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/projects.liquid" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_news/announcement_1.md" beforeDir="false" afterPath="$PROJECT_DIR$/_news/announcement_1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/projects.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/projects.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_projects/5_project.md" beforeDir="false" afterPath="$PROJECT_DIR$/_projects/5_project.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/_pages/profiles.md" beforeDir="false" afterPath="$PROJECT_DIR$/_site/_pages/profiles.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/assets/jupyter/blog.ipynb.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/jupyter/blog.ipynb.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/blog/2015/code/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/2015/code/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/blog/2015/disqus-comments/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/2015/disqus-comments/index.html" afterDir="false" />
@@ -59,6 +59,7 @@
       <change beforePath="$PROJECT_DIR$/_site/blog/tag/videos/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/tag/videos/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/cv/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/cv/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/de/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/de/_pages/profiles.md" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/_pages/profiles.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/de/assets/jupyter/blog.ipynb.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/assets/jupyter/blog.ipynb.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/de/blog/2015/code/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/blog/2015/code/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/de/blog/2015/disqus-comments/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/blog/2015/disqus-comments/index.html" afterDir="false" />
@@ -82,10 +83,11 @@
       <change beforePath="$PROJECT_DIR$/_site/de/blog/2023/table-of-contents/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/blog/2023/table-of-contents/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/de/blog/2023/tables/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/blog/2023/tables/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/de/blog/2023/videos/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/blog/2023/videos/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/de/blog/category/blockquotes/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/blog/category/blockquotes/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/de/blog/category/beispiel-posts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/tag/integration/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/de/blog/category/blockzitate/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/blog/category/blockzitate/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/de/blog/category/external-services/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/blog/category/external-services/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/de/blog/category/sample-posts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/blog/category/sample-posts/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/de/blog/category/sidebar/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/blog/category/sidebar/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/de/blog/category/sidebar/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/blog/category/seitenleiste/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/de/blog/category/toc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/blog/category/toc/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/de/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/blog/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/de/blog/page/2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/blog/page/2/index.html" afterDir="false" />
@@ -95,7 +97,7 @@
       <change beforePath="$PROJECT_DIR$/_site/de/blog/tag/code/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/blog/tag/code/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/de/blog/tag/formatting/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/blog/tag/formatting/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/de/blog/tag/images/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/blog/tag/images/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/de/blog/tag/including/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/blog/tag/including/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/de/blog/tag/including/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/blog/tag/integration/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/de/blog/tag/links/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/blog/tag/links/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/de/blog/tag/math/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/blog/tag/math/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/de/blog/tag/videos/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/blog/tag/videos/index.html" afterDir="false" />
@@ -161,29 +163,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Attach to Node.js/Chrome.Unnamed.executor&quot;: &quot;Debug&quot;,
-    &quot;JavaScript Debug.127.0.0.1:4000.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;recovery&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/montaha/Documents/myWebpage/src/_data/en&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;ruby.structure.view.model.defaults.configured&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Attach to Node.js/Chrome.Unnamed.executor": "Debug",
+    "JavaScript Debug.127.0.0.1:4000.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "deepRecov",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/montaha/Documents/practical/script/bash/bashToolkit/README.md",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "ruby.structure.view.model.defaults.configured": "true",
+    "settings.editor.selected.configurable": "preferences.fileTypes",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/_data/en" />
@@ -247,6 +249,8 @@
       <workItem from="1706866671354" duration="10518000" />
       <workItem from="1706900824475" duration="922000" />
       <workItem from="1706947167814" duration="10180000" />
+      <workItem from="1707204303629" duration="38432000" />
+      <workItem from="1707291368301" duration="18706000" />
     </task>
     <servers />
   </component>
