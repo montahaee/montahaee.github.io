@@ -3,9 +3,6 @@ layout: about
 title: Bio
 description: descriptions.about
 permalink: /
-subtitle: <a href="/assets/pdf/en/apply/bsc_degree.pdf")>Graduate</a> in Applied Mathematics with completed 
-  <a href="https://www.rwth-aachen.de/cms/root/die-rwth/arbeiten-an-der-rwth/berufsausbildung/ausbildungsberufe/~vsa/math-techn-softwareentwickler/?lidx=1"> 
-  MATSE</a> training and advanced studies (B.Sc.) in Applied Mathematics and Computer Science at <a href='https://www.fh-aachen.de/en/'>University of Applied Sciences</a>, <a href='https://goo.gl/maps/k26ohyjwZuf9Vt949'> Aachen</a>.
 profile:
   align: right
   image: myProfile.JPG
