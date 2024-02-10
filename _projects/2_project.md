@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: subpage
 title: projects.titles.project2
 description: projects.descriptions.project2
 img: assets/img/3.jpg
@@ -8,4 +8,4 @@ category: work
 giscus_comments: true
 ---
 
-{% translate_file _projects/2_project.md %}
+{% translate_file:^ _projects/2_project.md %}
