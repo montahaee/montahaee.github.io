@@ -8,4 +8,4 @@ category: work
 giscus_comments: true
 ---
 
-{% translate_file:^ _projects/2_project.md %}
+{% translate_file _projects/2_project.md %}
