@@ -1,4 +1,3 @@
-
 Die American Mathematical Society (<a href="https://www.ams.org/home/page">AMS</a>) präsentiert stolz <a href="https://www.ams.org/open-math-notes/files/course-material/OMN-202306-111364-1-Course_notes-v1.pdf">Elemente der Angewandten Funktionalanalysis</a>, ein außergewöhnliches offenes Buch, das den Bedürfnissen von Mathematikbegeisterten gerecht wird. Diese umfassende Ressource bietet einen tiefen Einblick in das Gebiet der angewandten Funktionalanalysis und liefert unschätzbare Erkenntnisse und Wissen für Forscher, Dozenten und Studenten gleichermaßen.
 
 ***
