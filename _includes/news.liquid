@@ -18,8 +18,8 @@
                     {% if item.inline -%}
                     {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
                     {%- else -%}
-                    <a class="news-title" href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
-                    {% comment %}<a class="news-title" href="{{ item.url | prepend: site.baseurl }}">{% t item.title %}</a>{% endcomment %}
+                    {% comment %}<a class="news-title" href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>{% endcomment %}
+                    <a class="news-title" href="{{ item.url | prepend: site.baseurl }}">{% t item.title %}</a>
                     {%- endif %}
                 </td>
             </tr>
