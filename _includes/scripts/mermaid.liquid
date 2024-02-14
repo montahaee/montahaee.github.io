@@ -1,7 +1,17 @@
 {% if page.mermaid and page.mermaid.enabled %}
-    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+    {% comment %}<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>{% endcomment %}
+    <script
+            defer
+            src="https://cdn.jsdelivr.net/npm/mermaid@{{ site.mermaid.version }}/dist/mermaid.min.js"
+            integrity="{{ site.mermaid.integrity }}"
+            crossorigin="anonymous"></script>
     {% if page.mermaid.zoomable %}
-        <script src="https://d3js.org/d3.v7.min.js"></script>
+        {% comment %}<script src="https://d3js.org/d3.v7.min.js"></script>{% endcomment %}
+        <script
+                defer
+                src="https://cdn.jsdelivr.net/npm/d3@{{ site.d3.version }}/dist/d3.min.js"
+                integrity="{{ site.d3.integrity }}"
+                crossorigin="anonymous"></script>
     {% endif %}
     <script>
         let theme = localStorage.getItem('theme');
