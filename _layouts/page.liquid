@@ -1,12 +1,15 @@
 ---
 layout: default
 ---
+
 {% comment %}<!-- page.liquid -->{% endcomment %}
 <div class="post">
 
     <header class="post-header">
-        <h1 class="post-title">{{ page.title }}</h1>
-        <p class="post-description">{% if page.description %}{{page.description}} }{% endif %}</p>
+        {% comment %}<h1 class="post-title">{{ page.title }}</h1>{% endcomment %}
+        <h1 class="post-title">{%- t page.title -%}</h1>
+        <p class="post-description">{%- if page.description -%}{%- t page.description -%}{%- endif -%}
+        {% comment %}<p class="post-description">{%- if page.description -%}{{ page.description }}{%- endif -%}</p>{% endcomment %}
 
     </header>
 
@@ -15,14 +18,14 @@ layout: default
     </article>
 
     {%- if page.related_publications != null and page.related_publications.size > 0 -%}
-    {% assign publications = page.related_publications | replace: ", ", "," | split: "," | join: "|" %}
-    <h2>References</h2>
-    <div class="publications">
-        {% bibliography -f {{ site.scholar.bibliography }} -q @*[key^={{ publications }}]* %}
-    </div>
-    {%- endif %}
+        {%- assign publications = page.related_publications | replace: ", ", "," | split: "," | join: "|" -%}
+        <h2>References</h2>
+        <div class="publications">
+            {%- bibliography -f {{ site.scholar.bibliography }} -q @*[key^={{ publications }}]* -%}
+        </div>
+    {%- endif -%}
 
     {%- if site.giscus and page.giscus_comments -%}
-    {% include giscus.liquid  %}
+        {%- include giscus.liquid  -%}
     {%- endif -%}
 </div>
