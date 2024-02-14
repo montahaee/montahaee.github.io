@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: news
 title: news.titles.news2
 date: 2023-06-14 16:11:00-0400
 inline: false
