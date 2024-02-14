@@ -13,9 +13,9 @@ not_found:
     <p>Ihre Stadt, Bundesland 12345</p>
   subtitle: <a href='#'>Zugehörigkeiten</a>. Adresse. Kontakte. Motto. Etc.
 titles:
-  about: über
+  about: Bio
   blog: Blog
-  cv: Lebenslauf
+  cv: CV
   latest_posts: Neueste Posts
   news: Nachrichten
   profiles: Personen
@@ -27,20 +27,20 @@ titles:
   submenus: Submenüs
   unk: Seite nicht gefunden
 descriptions:
-  about: Ein einfaches, auf Weißraum basierendes Thema für Akademiker. Basierend auf dem *folio Design.
+  about: Ein einfaches, auf Weißraum basierendes Thema für Akademiker
   archive-category: Ein Archiv von Beiträgen in dieser Kategorie
   archive-tag: Ein Archiv von Beiträgen mit diesem Tag
   archive-year: Ein Archiv von Beiträgen aus diesem Jahr
-  blog: Mit einem kritischen Blick durch die Sphären der Akademie
-  cv: Dies ist eine Beschreibung der Seite. Sie können sie in '_pages/cv.md' ändern. Sie können auch den oberen PDF-Download-Button ändern oder entfernen.
-  profiles: Mitglieder der Forschungsgruppe oder des Labors.
-  projects: Eine wachsende Sammlung Ihrer coolen Projekte.
-  publications: Veröffentlichungen nach Kategorien in umgekehrter chronologischer Reihenfolge. Generiert von jekyll-scholar.
+  blog: Ein kritischem Blick durch die Sphären der Akademie
+  cv: Curriculum Vitae
+  profiles: Mitglieder der Forschungsgruppe oder des Labors
+  projects: Eine wachsende Sammlung Ihrer coolen Projekte
+  publications: Veröffentlichungen nach Kategorien in umgekehrter chronologischer Reihenfolge
   repositories: Miene öffentliche Github Repositorien und Statistik
-  teaching: Materialien für Kurse, die Sie unterrichtet haben. Ersetzen Sie diesen Text durch Ihre Beschreibung.
+  teaching: Materialien für Kurse, die Sie unterrichtet haben
   unk: Es scheint ein Fehler aufgetreten zu sein. Hier existiert nichts.
 blog:
-  description: Mit einem kritischen Blick durch die Sphären der Akademie
+  description: Ein kritischem Blick durch die Sphären der Akademie
   name: montaha # blog_name wird auf Ihrer Blog-Seite angezeigt
   nav_title: Blog # Ihr Blog muss einen Titel haben, damit er in der Navigationsleiste angezeigt wird
   related_posts:
@@ -90,7 +90,7 @@ months:
 news:
   empty: Bisher keine Neuigkeiten...
   titles:
-    news1: Eine einfache Inline-Ankündigung.
+    news1: Eine einfache Inline-Ankündigung
     news2: Eine lange Ankündigung mit Details
     news3: Eine einfache Inline-Ankündigung mit Markdown-Emoji!
 pagination:
