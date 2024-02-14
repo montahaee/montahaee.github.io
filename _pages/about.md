@@ -1,7 +1,9 @@
 ---
 layout: about
-title: Bio
+title: titles.about 
+#title: Bio
 description: descriptions.about
+subtitle: main.subtitle
 permalink: /
 profile:
   align: right
