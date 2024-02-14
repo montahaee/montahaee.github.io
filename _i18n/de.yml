@@ -59,7 +59,7 @@ blog:
 repositories:
   description: Miene ausgewählt öffentliche Github Repositorien und zugehörige Statistik
   users: GitHub Benutzer
-  repos: GitHub Repositories
+  repos: GitHub Repositorien
 months:
   long:
     january: Januar
