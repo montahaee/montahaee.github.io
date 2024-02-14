@@ -52,6 +52,10 @@ blog:
       post3: Einbindung von Videos in Posts
       post4: Darstellung ästhetischer Tabellen mittels Bootstrap
       post5: Einfaches Inhaltsverzeichnis für Posts
+  display_tags: [Formatierung, Bilder, Links, Mathe, Code]
+#  display_tags: ['Formatierung', 'Bilder', 'Links', 'Mathe', 'Code']
+  display_categories: [Blockzitate]
+
 repositories:
   description: Miene ausgewählt öffentliche Github Repositorien und zugehörige Statistik
   users: GitHub Benutzer
@@ -93,6 +97,29 @@ pagination:
   newer: Neuer
   older: Älter
   page: Seite
+posts:
+  titles:
+    post1: Posts mit Formatierung und Links
+    post2: Posts mit Bildern
+    post3: Posts mit Code
+    post4: Posts mit Disqus-Kommentaren
+    post5: Posts mit Mathematik
+    post6: Distill-Stil Blog Post
+    post7: Posts mit Github-Metadaten
+    post8: Posts mit Twitter
+    post9: Posts mit Diagrammen
+    post10: Posts mit Umleitung
+    post11: Posts mit Giscus-Kommentaren
+    post12: Einfaches Inhaltsverzeichnis innerhalb eines Posts
+    post13: Anzeige von schönen Tabellen mit Bootstrap-Tabellen
+    post14: Einfügen von Videos in Posts
+    post15: Einfügen von Audios in Posts
+    post16: Posts mit Seitenleisteninhaltsverzeichnis
+    post17: Benutzerdefinierte Blockzitaten
+  categories:
+    post15: [ sample-posts ]
+    post16: [ sample-posts, toc, sidebar ]
+    post17: [ sample-posts, blockquotes ]
 projects:
   titles:
     project1: Projekt 1

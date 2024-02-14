@@ -55,6 +55,9 @@ blog:
       post3: Insert videos into a post
       post4: Displaying beautiful tables with Bootstrap Tables
       post5: A simple table of contents inside a post
+  display_tags: [formatting, images, links, math, code]
+  display_categories: [blockquotes]
+
 
 repositories:
   description: My selected public repositories and Github statistics
@@ -97,7 +100,27 @@ pagination:
   newer: Newer
   older: Older
   page: page
-#post:
+posts:
+  titles:
+    post1: posts with formatting and links
+    post2: posts with images
+    post3: posts with code
+    post4: posts with disqus comments
+    post5: posts with math
+    post6: distill-style blog post
+    post7: posts with github metadata
+    post8: posts with twitter
+    post9: posts with diagrams
+    post10: posts with redirect
+    post11: posts with giscus comments
+    post12: simple table of contents inside a post
+    post13: Displaying beautiful tables with Bootstrap Tables
+    post14: Insert videos into a post
+    post15: Insert audios into a post
+    post16: Table of contents on a sidebar of a post
+    post17: Post with Custom blockquotes
+  categories:
+    post17: [sample-posts, blockquotes]
 projects:
   titles:
     project1: Project 1
