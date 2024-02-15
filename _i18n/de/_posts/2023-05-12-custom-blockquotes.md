@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Benutzerdefinierten Blockquotes
+title: Benutzerdefinierten Blockzitate
 date: 2023-05-12 15:53:00-0400
 description: Ein Beispiel für einen Blogbeitrag mit benutzerdefinierten Blockquotes
 categories: Normal-Posts Blockzitate

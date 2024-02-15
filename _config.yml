@@ -178,6 +178,14 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+
+#  posts:
+#    en:
+#      output: true
+#      permalink: /blog/:name/
+#      de:
+#        output: true
+#        permalink: /:collection/:name/
 announcements:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
@@ -187,6 +195,7 @@ latest_posts:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
+
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
