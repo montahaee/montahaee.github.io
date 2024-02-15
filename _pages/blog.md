@@ -34,7 +34,7 @@ pagination:
       {% for tag in site.translations[site.lang].blog.display_tags %}
         {% assign english_tag = site.translations['en'].blog.display_tags[forloop.index0] %}
         <li>
-          <i class="fa-solid fa-hashtag fa-sm"></i> 
+          <i class="fa-solid fa-hashtag fa-sm"></i>
           <a href="{{ english_tag | slugify | prepend: '/blog/tag/' | prepend: site.baseurl }}">{{ tag }}</a>
         </li>
         {% unless forloop.last %}
@@ -78,8 +78,11 @@ pagination:
 <div class="float-right">
 <i class="fa-solid fa-thumbtack fa-xs"></i>
 </div>
-<h3 class="card-title text-lowercase">{{ post.title }}</h3>
-<p class="card-text">{{ post.description }}</p>
+
+<!--<h3 class="card-title text-lowercase">{{ post.title }}</h3>-->
+<h3 class="card-title text-lowercase">{%- t post.title -%}</h3>
+<!--<p class="card-text">{{ post.description }}</p>-->
+<p class="card-text">{%- t post.description -%}</p>
                     {% if post.external_source == blank %}
                       {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
                     {% else %}
@@ -125,17 +128,21 @@ pagination:
 {%- endif -%}
         <h3>
         {% if post.redirect == blank %}
-          <a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <!--<a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>-->
+          <a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{% t post.title %}</a>
         {% elsif post.redirect contains '://' %}
-          <a class="post-title" href="{{ post.redirect }}" target="_blank">{{ post.title }}</a>
+          <!--<a class="post-title" href="{{ post.redirect }}" target="_blank">{{ post.title }}</a>-->
+          <a class="post-title" href="{{ post.redirect }}" target="_blank">{% t post.title %}</a>
           <svg width="2rem" height="2rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
             <path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path>
           </svg>
         {% else %}
-          <a class="post-title" href="{{ post.redirect | prepend: site.baseurl }}">{{ post.title }}</a>
+          <!--<a class="post-title" href="{{ post.redirect | prepend: site.baseurl }}">{{ post.title }}</a>-->
+          <a class="post-title" href="{{ post.redirect | prepend: site.baseurl }}">{% t post.title %}</a>
         {% endif %}
       </h3>
-      <p>{{ post.description }}</p>
+      <!--<p>{{ post.description }}</p>-->
+      <p>{%- t post.description -%}</p>
       <p class="post-meta">
         {% include reading_time.liquid read_time=read_time %} &nbsp; &middot; &nbsp;
         {% include date_format.liquid format="long" date_from=post %}
@@ -150,14 +157,16 @@ pagination:
           &nbsp; &middot; &nbsp;
             {% for tag in post.tags %}
             <a href="{{ tag | slugify | prepend: '/blog/tag/' | prepend: site.baseurl }}">
-              <i class="fa-solid fa-hashtag fa-sm"></i> {{ tag }}</a> &nbsp;
+              <!--<i class="fa-solid fa-hashtag fa-sm"></i> {{ tag }}</a> &nbsp;-->
+              <i class="fa-solid fa-hashtag fa-sm"></i> {%- t tag -%}</a> &nbsp;
               {% endfor %}
           {% endif %}
           {% if categories != "" %}
           &nbsp; &middot; &nbsp;
             {% for category in post.categories %}
             <a href="{{ category | slugify | prepend: '/blog/category/' | prepend: site.baseurl }}">
-              <i class="fa-solid fa-tag fa-sm"></i> {{ category }}</a> &nbsp;
+              <!--<i class="fa-solid fa-tag fa-sm"></i> {{ category }}</a> &nbsp;-->
+              <i class="fa-solid fa-tag fa-sm"></i> {%- t category -%}</a> &nbsp;
               {% endfor %}
           {% endif %}
     </p>
