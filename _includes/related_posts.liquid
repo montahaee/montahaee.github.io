@@ -17,6 +17,7 @@
   <li class="my-2">
     {% comment %}{% t post.title %}{% endcomment %}
     {% assign post_title = post.translations[site.lang].titles %}
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    <!--<a class="text-pink-700 underline font-semibold hover:text-pink-800" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>-->
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="{{ site.baseurl }}{{ post.url }}">{% t post.title %}</a>
   </li>
 {% endfor %}
