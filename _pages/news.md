@@ -1,5 +1,5 @@
 ---
-layout: subpage
+layout: page
 title: titles.news
 permalink: /news/
 ---
