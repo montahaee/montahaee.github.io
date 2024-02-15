@@ -27,10 +27,10 @@ titles:
   submenus: Submenüs
   unk: Seite nicht gefunden
 descriptions:
-  about: Ein einfaches, auf Weißraum basierendes Thema für Akademiker
-  archive-category: Ein Archiv von Beiträgen in dieser Kategorie
-  archive-tag: Ein Archiv von Beiträgen mit diesem Tag
-  archive-year: Ein Archiv von Beiträgen aus diesem Jahr
+  about: Einfaches, auf Weißraum basierendes Thema für Akademiker
+  archive-category: Archivbeiträgen in dieser Kategorie
+  archive-tag: Archivbeiträgen mit diesem Tag
+  archive-year: Archivbeiträgen aus diesem Jahr
   blog: Ein kritischem Blick durch die Sphären der Akademie
   cv: Curriculum Vitae
   profiles: Mitglieder der Forschungsgruppe oder des Labors
@@ -90,9 +90,9 @@ months:
 news:
   empty: Bisher keine Neuigkeiten...
   titles:
-    news1: Eine einfache Inline-Ankündigung
-    news2: Eine lange Ankündigung mit Details
-    news3: Eine einfache Inline-Ankündigung mit Markdown-Emoji!
+    news1: Einfache Inline-Ankündigung
+    news2: Lange Ankündigung mit Details
+    news3: Einfache Inline-Ankündigung mit Markdown-Emoji!
 pagination:
   newer: Neuer
   older: Älter
@@ -116,10 +116,16 @@ posts:
     post15: Einfügen von Audios in Posts
     post16: Posts mit Seitenleisteninhaltsverzeichnis
     post17: Benutzerdefinierte Blockzitaten
+  descriptions:
+    post1: März & April, freue mich auf den Sommer
+
   categories:
-    post15: [ sample-posts ]
-    post16: [ sample-posts, toc, sidebar ]
-    post17: [ sample-posts, blockquotes ]
+    blockquotes: Blockzitaten
+    sample_post: Musterposts
+  tags:
+    formatting: Formatierung
+    links: Links
+
 projects:
   titles:
     project1: Projekt 1
