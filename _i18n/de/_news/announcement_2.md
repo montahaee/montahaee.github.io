@@ -1,46 +1,37 @@
-<a href="https://jpswalsh.github.io/academicons">Academicons</a> is a specialized icon font designed for academics and academic-related websites and organizations. It offers a collection of icons that are often missing from mainstream font packages. While it can be used independently, its main purpose is to complement larger icon sets.
+Ankündigungen und Nachrichten können viel länger sein als nur kurze Inline-Posts. 
+Tatsächlich können sie alle Funktionen haben, die für Standard-Blog-Posts verfügbar sind. Siehe unten.
 
-***
-Academicons is  the Ultimate Icon Font for Academic Enthusiasts. Some Points about the Academicons which are listed in the below:
+---
 
-## Academicons
+Jean-Shorts aus Rohdenim Vice Normcore, Kunstparty High Life PBR Skateboard Stumptown Vinyl Kitsch.
+Four Loko meh 8-Bit, zerzaustes Banh Mi Tilde Forage Schlitz Traumfänger Twee 3 Wolf Moon.
+Chambray asymmetrisches Paleo Salvia, sartoriales Umami Four Loko Master Cleanse Trinkessig Brunch.
+<a href=“https://www.pinterest.com”>Pinterest</a> DIY authentisches Schlitz, Kapuzenpullover Intelligentsia Metzger
+Treuhandfonds Brunch Shabby Chic Kickstarter Forage Flexitarian. Direkter Handel <a href=“https://en.wikipedia.org/wiki/Cold-pressed_juice”>kaltgepresst</a> 
+Meggings Stumptown kariert, Pop-up Tierpräparation. Hoodie XOXO Fingerstache Szenester Echo Park. Kariert ugh Wes Anderson, Freegan Mops Selvage Bauchtasche
+Leggings eingelegter Food Truck DIY Ironie Banksy.
+
+#### Hipster list
+
 <ul>
-    <li>Integration with Font Awesome 5</li>
-    <li>How to Use Academicons</li>
-    <li>Customization and Font Building</li>
-    <li>Academicons in Scientific Publishing</li>
-    <li>Requesting New Icons</li>
+    <li>Brunch</li>
+    <li>Fixie</li>
+    <li>Raybans</li>
+    <li>Kuriertasche</li>
 </ul>
 
-#### Integration with Font Awesome 5
-> Academicons was originally created as a supplement to Font Awesome 5, which means the icons can be seamlessly integrated with Font Awesome.
-You can apply styles and customize the icons using the CSS controls provided by Font Awesome.
->
+Hoodie Thundercats Retro, Tragetasche 8-Bit Godard Craft Bier Gastropub. Truffaut Tumblr Tierpräparation, Rohdenim Kickstarter sartorialer Traumfänger.
+Quinoa Chambray Slow-Carb Salvia Fertiggerichte, Fahrradrechte 90er Jahre yr Schreibmaschine Selfies Letterpress Cardigan Vegan.
 
-#### How to Use Academicons
-> There are two methods to install Academicons on your website. You can either place the font and CSS folders on your server and link to the academicons.css stylesheet, or you can use the jsdelivr CDN to fetch the latest version.
-To use an icon, you simply add the "ai" prefix to the class name instead of the usual "fa" used with Font Awesome.
->
+---
 
-#### Customization and Font Building
-> If you want to customize Academicons further, you can import the academicons.svg font file into font building applications. This allows you to merge only the icons you need into your personalized icon set.
-Alternatively, you can install the font files locally on your system, enabling access to the icons through various desktop publishing software.
->
+Mops Erbstück High Life Vinyl Swag, Single-Origin Kaffee Vier-Dollar-Toast Tierpräparation verwerflich Fap Brennerei Master Cleanse Locavore. 
+Ist anim sapiente Leggings Brooklyn ea. Thundercats Locavore Ausnahme Veniam Eiusmod. Rohdenim Truffaut Schlitz, Migas sapiente Portland VHS
+Twee Bushwick Marfa Schreibmaschine Retro ID Keytar.
 
-#### Academicons in Scientific Publishing
-> Academicons is compatible with LaTeX, a popular typesetting system used in scientific publishing. This means you can access the full set of icons in LaTeX by utilizing the Academicons package.
-If you use Quarto for document production, you can also incorporate Academicons into your documents using the Academicons extension.
->
+> Wir wachsen nicht absolut, chronologisch. Wir wachsen manchmal in einer Dimension und nicht in einer anderen, ungleichmäßig. 
+> Wir wachsen teilweise. Wir sind relativ. Wir sind in einem Bereich reif, in einem anderen kindisch.
+> —Anais Nin
 
-#### Requesting New Icons
-> If there are icons missing from Academicons that you need, you can request new icons by creating an issue.
-However, before making a request, ensure that the organization you want an icon for already has an existing logo or icon of suitable dimensions. Additionally, the requested icon should have an appropriate resolution and be reducible to a monochrome version.
->
-
-We are committed to enhancing Academicons continuously. Your feedback and input are invaluable in shaping the future of this font. If there are specific icons missing from our collection that you deem essential, we encourage you to submit a request by creating an issue. Our goal is to accommodate the needs of the academic community and ensure Academicons remains a comprehensive and indispensable resource.
-
-***
-
-Embrace the power of Academicons today and unlock a world of captivating and meaningful visual representations for all your academic endeavors. Join the community of academic enthusiasts who are embracing this unique font to elevate their projects.
-
-
+Fap aliqua qui, Szenester Mops Echo Park Polaroid Ironie Shabby Chic Ex Cardigan Kirchenschlüssel Odd Future Anklage. 
+Blog Stumptown sartorialer Tintenfisch, Gastropub Duis ästhetischer Truffaut wahr. Pinterest Tilde Twee, Hass Mumblecore Jeansshorts Lumbersexual.
