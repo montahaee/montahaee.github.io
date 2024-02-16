@@ -25,12 +25,13 @@ pagination:
 {% if blog_name_size > 0 or blog_description_size > 0 %}
   <div class="header-bar">
     <h1>{% t blog.name %}</h1>
-    <h2>{% t blog.description %}</h2>
+    <h3>{% t blog.description %}</h3>
   </div>
   {% endif %}
 {% if site.translations[site.lang].blog.display_tags or site.translations[site.lang].blog.display_categories %}
   <div class="tag-category-list">
     <ul class="p-0 m-0">
+        <span style="display: inline-block; width: 10px; height: 10px; border-radius:3px; background-color: darkgray;"></span>
       {% for tag in site.translations[site.lang].blog.display_tags %}
         {% assign english_tag = site.translations['en'].blog.display_tags[forloop.index0] %}
         <li>
@@ -144,25 +145,27 @@ pagination:
       <!--<p>{{ post.description }}</p>-->
       <p>{%- t post.description -%}</p>
       <p class="post-meta">
-        {% include reading_time.liquid read_time=read_time %} &nbsp; &middot; &nbsp;
+        {% include reading_time.liquid read_time=read_time %} 
+         <span style="display: inline-block; width: 8px; height: 8px; border-radius:2px; background-color: darkgray; margin-left: 10px;margin-right: 2px;"></span>
         {% include date_format.liquid format="long" date_from=post %}
         {%- if post.external_source %}
-        &nbsp; &middot; &nbsp; {{ post.external_source }}
+        <span style="display: inline-block; width: 8px; height: 8px; border-radius:2px; background-color: darkgray; margin-left: 10px;margin-right: 2px;"></span>
+         {{ post.external_source }}
         {%- endif %}
       </p>
       <p class="post-tags">
         <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl }}">
           <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} </a>
           {% if tags != "" %}
-          &nbsp; &middot; &nbsp;
             {% for tag in post.tags %}
             <a href="{{ tag | slugify | prepend: '/blog/tag/' | prepend: site.baseurl }}">
               <!--<i class="fa-solid fa-hashtag fa-sm"></i> {{ tag }}</a> &nbsp;-->
+        <span style="display: inline-block; width: 8px; height: 8px; border-radius:2px; background-color: darkgray; margin-left: 5px; margin-right: 3px;"></span>
               <i class="fa-solid fa-hashtag fa-sm"></i> {%- t tag -%}</a> &nbsp;
               {% endfor %}
           {% endif %}
           {% if categories != "" %}
-          &nbsp; &middot; &nbsp;
+        <span style="display: inline-block; width: 8px; height: 8px; border-radius:2px; background-color: darkgray; margin-left: 5px; margin-right: 4px;"></span>
             {% for category in post.categories %}
             <a href="{{ category | slugify | prepend: '/blog/category/' | prepend: site.baseurl }}">
               <!--<i class="fa-solid fa-tag fa-sm"></i> {{ category }}</a> &nbsp;-->
