@@ -28,32 +28,35 @@ pagination:
     <h3>{% t blog.description %}</h3>
   </div>
   {% endif %}
-{% if site.translations[site.lang].blog.display_tags or site.translations[site.lang].blog.display_categories %}
+    
+{% assign post_tags = post.tags | join: "" %}
+
+{% if site.translations[site.lang].blog.display_tags or site.translations[site.lang].blog.display_categories and post_tags != "" %}
   <div class="tag-category-list">
     <ul class="p-0 m-0">
-        <span style="display: inline-block; width: 10px; height: 10px; border-radius:3px; background-color: darkgray;"></span>
+        <span style="display: inline-block; width: 10px; height: 10px; border-radius:3px; background-color: darkgray; margin-left: 8px; margin-right: 1px;"></span>
       {% for tag in site.translations[site.lang].blog.display_tags %}
         {% assign english_tag = site.translations['en'].blog.display_tags[forloop.index0] %}
         <li>
           <i class="fa-solid fa-hashtag fa-sm"></i>
-          <a href="{{ english_tag | slugify | prepend: '/blog/tag/' | prepend: site.baseurl }}">{{ tag }}</a>
+          <a href="{{ 'posts-tags-' | append: english_tag | slugify | prepend: '/blog/tag/' | prepend: site.baseurl }}">{{ tag }}</a>
         </li>
         {% unless forloop.last %}
-        <span style="display: inline-block; width: 10px; height: 10px; border-radius:3px; background-color: darkgray;"></span>
+        <span style="display: inline-block; width: 10px; height: 10px; border-radius:3px; background-color: darkgray; margin-left: 8px; margin-right: 1px;"></span>
           <!--<p>*</p>-->
         {% endunless %}
       {% endfor %}
       {% if site.translations[site.lang].blog.display_categories.size > 0 and site.translations[site.lang].blog.display_tags.size > 0 %}
-        <span style="display: inline-block; width: 10px; height: 10px; border-radius:3px ;background-color: darkgray;"></span>
+        <span style="display: inline-block; width: 10px; height: 10px; border-radius:3px ;background-color: darkgray; margin-left: 8px; margin-right: 1px;"></span>
       {% endif %}
       {% for category in site.translations[site.lang].blog.display_categories %}
         {% assign english_category = site.translations['en'].blog.display_categories[forloop.index0] %}
         <li>
           <i class="fa-solid fa-tag fa-sm"></i> 
-          <a href="{{ english_category | slugify | prepend: '/blog/category/' | prepend: site.baseurl }}">{{ category }}</a>
+          <a href="{{ 'posts-categories-' | append: english_category | slugify | prepend: '/blog/category/' | prepend: site.baseurl }}">{{ category }}</a>
         </li>
         {% unless forloop.last %}
-        <span style="display: inline-block; width: 10px; height: 10px; border-radius:3px ;background-color: darkgray;"></span>
+        <span style="display: inline-block; width: 10px; height: 10px; border-radius:3px ;background-color: darkgray; margin-left: 8px; margin-right: 1px;"></span>
         {% endunless %}
       {% endfor %}
     </ul>
