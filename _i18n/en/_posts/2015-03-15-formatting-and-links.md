@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  posts.titles.post1
+author: Every One
 date:   2015-03-15 16:40:16
 description: posts.descriptions.post1
 tags: posts.tags.formatting posts.tags.links

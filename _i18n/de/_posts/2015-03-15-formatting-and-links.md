@@ -2,29 +2,41 @@
 layout: post
 title:  posts.titles.post1
 date:   2015-03-15 16:40:16
+author: Every One
 description: posts.descriptions.post1
 tags: posts.tags.formatting posts.tags.links
 categories: posts.categories.blockquotes
 ---
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
 
-#### Hipster list
+Jean-Shorts aus Rohdenim Vice Normcore, Kunstparty High Life PBR Skateboard Stumptown Vinyl Kitsch.
+Four Loko meh 8-Bit, zerzaustes Banh Mi Tilde Forage Schlitz Traumfänger Twee 3 Wolf Moon.
+Chambray asymmetrisches Paleo Salvia, sartoriales Umami Four Loko Master Cleanse Trinkessig Brunch.
+<a href="https://www.pinterest.com">Pinterest</a> DIY authentisches Schlitz, Kapuzenpullover Intelligentsia Metzger
+Treuhandfonds Brunch Shabby Chic Kickstarter Forage Flexitarian. Direkter Handel <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">kaltgepresst</a>
+Meggings Stumptown kariert, Pop-up Tierpräparation. Hoodie XOXO Fingerstache Szenester Echo Park. Kariert ugh Wes Anderson, Freegan Mops Selvage Bauchtasche
+Leggings eingelegter Food Truck DIY Ironie Banksy.
+
+#### Hipster Liste
+
 <ul>
-    <li>brunch</li>
-    <li>fixie</li>
-    <li>raybans</li>
-    <li>messenger bag</li>
+    <li>Brunch</li>
+    <li>Fixie</li>
+    <li>Raybans</li>
+    <li>Kuriertasche</li>
 </ul>
 
-Hoodie Thundercats retro, tote bag 8-bit Godard craft beer gastropub. Truffaut Tumblr taxidermy, raw denim Kickstarter sartorial dreamcatcher. Quinoa chambray slow-carb salvia readymade, bicycle rights 90's yr typewriter selfies letterpress cardigan vegan.
+Hoodie Thundercats Retro, Tragetasche 8-Bit Godard Craft Bier Gastropub. Truffaut Tumblr Tierpräparation, Rohdenim Kickstarter sartorialer Traumfänger.
+Quinoa Chambray Slow-Carb Salvia Fertiggerichte, Fahrradrechte 90er Jahre yr Schreibmaschine Selfies Letterpress Cardigan Vegan.
 
-<hr>
+---
 
-Pug heirloom High Life vinyl swag, single-origin coffee four dollar toast taxidermy reprehenderit fap distillery master cleanse locavore. Est anim sapiente leggings Brooklyn ea. Thundercats locavore excepteur veniam eiusmod. Raw denim Truffaut Schlitz, migas sapiente Portland VHS twee Bushwick Marfa typewriter retro id keytar.
+Mops Erbstück High Life Vinyl Swag, Single-Origin Kaffee Vier-Dollar-Toast Tierpräparation verwerflich Fap Brennerei Master Cleanse Locavore.
+Ist anim sapiente Leggings Brooklyn ea. Thundercats Locavore Ausnahme Veniam Eiusmod. Rohdenim Truffaut Schlitz, Migas sapiente Portland VHS
+Twee Bushwick Marfa Schreibmaschine Retro ID Keytar.
 
-<blockquote>
-    We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
-    —Anais Nin
-</blockquote>
+> Wir wachsen nicht absolut, chronologisch. Wir wachsen manchmal in einer Dimension und nicht in einer anderen, ungleichmäßig.
+> Wir wachsen teilweise. Wir sind relativ. Wir sind in einem Bereich reif, in einem anderen kindisch.
+> —Anais Nin
 
-Fap aliqua qui, scenester pug Echo Park polaroid irony shabby chic ex cardigan church-key Odd Future accusamus. Blog stumptown sartorial squid, gastropub duis aesthetic Truffaut vero. Pinterest tilde twee, odio mumblecore jean shorts lumbersexual.
+Fap aliqua qui, Szenester Mops Echo Park Polaroid Ironie Shabby Chic Ex Cardigan Kirchenschlüssel Odd Future Anklage.
+Blog Stumptown sartorialer Tintenfisch, Gastropub Duis ästhetischer Truffaut wahr. Pinterest Tilde Twee, Hass Mumblecore Jeansshorts Lumbersexual.
