@@ -5,13 +5,13 @@ Tatsächlich können sie alle Funktionen haben, die für Standard-Blog-Posts ver
 
 Jean-Shorts aus Rohdenim Vice Normcore, Kunstparty High Life PBR Skateboard Stumptown Vinyl Kitsch.
 Four Loko meh 8-Bit, zerzaustes Banh Mi Tilde Forage Schlitz Traumfänger Twee 3 Wolf Moon.
-Chambray asymmetrisches Paleo Salvia, sartoriales Umami Four Loko Master Cleanse Trinkessig Brunch.
-<a href=“https://www.pinterest.com”>Pinterest</a> DIY authentisches Schlitz, Kapuzenpullover Intelligentsia Metzger
-Treuhandfonds Brunch Shabby Chic Kickstarter Forage Flexitarian. Direkter Handel <a href=“https://en.wikipedia.org/wiki/Cold-pressed_juice”>kaltgepresst</a> 
+Chambray asymmetrisches Paleo Salvia, sartoriales Umami Four Loko Master Cleanse Trinkessig Brunch. 
+<a href="https://www.pinterest.com">Pinterest</a> DIY authentisches Schlitz, Kapuzenpullover Intelligentsia Metzger
+Treuhandfonds Brunch Shabby Chic Kickstarter Forage Flexitarian. Direkter Handel <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">kaltgepresst</a> 
 Meggings Stumptown kariert, Pop-up Tierpräparation. Hoodie XOXO Fingerstache Szenester Echo Park. Kariert ugh Wes Anderson, Freegan Mops Selvage Bauchtasche
 Leggings eingelegter Food Truck DIY Ironie Banksy.
 
-#### Hipster list
+#### Hipster Liste
 
 <ul>
     <li>Brunch</li>
