@@ -30,7 +30,7 @@ layout: default
     {% comment %}<h1 class="post-title">{{ page.title }}</h1>{% endcomment %}
     <p class="post-meta">{%- include date_format.liquid format="long" date_from=page -%}
         {%- if page.author -%}
-        <span style="display: inline-block; width: 8px; height: 8px; border-radius:2px; background-color: darkgray; margin-left: 10px;"></span>
+        <span style="display: inline-block; width: 8px; height: 8px; border-radius:2px; background-color: darkgray; margin-left: 10px;margin-right: 2px;"></span>
         {{ page.author }}
         {%- endif -%}
         {%- if page.meta -%}
@@ -58,7 +58,7 @@ layout: default
       {%- endif -%}
 
       {%- if categories != "" -%}
-        <span style="display: inline-block; width: 8px; height: 8px; border-radius:2px; background-color: darkgray; margin-left: 10px; margin-right: 5px;"></span>
+        <span style="display: inline-block; width: 8px; height: 8px; border-radius:2px; background-color: darkgray; margin-left: 8px; margin-right: 3px;"></span>
         {%- for category in page.categories -%}
           {%- if url_beginning == '/blog/' -%}
             <!--<a href="{{ category | slugify | prepend: '/blog/category/' | prepend: site.baseurl}}"> <i class="fa-solid fa-tag fa-sm"></i> {{ category }}</a> &nbsp;-->
