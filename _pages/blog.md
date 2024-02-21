@@ -23,10 +23,10 @@ pagination:
 {% assign blog_description_size = site.translations[site.lang].blog.description | size %}
 
 {% if blog_name_size > 0 or blog_description_size > 0 %}
-  <div class="header-bar">
+  <!--<div class="header-bar">
     <h1>{% t blog.name %}</h1>
     <h3>{% t blog.description %}</h3>
-  </div>
+  </div>-->
   {% endif %}
     
 {% assign post_tags = post.tags | join: "" %}
@@ -34,31 +34,28 @@ pagination:
 {% if site.translations[site.lang].blog.display_tags or site.translations[site.lang].blog.display_categories and post_tags != "" %}
   <div class="tag-category-list">
     <ul class="p-0 m-0">
-        <span style="display: inline-block; width: 10px; height: 10px; border-radius:3px; background-color: darkgray; margin-left: 8px; margin-right: 1px;"></span>
       {% for tag in site.translations[site.lang].blog.display_tags %}
         {% assign english_tag = site.translations['en'].blog.display_tags[forloop.index0] %}
-        <li>
-          <i class="fa-solid fa-hashtag fa-sm"></i>
-          <a href="{{ 'posts-tags-' | append: english_tag | slugify | prepend: '/blog/tag/' | prepend: site.baseurl }}">{{ tag }}</a>
-        </li>
+        <span class="post-span">
+            <span class="squared-medium-dot"></span>
+            <a href="{{ 'posts-tags-' | append: english_tag | slugify | prepend: '/blog/tag/' | prepend: site.baseurl }}">
+            <i class="fa-solid fa-hashtag fa-sm">&nbsp;</i>{{ tag }}</a>
+        </span>
         {% unless forloop.last %}
-        <span style="display: inline-block; width: 10px; height: 10px; border-radius:3px; background-color: darkgray; margin-left: 8px; margin-right: 1px;"></span>
-          <!--<p>*</p>-->
+             
         {% endunless %}
-      {% endfor %}
-      {% if site.translations[site.lang].blog.display_categories.size > 0 and site.translations[site.lang].blog.display_tags.size > 0 %}
-        <span style="display: inline-block; width: 10px; height: 10px; border-radius:3px ;background-color: darkgray; margin-left: 8px; margin-right: 1px;"></span>
-      {% endif %}
+    {% endfor %}
       {% for category in site.translations[site.lang].blog.display_categories %}
         {% assign english_category = site.translations['en'].blog.display_categories[forloop.index0] %}
-        <li>
-          <i class="fa-solid fa-tag fa-sm"></i> 
-          <a href="{{ 'posts-categories-' | append: english_category | slugify | prepend: '/blog/category/' | prepend: site.baseurl }}">{{ category }}</a>
-        </li>
+        <span class="post-span">
+            <span class="squared-medium-dot"></span>
+            <a href="{{ 'posts-categories-' | append: english_category | slugify | prepend: '/blog/category/' | prepend: site.baseurl }}">
+                <i class="fa-solid fa-tag fa-sm text-capitalize"></i> {{ category }}</a>
+        </span>
         {% unless forloop.last %}
-        <span style="display: inline-block; width: 10px; height: 10px; border-radius:3px ;background-color: darkgray; margin-left: 8px; margin-right: 1px;"></span>
+             
         {% endunless %}
-      {% endfor %}
+    {% endfor %}
     </ul>
   </div>
 {% endif %}
@@ -83,14 +80,12 @@ pagination:
 <i class="fa-solid fa-thumbtack fa-xs"></i>
 </div>
 
-<!--<h3 class="card-title text-lowercase">{{ post.title }}</h3>-->
 <h3 class="card-title text-lowercase">{%- t post.title -%}</h3>
-<!--<p class="card-text">{{ post.description }}</p>-->
 <p class="card-text">{%- t post.description -%}</p>
                     {% if post.external_source == blank %}
-                      {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
+                      {% assign read_time = post.content | number_of_words | divided_by: 120 | plus: 1 %}
                     {% else %}
-                      {% assign read_time = post.feed_content | strip_liquid | number_of_words | divided_by: 180 | plus: 1 %}
+                      {% assign read_time = post.feed_content | strip_liquid | number_of_words | divided_by: 120 | plus: 1 %}
                     {% endif %}
                     {% assign year = post.date | date: "%Y" %}
                     <p class="post-meta">
@@ -118,9 +113,9 @@ pagination:
     {%- endif -%}
     {% for post in postlist %}
     {% if post.external_source == blank %}
-      {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
+      {% assign read_time = post.content | number_of_words | divided_by: 120 | plus: 1 %}
     {% else %}
-      {% assign read_time = post.feed_content | strip_liquid | number_of_words | divided_by: 180 | plus: 1 %}
+      {% assign read_time = post.feed_content | strip_liquid | number_of_words | divided_by: 120 | plus: 1 %}
     {% endif %}
     {% assign year = post.date | date: "%Y" %}
     {% assign tags = post.tags | join: "" %}
@@ -132,27 +127,31 @@ pagination:
 {%- endif -%}
         <h3>
         {% if post.redirect == blank %}
-          <!--<a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>-->
           <a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{% t post.title %}</a>
-        {% elsif post.redirect contains '://' %}
-          <!--<a class="post-title" href="{{ post.redirect }}" target="_blank">{{ post.title }}</a>-->
+        {% elsif post.redirect contains '://' or post.redirect contains '/assets/pdf/' %}
           <a class="post-title" href="{{ post.redirect }}" target="_blank">{% t post.title %}</a>
           <svg width="2rem" height="2rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
-            <path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path 
+             d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" 
+            class="icon_svg-stroke"
+            stroke="#999" stroke-width="1.5" 
+            fill="none" 
+            fill-rule="evenodd" 
+            stroke-linecap="round" 
+            stroke-linejoin="round">
+            </path>
           </svg>
         {% else %}
-          <!--<a class="post-title" href="{{ post.redirect | prepend: site.baseurl }}">{{ post.title }}</a>-->
           <a class="post-title" href="{{ post.redirect | prepend: site.baseurl }}">{% t post.title %}</a>
         {% endif %}
       </h3>
-      <!--<p>{{ post.description }}</p>-->
       <p>{%- t post.description -%}</p>
       <p class="post-meta">
         {% include reading_time.liquid read_time=read_time %} 
-         <span style="display: inline-block; width: 8px; height: 8px; border-radius:2px; background-color: darkgray; margin-left: 10px;margin-right: 2px;"></span>
+         <span class="small-dot"></span>
         {% include date_format.liquid format="long" date_from=post %}
         {%- if post.external_source %}
-        <span style="display: inline-block; width: 8px; height: 8px; border-radius:2px; background-color: darkgray; margin-left: 10px;margin-right: 2px;"></span>
+        <span class="small-dot"></span>
          {{ post.external_source }}
         {%- endif %}
       </p>
@@ -161,18 +160,18 @@ pagination:
           <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} </a>
           {% if tags != "" %}
             {% for tag in post.tags %}
+        <span class="squared-small-dot"></span>
             <a href="{{ tag | slugify | prepend: '/blog/tag/' | prepend: site.baseurl }}">
-              <!--<i class="fa-solid fa-hashtag fa-sm"></i> {{ tag }}</a> &nbsp;-->
-        <span style="display: inline-block; width: 8px; height: 8px; border-radius:2px; background-color: darkgray; margin-left: 5px; margin-right: 3px;"></span>
-              <i class="fa-solid fa-hashtag fa-sm"></i> {%- t tag -%}</a> &nbsp;
+              <i class="fa-solid fa-hashtag fa-sm">&nbsp;</i> {%- t tag -%}</a> 
               {% endfor %}
           {% endif %}
           {% if categories != "" %}
-        <span style="display: inline-block; width: 8px; height: 8px; border-radius:2px; background-color: darkgray; margin-left: 5px; margin-right: 4px;"></span>
             {% for category in post.categories %}
-            <a href="{{ category | slugify | prepend: '/blog/category/' | prepend: site.baseurl }}">
-              <!--<i class="fa-solid fa-tag fa-sm"></i> {{ category }}</a> &nbsp;-->
-              <i class="fa-solid fa-tag fa-sm"></i> {%- t category -%}</a> &nbsp;
+                <span style="display: inline-block;">
+                 <span class="squared-small-dot"></span>
+                 <a href="{{ category | slugify | prepend: '/blog/category/' | prepend: site.baseurl }}">
+                <i class="fa-solid fa-tag fa-sm"></i> {% t category %}</a> 
+                </span>
               {% endfor %}
           {% endif %}
     </p>
