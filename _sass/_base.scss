@@ -570,6 +570,40 @@ footer.sticky-bottom {
   }
 }
 
+.post-span{
+  display: inline-flex;
+  align-items: center;
+}
+$dot-display: inline-block;
+@mixin dot($width, $height, $radius, $margin-left, $margin-right) {
+  display: $dot-display;
+  background-color: $dark-gray6;
+  border-radius: $radius;
+  width: $width;
+  height: $height;
+  margin-left: $margin-left;
+  margin-right: $margin-right;
+}
+
+.medium-dot {
+  @include dot(10px, 10px, 50%, 6px, 8px);
+}
+
+.squared-medium-dot {
+  @include dot(10px, 10px, 30%, 6px, 8px);
+}
+
+.small-dot {
+  @include dot(8px, 8px, 50%, 10px, 1px);
+}
+
+.squared-small-dot {
+  @include dot(8px, 8px, 15%, 5px, 4px);
+}
+
+
+
+
 
 // Distill
 
