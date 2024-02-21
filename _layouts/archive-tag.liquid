@@ -2,16 +2,17 @@
 layout: default
 ---
 <div class="post">
-  <header class="post-header">
+  <header class="post-header ">
     {% comment %}<h1 class="post-title"><i class="fa-solid fa-hashtag fa-sm"></i> {{ page.title }}</h1>{% endcomment %}
     <h1 class="post-title"><i class="fa-solid fa-hashtag fa-sm"></i> {% t page.title %}</h1>
     <p class="post-description">{%- t descriptions.archive-tag -%}</p>
   </header>
 
   <article>
-    <div class="table-responsive-lg">
+    <div class="table-responsive-lg btn-outline-primary">
       <table class="table table-sm table-borderless">
-        {%- for post in page.posts -%}
+        {% assign taged_posts = page.posts %}
+        {%- for post in taged_posts -%}
         <tr>
           <th scope="row">{%- include date_format.liquid format='short' date_from=post -%}</th>
           {%- comment -%}<th scope="row">{%- include date_format.liquid format='long' date_from=post -%}</th>{%- endcomment -%}
@@ -19,9 +20,21 @@ layout: default
             {%- if post.redirect == blank -%}
             {% comment %}<!--<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>-->{% endcomment %}
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{% t post.title %}</a>
-            {%- elsif post.redirect contains '://' -%}
+            {%- elsif post.redirect contains '://' or post.redirect contains '/assets/pdf/' -%}
             {% comment %}<!--<a class="post-link" href="{{ post.redirect }}" target="_blank">{{ post.title }}</a>-->{% endcomment %}
             <a class="post-link" href="{{ post.redirect }}" target="_blank">{% t post.title %}</a>
+              <svg width="2rem" height="2rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                <path
+                        d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9"
+                        class="icon_svg-stroke"
+                        stroke="#999"
+                        stroke-width="1.5"
+                        fill="none"
+                        fill-rule="evenodd"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                ></path>
+              </svg>
             {%- else -%}
             {% comment %}<!--<a class="post-link" href="{{ post.redirect | prepend: site.baseurl }}">{{ post.title }}</a>-->{% endcomment %}
             <a class="post-link" href="{{ post.redirect | prepend: site.baseurl }}">{% t post.title %}</a>
