@@ -28,8 +28,10 @@
   <d-front-matter>
     <script async type="text/json">{
       "title": "{{ page.title }}",
+      {% comment %}title: {% t page.title %},{% endcomment %}
       "description": "{{ page.description }}",
-      "published": "{{ page.date | date: '%B %-d, %Y' }}",
+      "published": "{{ page.date | date: '%B %-d, %Y'  }}",
+      "emoji": "{{ page.emoji }}",
       "authors": [
         {% for author in page.authors -%}
         {
@@ -70,8 +72,10 @@
     <div class="post distill">
 
       <d-title>
-        <h1>{{ page.title }}</h1>
-        <p>{{ page.description }}</p>
+        {% comment %}<h1>{{ page.title }}</h1>{% endcomment %}
+        <h1>{% t page.title %}</h1>
+        {% comment %}<p>{{ page.description }}</p>{% endcomment %}
+        <p>{% t page.description %}</p>
       </d-title>
 
       <d-byline></d-byline>
