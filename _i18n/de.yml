@@ -52,7 +52,7 @@ blog:
       post3: Einbindung von Videos in Posts
       post4: Darstellung ästhetischer Tabellen mittels Bootstrap
       post5: Einfaches Inhaltsverzeichnis für Posts
-  display_tags: [Formatierung, Bilder, Mathe, Code, Einbindung]
+  display_tags: [Formatierung, Bild, Mathe, Code, Einbindung]
 #  display_tags: ['Formatierung', 'Bilder', 'Links', 'Mathe', 'Code']
   display_categories: [Musterposts, Externservice, Einführungsinfo]
 
@@ -154,7 +154,7 @@ posts:
   tags:
     formatting: Formatierung
     links: Links
-    images: Bilder
+    images: Bild
     code: Code
     math: Mathe
     diagrams: Diagramm

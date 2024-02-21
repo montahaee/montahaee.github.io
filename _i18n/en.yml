@@ -157,7 +157,7 @@ posts:
   tags:
     formatting: Formatting
     links: Links
-    images: Images
+    image: Image
     code: Code
     math: Math
     diagrams: Diagram
