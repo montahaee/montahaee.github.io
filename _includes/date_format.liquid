@@ -12,7 +12,7 @@ Here, add language specific date formats
 {%- t month %}
 {{ day }}, {{ year }}
 {%- elsif site.lang == 'de' %}
-{{ day }}<larg>.</larg> {%- t month %} {{ year }}
+{{ day }}<span class="date-dot"></span> {%- t month %} {{ year }}
 {%- else %}
 {{ day }}
 {%- t month %} {{ year }}
