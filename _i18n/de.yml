@@ -52,9 +52,9 @@ blog:
       post3: Einbindung von Videos in Posts
       post4: Darstellung ästhetischer Tabellen mittels Bootstrap
       post5: Einfaches Inhaltsverzeichnis für Posts
-  display_tags: [Formatierung, Bilder, Links, Mathe, Code]
+  display_tags: [Formatierung, Bilder, Mathe, Code, Einbindung]
 #  display_tags: ['Formatierung', 'Bilder', 'Links', 'Mathe', 'Code']
-  display_categories: [Blockzitate]
+  display_categories: [Musterposts, Externservice, Einführungsinfo]
 
 repositories:
   description: Miene ausgewählt öffentliche Github Repositorien und zugehörige Statistik
@@ -97,6 +97,8 @@ pagination:
   newer: Neuer
   older: Älter
   page: Seite
+#pages:
+#  lang: de
 posts:
   titles:
     post1: Posts mit Formatierung und Links
@@ -104,27 +106,61 @@ posts:
     post3: Posts mit Code
     post4: Posts mit Disqus-Kommentaren
     post5: Posts mit Mathematik
-    post6: Distill-Stil Blog Post
-    post7: Posts mit Github-Metadaten
-    post8: Posts mit Twitter
-    post9: Posts mit Diagrammen
-    post10: Posts mit Umleitung
-    post11: Posts mit Giscus-Kommentaren
-    post12: Einfaches Inhaltsverzeichnis innerhalb eines Posts
-    post13: Anzeige von schönen Tabellen mit Bootstrap-Tabellen
-    post14: Einfügen von Videos in Posts
-    post15: Einfügen von Audios in Posts
-    post16: Posts mit Seitenleisteninhaltsverzeichnis
-    post17: Benutzerdefinierte Blockzitaten
+    post6: Posts mit Github-Metadaten
+    post7: Posts mit Twitter
+    post8: Posts mit Diagrammen
+    post9: Posts mit Weiterleitung
+    post10: Posts mit Giscus-Kommentaren
+    post11: Posts mit einfachem Inneninhaltsverzeichnis
+    post12: Anzeige von Tabellen mit Bootstrap-Tabellen
+    post13: Einfügen von Videos in Posts
+    post14: Einfügen von Audios in Posts
+    post15: Posts mit Seitenleisteninhaltsverzeichnis
+    post16: Benutzerdefinierte Blockzitaten
+    post17: Symbol-Schriftart für Akademiker
+    post18: Distill-Style Blog Post
+    post19: Demokratisierung der Mathematik
+    post20: Entwurfsmustersentmystifizierung
+
   descriptions:
     post1: März & April, freue mich auf den Sommer
+    post2: Einblick in die Einbindung von Bildern
+    post3: Ein Blog-Beitrag mit Code-Beispielen
+    post4: Ein Blog-Beitrag mit Disqus-Kommentaren
+    post5: Ein Blog-Beitrag mit mathematischen Elementen
+    post6: Eine kurze Einführung in den Zugriff auf Github-Metadaten
+    post7: Ein Blog-Beitrag mit Twitter-Integration
+    post8: Ein Blog-Beitrag mit Diagrammen
+    post9: Weiterleitung zu einer anderen Seite und auch zu einer PDF
+    post10: Ein Blog-Beitrag mit Giscus-Kommentaren
+    post11: Ein Blog-Beitrag mit Inhaltsverzeichnis
+    post12: Anleitung zur Verwendung von Bootstrap-Tabellen
+    post13: Einblick in die Einbindung von Videos
+    post14: Einblick in die Einbindung von Audios
+    post15: Ein Blog-Beitrag mit Inhaltsverzeichnis in der Seitenleiste
+    post16: Ein Blog-Beitrag mit individuellen Blockzitaten
+    post17: Eine Visuelle Darstellung der Akademischen Welt
+    post18: Ein Distill-Stil Blog-Beitrag und Hauptelemente
+    post19: Eine offene Buchinitiative von AMS
+    post20:  Ein umfassendes Handbuch zu Entwurfsmustern
 
   categories:
     blockquotes: Blockzitaten
     sample_post: Musterposts
+    external-service: Externservice
+    toc: Toc
+    introductory: Einführungsinfo
+
   tags:
     formatting: Formatierung
     links: Links
+    images: Bilder
+    code: Code
+    math: Mathe
+    diagrams: Diagramm
+    redirect: Weiterleitung
+    integrations: Einbindung
+
 
 projects:
   titles:
