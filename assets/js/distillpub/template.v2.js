@@ -98,6 +98,7 @@
       }
     }
     target.description = source.description;
+    target.emoji = source.emoji;
     target.authors = source.authors.map( (authorObject) => new Author(authorObject));
     target.katex = source.katex;
     target.password = source.password;
@@ -2104,9 +2105,15 @@ d-appendix > distill-appendix {
       ${frontMatter.publishedDate ? `
         <p>${frontMatter.publishedMonth} ${frontMatter.publishedDay}, ${frontMatter.publishedYear}</p> ` : `
         <p><em>Not published yet.</em></p>`}
+      ${frontMatter.emoji ? `
+        <p style= "margin: 10px 50px 20px 24px;font-size: 32px;">
+        ${frontMatter.emoji}</p> ` : `
+                                
+        <p><em></em></p>`}   
+        
     </div>
   </div>
-`;
+`;   // "/*<p><em>No Emoji yet</em></p>`}*/"
   }
 
   class Byline extends HTMLElement {
