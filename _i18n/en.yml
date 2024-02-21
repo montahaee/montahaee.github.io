@@ -55,8 +55,8 @@ blog:
       post3: Insert videos into a post
       post4: Displaying beautiful tables with Bootstrap Tables
       post5: Simple table of contents inside a post
-  display_tags: [formatting, images, links, math, code]
-  display_categories: [blockquotes]
+  display_tags: [formatting, image, math, code, integrations]
+  display_categories: [sample-post, external-service, Introductory]
 
 
 repositories:
@@ -100,35 +100,70 @@ pagination:
   newer: Newer
   older: Older
   page: page
-
+#pages:
+#  lang: en
 posts:
   titles:
     post1: posts with formatting and links
     post2: posts with images
     post3: posts with code
     post4: posts with disqus comments
-    post5: posts with math
-    post6: distill-style blog post
-    post7: posts with github metadata
-    post8: posts with twitter
-    post9: posts with diagrams
-    post10: posts with redirect
-    post11: posts with giscus comments
-    post12: simple table of contents inside a post
-    post13: Displaying beautiful tables with Bootstrap Tables
-    post14: Insert videos into a post
-    post15: Insert audios into a post
-    post16: Table of contents on a sidebar of a post
-    post17: Post with Custom blockquotes
+    post5: posts with mathematics
+    post6: posts with github metadata
+    post7: posts with twitter
+    post8: posts with diagrams
+    post9: posts with redirection
+    post10: posts with giscus comments
+    post11: Simple table of contents inside a post
+    post12: Displaying tables with Bootstrap Tables
+    post13: Insert videos into a post
+    post14: Insert audios into a post
+    post15: Table of contents on a sidebar of a post
+    post16: Post with Custom blockquotes
+    post17: Icon Font for Academic
+    post18: Distill-style blog post
+    post19: Democratizing Mathematics
+    post20: Design Patterns Demystified
+
   descriptions:
     post1: march & april, looking forward to summer
+    post2: This is what included images could look like
+    post3: An example of a blog post with some code
+    post4: An example of a blog post with disqus comments
+    post5: An example of a blog post with some math
+    post6: A quick run down on accessing github metadata
+    post7: An example of a blog post with twitter
+    post8: An example of a blog post with diagrams
+    post9: Redirection to other page and also to a pdf
+    post10: An example of a blog post with giscus comments
+    post11: An example of a blog post with table of contents
+    post12: An example of how to use Bootstrap Tables
+    post13: This is what included videos could look like
+    post14: This is what included audios could look like
+    post15: An example of a blog post with table of contents on a sidebar
+    post16: An example of a blog post with custom blockquotes
+    post17: Elevating Academic Visual Representations
+    post18: An example of a distill-style blog post and main elements
+    post19: An Open Book Initiative by AMS
+    post20: A Comprehensive Handbook to Design Patterns
 
   categories:
     blockquotes: Blockquotes
     sample_post: Sample-Posts
+    external-service: External-Service
+    toc: Toc
+    introductory: Introductory
+
   tags:
     formatting: Formatting
     links: Links
+    images: Images
+    code: Code
+    math: Math
+    diagrams: Diagram
+    redirect: Redirection
+    integrations: Integration
+
 projects:
   titles:
     project1: Project 1
@@ -138,12 +173,12 @@ projects:
     project5: Project 5
     project6: Project 6
   descriptions:
-    project1: a project with a background image
-    project2: a project with a background image and giscus comments
-    project3: a project that redirects to another website
-    project4: another without an image
-    project5: a project with a background image
-    project6: a project with no image
+    project1: A project with a background image
+    project2: A project with a background image and giscus comments
+    project3: A project that redirects to another website
+    project4: Another without an image
+    project5: A project with a background image
+    project6: A project with no image
   categories:
     fun: fun
     work: work
