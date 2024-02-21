@@ -4,7 +4,8 @@
 @charset "utf-8";
 
 // Dimensions
-$max-content-width: 100;
+$max-content-width: 930px;
+$max-content-width: {{ site.max_width }};
 
 
 @import
