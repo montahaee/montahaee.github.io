@@ -32,18 +32,9 @@
 - title: Education
   type: time_table
   contents:
-    #      - title: B.Sc. in Applied Mathematics
-    #        institution: University of Payame Noor, Pakdasht-Tehran, Iran
-    #        year: 10/2005-07/2009
-    #        description:
-    #          - Bachelor’s thesis: Application of nonlinear conjugate gradient algorithms for the estimation of electromagnetic inversion.
-    #          - Focus Areas: Linear Algebra, Numerical ODE, Mathematical Analysis, Mathematical Statistics, Graph Theory, Mathematical Models of Nature (ODE).
-    #          - title:
-    #            contents:
-    #              - Sub-description 1.
-    #              - Sub-description 2.
     - title: B.Sc. in Applied Mathematics
-      institution: University of Payame Noor, Pakdasht-Tehran, Iran
+      institution: University of Payame Noor
+      location: Pakdasht-Tehran, Iran
       year: 10/2005-07/2009
       description:
         - title: Bachelor’s thesis
@@ -52,21 +43,23 @@
         - title: Focus Areas
           contents:
             - Algebra, Numerical (ODE) and Mathematical Analysis
-            - Mathematical Statistics and Models of Nature (ODE).
+            - Mathematical Statistics and Models of Nature (ODE)
     - title: B.Sc. in Applied Mathematics and Computer Science
-      institution: FH Aachen – Aachen University of Applied Sciences
+      institution: FH Aachen – University of Applied Sciences
       year: 10/2019-Present
+      location: Jülich, Germany
       description:
         - title: Focus Areas
           contents:
             - Linear Algebra, Statistics, Numerics
             - Programming (OOP), Algorithms and Data Structures, Data Science, Databases, Software Engineering, Web and Communication Systems
-        - Anticipated Graduation March 2024
+        - Anticipated Graduation April 2024
 - title: Experience
   type: time_table
   contents:
     - title: Apprenticeship
-      institution: DAP RWTH University, Aachen
+      institution: DAP RWTH University
+      location: Aachen, Germany
       year: 10/2019-08/2023
       description:
         - Worked on the development of an NX CAD library for generating Lattice in C# using Protobuf serialization
@@ -79,29 +72,33 @@
     #              - Sub-description 1.
     #              - Sub-description 2.
     - title: Waiter and Event Assistant
-      institution: Event Probat GMBH, Aachen, Germany
+      building: Event Probat GMBH
       year: 11/2014-10/2019
+      location: Aachen, Germany
       description:
         - Served and prepared for events and weddings.
         - Cleaned up after events and weddings.
 
     - title: Library Assistant
-      institution: Central library of RWTH, Aachen
+      building: Central library of RWTH
       year: 07/2016-09/2016
+      location: Aachen, Germany
       description:
         - Provided Media
         - Worked on Restoration
         - Maintained Inventory
     - title: Delivery Assistant
-      institution: Dachser Logistic, Alsdorf, Germany
+      truck: Dachser Logistic
       year: 11/2014-06/2015
+      location: Alsdorf, Germany
       description:
         - Loaded goods at the logistic center into a truck to deliver goods in East Belgium
         - picked up items and returned to the logistics center to unload the picked-up goods
 
     - title: Temporary employment
-      institution: Frankenberg, Würselen, Germany
+      industry: Frankenberg
       year: 07/2012-10/2014
+      location: Würselen, Germany
       description:
         - title: Assisted in various stages of airplane food production
           contents:
@@ -110,8 +107,9 @@
             - Packing containers into cartons
 
     - title: Military Service
-      institution: Police central Department, Tehran
+      gopuram: Police central Station
       year: 08/2009-04/2011
+      location: Tehran, Iran
       description:
         - title: Assisted in different Office tasks
           contents:
@@ -120,8 +118,9 @@
             - Delivering letters to various sub-department
 
     - title: Sales Assistant
-      institution: Bicycle Bazaar, Tehran
+      shop: Bicycle Bazaar
       year: 10/2003-09/2005
+      location: Tehran, Iran
       description:
         - Selling various goods to customer
         - Transporting goods from the storage area to the shop floor
@@ -130,8 +129,9 @@
         - Ensuring the shop store is well-stocked and organized
 
     - title: Construction Worker
-      institution: Company of Renewals and Renovations of Buildings Rahmatie, Tehran
+      constructionWorker: Company of Renewals and Renovations of Buildings Rahmatie
       year: 08/2002-09/2003
+      location: Tehran, Iran
       description:
         - title: Demolition
           contents:
