@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="136a4eba-8fca-4949-b295-efe345b562fa" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/de/cv.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/de/cv.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/en/cv.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/en/cv.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_i18n/de.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_i18n/de.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/about.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/css/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/img/myProfile.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/img/myProfile.JPG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/assets/jupyter/blog.ipynb.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/jupyter/blog.ipynb.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/blog/2020/code/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/2020/code/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/blog/2020/disqus-comments/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/2020/disqus-comments/index.html" afterDir="false" />
@@ -59,8 +52,6 @@
       <change beforePath="$PROJECT_DIR$/_site/blog/tag/posts-tags-redirect/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/tag/posts-tags-redirect/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/cv/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/cv/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/de/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/de/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/de/assets/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/assets/css/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/de/assets/jupyter/blog.ipynb.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/assets/jupyter/blog.ipynb.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/de/blog/2020/code/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/blog/2020/code/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/de/blog/2020/disqus-comments/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/blog/2020/disqus-comments/index.html" afterDir="false" />
@@ -137,7 +128,6 @@
       <change beforePath="$PROJECT_DIR$/_site/repositories/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/repositories/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/sitemap.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/teaching/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/teaching/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/myProfile.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/myProfile.JPG" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,9 +167,9 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;recoveryAdvanced&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;devel&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/montaha/Documents/myWebpage/recoveryAdvanced_posts&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/montaha/Documents/myWebpage/recoveryAdvanced&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -202,11 +192,11 @@
       <recent name="$PROJECT_DIR$/assets/pdf/de" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/merg_trash" />
       <recent name="$PROJECT_DIR$/_i18n/de/_posts" />
       <recent name="$PROJECT_DIR$/_i18n/en/_posts" />
       <recent name="$PROJECT_DIR$/de/assets/pdf" />
       <recent name="$PROJECT_DIR$/de/assets" />
-      <recent name="$PROJECT_DIR$/assets/pdf" />
     </key>
   </component>
   <component name="RunManager">
@@ -269,6 +259,9 @@
       <workItem from="1708415813863" duration="36344000" />
       <workItem from="1708503615440" duration="37090000" />
       <workItem from="1708587715264" duration="32187000" />
+      <workItem from="1708765355026" duration="2430000" />
+      <workItem from="1708767948097" duration="1094000" />
+      <workItem from="1708769054003" duration="397000" />
     </task>
     <servers />
   </component>
