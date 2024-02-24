@@ -1,0 +1,13 @@
+<<<<<<< HEAD
+<div class="publications">
+    {% comment %}{% bibliography -f {{ site.scholar.bibliography }} -q @*[selected=true]* %}{% endcomment %}
+    {% bibliography --group_by none --query @*[selected=true]* %}
+</div>
+||||||| e2f02e9
+=======
+
+          <div class="publications">
+            {% comment %}{% bibliography -f {{ site.scholar.bibliography }} -q @*[selected=true]* %}{% endcomment %}
+            {% bibliography --group_by none --query @*[selected=true]* %}
+          </div>
+>>>>>>> devel

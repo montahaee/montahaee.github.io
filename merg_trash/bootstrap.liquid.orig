@@ -1,0 +1,18 @@
+<<<<<<< HEAD
+<!-- Bootsrap & MDB scripts -->
+<script src="{{ '/assets/js/bootstrap.bundle.min.js' | relative_url }}"></script>
+ {% comment %}<script src="/assets/js/mdb.min.js"></script>{% endcomment %}
+<script src="{{ '/assets/js/mdb.min.js' | relative_url }}"></script>
+<script src="https://cdn.jsdelivr.net/npm/mdbootstrap@{{ site.mdb.version }}/js/mdb.min.js" integrity="{{ site.mdb.integrity.js }}" crossorigin="anonymous"></script>
+{% comment %}<script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="{{ site.mdb.integrity.js }}" crossorigin="anonymous"></script>{% endcomment %}
+||||||| e2f02e9
+=======
+<!-- Bootsrap & MDB scripts -->
+<script src="{{ '/assets/js/bootstrap.bundle.min.js' | relative_url }}"></script>
+<!-- <script src="{{ '/assets/js/mdb.min.js' | relative_url }}"></script> -->
+<script
+        src="https://cdn.jsdelivr.net/npm/mdbootstrap@{{ site.mdb.version }}/js/mdb.min.js"
+        integrity="{{ site.mdb.integrity.js }}"
+        crossorigin="anonymous"
+></script>
+>>>>>>> devel

@@ -1,0 +1,260 @@
+<<<<<<< HEAD
+{% comment %}---{% endcomment %}
+{% comment %}layout: default{% endcomment %}
+{% comment %}---{% endcomment %}
+{% comment %}{% endcomment %}
+{% comment %}<!-- about.html -->{% endcomment %}
+      {% comment %}<div class="post">{% endcomment %}
+        {% comment %}<header class="post-header">{% endcomment %}
+          {% comment %}<h1 class="post-title">{% endcomment %}
+           {% comment %}{% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}{% endcomment %}
+          {% comment %}</h1>{% endcomment %}
+          {% comment %}<p class="desc">{{ page.subtitle }}</p>{% endcomment %}
+        {% comment %}</header>{% endcomment %}
+{% comment %}{% endcomment %}
+        {% comment %}<article>{% endcomment %}
+          {% comment %}{% if page.profile -%}{% endcomment %}
+          {% comment %}<div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">{% endcomment %}
+            {% comment %}{%- if page.profile.image %}{% endcomment %}
+              {% comment %}{%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}{% endcomment %}
+{% comment %}{% endcomment %}
+              {% comment %}{% if page.profile.image_circular %}{% endcomment %}
+                {% comment %}{%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}{% endcomment %}
+              {% comment %}{% else %}{% endcomment %}
+                {% comment %}{%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}{% endcomment %}
+              {% comment %}{% endif %}{% endcomment %}
+{% comment %}{% endcomment %}
+            {% comment %}{% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}{% endcomment %}
+{% comment %}{% endcomment %}
+            {% include figure.html
+              path=profile_image_path
+              class=profile_image_class
+              alt=page.profile.image
+              cache_bust=true -%}
+            {% comment %}{% endif -%}{% endcomment %}
+            {% comment %}{% assign more_info_size = site.translations[site.lang].main.more_info | size %}{% endcomment %}
+            {% comment %}{% if more_info_size > 0 %}{% endcomment %}
+            {% comment %}<div class="more-info">{% endcomment %}
+              {% comment %}{% t main.more_info %}{% endcomment %}
+            {% comment %}</div>{% endcomment %}
+            {% comment %}{%- endif %}{% endcomment %}
+            {% comment %}{%- if page.profile.address %}{% endcomment %}
+            {% comment %}<div class="address">{% endcomment %}
+              {% comment %}{{ page.profile.address }}{% endcomment %}
+            {% comment %}</div>{% endcomment %}
+            {% comment %}{%- endif %}{% endcomment %}
+          {% comment %}</div>{% endcomment %}
+          {% comment %}{%- endif %}{% endcomment %}
+{% comment %}{% endcomment %}
+          {% comment %}<div class="clearfix">{% endcomment %}
+            {% comment %}{{ content }}{% endcomment %}
+          {% comment %}</div>{% endcomment %}
+{% comment %}{% endcomment %}
+          {% comment %}<!-- News -->{% endcomment %}
+          {% comment %}{% if page.news and site.announcements.enabled -%}{% endcomment %}
+          {% comment %}<h2><a href="{{ '/news/' | prepend: site.baseurl }}" style="color: inherit;">{%t titles.news %}</a></h2>{% endcomment %}
+            {% comment %}{%- include news.html limit=true %}{% endcomment %}
+          {% comment %}{%- endif %}{% endcomment %}
+{% comment %}{% endcomment %}
+          {% comment %}<!-- Latest posts -->{% endcomment %}
+          {% comment %}{% if page.latest_posts -%}{% endcomment %}
+          {% comment %}<h2><a href="{{ '/blog/' | prepend: site.baseurl }}" style="color: inherit;">{%t titles.latest_posts %}</a></h2>{% endcomment %}
+            {% comment %}{%- include latest_posts.html %}{% endcomment %}
+          {% comment %}{%- endif %}{% endcomment %}
+{% comment %}{% endcomment %}
+          {% comment %}<!-- Selected papers -->{% endcomment %}
+          {% comment %}{% if page.selected_papers -%}{% endcomment %}
+          {% comment %}<h2><a href="{{ '/publications/' | prepend: site.baseurl }}" style="color: inherit;">{% t titles.selected_publications %}</a></h2>{% endcomment %}
+            {% comment %}{%- include selected_papers.html %}{% endcomment %}
+          {% comment %}{%- endif %}{% endcomment %}
+{% comment %}{% endcomment %}
+          {% comment %}<!-- Social -->{% endcomment %}
+          {% comment %}{%- if page.social %}{% endcomment %}
+            {% comment %}<div class="social">{% endcomment %}
+              {% comment %}<div class="contact-icons">{% endcomment %}
+                {% comment %}{% include social.html %}{% endcomment %}
+              {% comment %}</div>{% endcomment %}
+{% comment %}{% endcomment %}
+              {% comment %}<div class="contact-note">{% endcomment %}
+{% comment %}<!--                {{ site.contact_note }}-->{% endcomment %}
+                {% comment %}{%t main.contact_note %}{% endcomment %}
+              {% comment %}</div>{% endcomment %}
+{% comment %}{% endcomment %}
+            {% comment %}</div>{% endcomment %}
+          {% comment %}{%- endif %}{% endcomment %}
+        {% comment %}</article>{% endcomment %}
+{% comment %}{% endcomment %}
+{% comment %}</div>{% endcomment %}
+---
+layout: default
+---
+<!-- about.html -->
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">
+      {% if site.title == 'blank' %}
+        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
+        {{ site.last_name }}
+      {% else %}
+        {{ site.title }}
+      {% endif %}
+    </h1>
+    <p class="desc">{% t main.subtitle %}</p>
+  </header>
+
+  <article>
+    {% if page.profile %}
+      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+        {% if page.profile.image %}
+          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+          {% if page.profile.image_circular %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+          {% else %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+          {% endif %}
+          {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
+            30vw, 95vw"{% endcapture %}
+          {%
+                  include figure.liquid path = profile_image_path class = profile_image_class sizes = sizes alt = page.profile.image
+                  cache_bust = true
+          %}
+        {% endif %}
+        {% assign more_info_size = site.translations[site.lang].main.more_info | size %}
+        {% if more_info_size > 0 %}
+          <div class="more-info">{% t main.more_info %}</div>
+        {% endif %}
+      </div>
+    {% endif %}
+
+    <div class="clearfix">{{ content }}</div>
+
+    <!-- News -->
+    {% if page.news and site.announcements.enabled %}
+      <h2>
+        <a href="{{ '/news/' | prepend: site.baseurl }}" style="color: inherit;">{% t titles.news %}</a>
+      </h2>
+      {% include news.liquid limit=true %}
+    {% endif %}
+
+    <!-- Latest posts -->
+    {% if page.latest_posts %}
+      <h2>
+        <a href="{{ '/blog/' | prepend: site.baseurl }}" style="color: inherit;">{% t titles.latest_posts %}</a>
+      </h2>
+      {% include latest_posts.liquid %}
+    {% endif %}
+
+    <!-- Selected papers -->
+    {% if page.selected_papers %}
+      <h2>
+        <a href="{{ '/publications/' | prepend: site.baseurl }}" style="color: inherit;">{% t titles.selected_publications %}</a>
+      </h2>
+      {% include selected_papers.liquid %}
+    {% endif %}
+
+    <!-- Social -->
+    {% if page.social %}
+      <div class="social">
+        <div class="contact-icons">{% include social.liquid %}</div>
+
+        <div class="contact-note">{% t main.contact_note %}</div>
+      </div>
+    {% endif %}
+  </article>
+</div>Z
+||||||| e2f02e9
+=======
+---
+layout: default
+---
+
+{%- comment -%}about.liquid {%- endcomment -%}
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">
+      {%- if site.title == "blank" -%}
+          <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}
+      {%- else -%}
+          {% comment %}{{ site.title }}{% endcomment %}
+          {%- t site.title  -%}
+      {%- endif -%}
+    </h1>
+    <p class="desc">{%- t main.subtitle -%}</p>
+  </header>
+
+  <article>
+    {%- if page.profile -%}
+      <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
+        {%- if page.profile.image -%}
+          {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
+
+          {%- if page.profile.image_circular -%}
+            {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
+          {%- else -%}
+            {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
+          {%- endif -%}
+
+          {%- capture sizes -%}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{%- endcapture -%}
+
+          {%- include figure.liquid
+                  path=profile_image_path
+                  class=profile_image_class
+                  alt=page.profile.image
+                  cache_bust=true -%}
+        {%- endif -%}
+        {%- assign more_info_size = site.translations[site.lang].main.more_info | size -%}
+        {%- if more_info_size > 0 -%}
+          <div class="more-info">
+            {%- t main.more_info -%}
+          </div>
+        {%- endif -%}
+        {%- if page.profile.address -%}
+          <div class="address">
+            {{ page.profile.address }}
+          </div>
+        {%- endif -%}
+      </div>
+    {%- endif -%}
+
+    <div class="clearfix">
+      {{ content }}
+    </div>
+
+    <!-- News -->
+    {%- if page.news and site.announcements.enabled -%}
+      <h2><a href="{{ '/news/' | prepend: site.baseurl }}" style="color: inherit;">{%- t titles.news -%}</a></h2>
+      {% comment %}<h2><a href="{{ '/news/' | prepend: site.baseurl }}" style="color: inherit;">{{ titles.news }}</a></h2>{% endcomment %}
+      {%- include news.liquid limit=true scrollable= true -%}
+    {%- endif -%}
+
+    <!-- Latest posts -->
+    {%- if page.latest_posts -%}
+      <h2><a href="{{ '/blog/' | prepend: site.baseurl }}" style="color: inherit;">{%- t titles.latest_posts -%}</a></h2>
+      {% comment %}<h2><a href="{{ '/blog/' | prepend: site.baseurl }}" style="color: inherit;">{{ titles.latest_posts }}</a></h2>{% endcomment %}
+      {%- include latest_posts.liquid -%}
+    {%- endif -%}
+
+    <!-- Selected papers -->
+    {%- if page.selected_papers -%}
+      <h2><a href="{{ '/publications/' | prepend: site.baseurl }}" style="color: inherit;">{%- t titles.selected_publications -%}</a></h2>
+      {%- include selected_papers.liquid -%}
+    {%- endif -%}
+
+    <!-- Social -->
+    {%- if page.social -%}
+      <div class="social">
+        <div class="contact-icons">
+          {%- include social.liquid -%}
+        </div>
+
+        <div class="contact-note">
+          {%- comment -%}<!--                {{ site.contact_note }}-->{%- endcomment -%}
+          {%- t main.contact_note -%}
+        </div>
+
+      </div>
+    {%- endif -%}
+  </article>
+
+</div>
+>>>>>>> devel
