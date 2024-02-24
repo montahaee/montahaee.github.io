@@ -20,14 +20,6 @@ layout: default
   <header class="post-header">
     <h1 class="post-title">{%- t page.title -%} </h1>
     {% assign translated_title = site.translations[site.lang][page.title] %}
-    {% comment %}<h1 class="post-title">
-      {% if translated_title %}
-        {{- translated_title -}}
-      {% else %}
-        {{ page.title }}
-      {% endif %}
-    </h1>{% endcomment %}
-    {% comment %}<h1 class="post-title">{{ page.title }}</h1>{% endcomment %}
     <p class="post-meta">{%- include date_format.liquid format="long" date_from=page -%}
         {%- if page.author -%}
         <span style="display: inline-block; width: 8px; height: 8px; border-radius:2px; background-color: darkgray; margin-left: 10px;margin-right: 2px;"></span>
@@ -47,10 +39,8 @@ layout: default
           <span style="display: inline-block; width: 8px; height: 8px; border-radius:2px; background-color: darkgray; margin-left: 10px; margin-right: 5px;"></span>
         {%- for tag in page.tags -%}
           {%- if url_beginning == '/blog/' -%}
-            <!--<a href="{{ tag | slugify | prepend: '/blog/tag/' | prepend: site.baseurl}}"> <i class="fa-solid fa-hashtag fa-sm"></i> {{ tag }}</a> &nbsp;-->
             <a href="{{ tag | slugify | prepend: '/blog/tag/' | prepend: site.baseurl}}"> <i class="fa-solid fa-hashtag fa-sm"></i> {% t tag %}</a> &nbsp;
           {%- else -%}
-            <!--<i class="fa-solid fa-hashtag fa-sm"></i> {{ tag }} &nbsp;-->
             <i class="fa-solid fa-hashtag fa-sm"></i> {% t tag %} &nbsp;
           {%- endif -%}
 
@@ -61,10 +51,8 @@ layout: default
         <span style="display: inline-block; width: 8px; height: 8px; border-radius:2px; background-color: darkgray; margin-left: 8px; margin-right: 3px;"></span>
         {%- for category in page.categories -%}
           {%- if url_beginning == '/blog/' -%}
-            <!--<a href="{{ category | slugify | prepend: '/blog/category/' | prepend: site.baseurl}}"> <i class="fa-solid fa-tag fa-sm"></i> {{ category }}</a> &nbsp;-->
             <a href="{{ category | slugify | prepend: '/blog/category/' | prepend: site.baseurl}}"> <i class="fa-solid fa-tag fa-sm"></i> {% t category %}</a> &nbsp;
           {%- else -%}
-            <!--<i class="fa-solid fa-tag fa-sm"></i> {{ category }} &nbsp;-->
             <i class="fa-solid fa-tag fa-sm"></i> {% t category %} &nbsp;
           {%- endif -%}
         {%- endfor -%}
