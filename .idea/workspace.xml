@@ -4,71 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="136a4eba-8fca-4949-b295-efe345b562fa" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_i18n/de/_pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/_i18n/de/_pages/about.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_i18n/en/_pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/_i18n/en/_pages/about.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/assets/jupyter/blog.ipynb.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/jupyter/blog.ipynb.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/de/assets/jupyter/blog.ipynb.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/assets/jupyter/blog.ipynb.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/de/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/de/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/de/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/de/sitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/sitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/merg_trash/404.md.orig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/merg_trash/about.liquid.orig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/merg_trash/archive-category.liquid.orig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/merg_trash/archive-tag.liquid.orig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/merg_trash/archive-year.liquid.orig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/merg_trash/audio.liquid.orig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/merg_trash/awards.liquid.orig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/merg_trash/basics.liquid.orig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/merg_trash/bib.liquid.orig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/merg_trash/blog.md.orig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/merg_trash/bootstrap.liquid.orig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/merg_trash/certificates.liquid.orig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/merg_trash/cv.liquid.orig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/merg_trash/date_format.liquid.orig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/merg_trash/default.liquid.orig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/merg_trash/distill.liquid.orig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/merg_trash/education.liquid.orig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/merg_trash/figure.liquid.orig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/merg_trash/footer.liquid.orig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/merg_trash/head.liquid.orig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/merg_trash/header.liquid.orig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/merg_trash/interests.liquid.orig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/merg_trash/jquery.liquid.orig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/merg_trash/languages.liquid.orig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/merg_trash/latest_posts.liquid.orig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/merg_trash/list.liquid.orig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/merg_trash/list_groups.liquid.orig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/merg_trash/map.liquid.orig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/merg_trash/masonry.liquid.orig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/merg_trash/mathjax.liquid.orig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/merg_trash/mermaid.liquid.orig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/merg_trash/metadata.liquid.orig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/merg_trash/misc.liquid.orig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/merg_trash/nested_list.liquid.orig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/merg_trash/news.liquid.orig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/merg_trash/page.liquid.orig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/merg_trash/pagination.liquid.orig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/merg_trash/post.liquid.orig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/merg_trash/profiles.liquid.orig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/merg_trash/progressBar.liquid.orig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/merg_trash/projects.liquid.orig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/merg_trash/projects_horizontal.liquid.orig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/merg_trash/references.liquid.orig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/merg_trash/related_posts.liquid.orig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/merg_trash/repo_trophies.liquid.orig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/merg_trash/repo_user.liquid.orig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/merg_trash/selected_papers.liquid.orig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/merg_trash/skills.liquid.orig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/merg_trash/time_table.liquid.orig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/merg_trash/video.liquid.orig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/merg_trash/wechatModal.liquid.orig" beforeDir="false" />
-    </list>
+    <list default="true" id="136a4eba-8fca-4949-b295-efe345b562fa" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -107,7 +43,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "devel",
+    "git-widget-placeholder": "gh-pages",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/montaha/Documents/myWebpage/recoveryAdvanced",
     "node.js.detected.package.eslint": "true",
