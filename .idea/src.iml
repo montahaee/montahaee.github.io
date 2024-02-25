@@ -19,5 +19,8 @@
     <orderEntry type="library" name="imagesloaded" level="application" />
     <orderEntry type="library" name="mathjax" level="application" />
     <orderEntry type="library" name="bootstrap-table" level="application" />
+    <orderEntry type="library" name="embed" level="application" />
+    <orderEntry type="library" name="badge" level="application" />
+    <orderEntry type="library" name="script" level="application" />
   </component>
 </module>
