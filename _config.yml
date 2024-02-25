@@ -60,7 +60,7 @@ navbar_fixed: true
 footer_fixed: true
 
 # Dimensions
-max_width: 900px
+max_width: 1000px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -70,7 +70,7 @@ max_width: 900px
 # Display links to the page with a preview object on social media.
 serve_og_meta: false # Include Open Graph meta tags in the HTML head
 serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+og_image: myProfile.JPG # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Social integration
@@ -128,7 +128,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: montaha # blog_name will be displayed in your blog page
-blog_nav_title: Blog # your blog must have a title for it to be displayed in the nav bar
+blog_nav_title: true # your blog must have a title for it to be displayed in the nav bar
 blog_description:  Venturing through the realms of academia with a discerning perspective
 permalink: /blog/:year/:title/
 
@@ -164,8 +164,8 @@ disqus_shortname: #al-folio # put your disqus shortname
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 #external_sources:
-#  - name: medium.com
-#    rss_url: https://medium.com/@your_username/post
+  - name: medium.com
+    rss_url: https://medium.com/@your_username/post
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -222,11 +222,17 @@ exclude:
   - bin
   - Gemfile
   - Gemfile.lock
+  - Dockerfile
+  - docker-compose.yml
+  - package.json
+  - package-lock.json
+  - purgecss.config.js
+  - README.md
   - vendor
 keep_files:
   - CNAME
   - .nojekyll
-  - .git
+#  - .git
 
 # Plug-ins
 plugins:
@@ -264,7 +270,7 @@ defaults:
 
 # multi language settings
 default_locale_in_subfolder: false
-exclude_from_localizations: ["assets"]
+exclude_from_localizations: ["assets", "purgecss.config.js", "package-lock.json", "package.json"]
 languages: ["en", "de"]
 # -----------------------------------------------------------------------------
 # Jekyll Minifier
@@ -289,9 +295,6 @@ jekyll-archives:
     year: '/blog/:year/'
     tag: '/blog/tag/:name/'
     category: '/blog/category/:name/'
-
-#display_tags: ['formatting', 'images', 'links', 'math', 'code'] # these tags will be displayed on the front page of your blog <--- nomore that is needed.
-#display_categories: ['blockquotes'] # these categories will be displayed on the front page of your blog <--- nomore that is needed.
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
@@ -355,7 +358,7 @@ external_links:
 # -----------------------------------------------------------------------------
 
 imagemagick:
-  enabled: false # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
+  enabled: true # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
   widths:
     - 480
     - 800
@@ -364,9 +367,12 @@ imagemagick:
     - assets/img/
   input_formats:
     - ".jpg"
+    - ".JPG"
     - ".jpeg"
     - ".png"
     - ".tiff"
+    - ".gif"
+    - ".webp"
   output_formats:
 #    webp: "-resize 800x"
     webp: "-quality 85"
