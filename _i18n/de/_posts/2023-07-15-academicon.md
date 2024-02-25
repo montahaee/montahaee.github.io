@@ -9,11 +9,12 @@ categories: posts.categories.sample_post
 giscus_comments: true
 related_posts: true
 ---
-<a href="https://jpswalsh.github.io/academicons">Academicons</a> is a specialized icon font designed for academics and academic-related websites and organizations. It offers a collection of icons that are often missing from mainstream font packages. While it can be used independently, its main purpose is to complement larger icon sets.
+<a href="https://jpswalsh.github.io/academicons">Academicons</a> ist eine spezialisierte Icon-Schriftart, die für Akademiker und akademisch bezogene Websites
+und Organisationen entwickelt wurde. Sie bietet eine Sammlung von Symbolen, die oft in gängigen Schriftartenpaketen fehlen. Obwohl sie unabhängig
+verwendet werden kann, dient sie hauptsächlich dazu, größere Symbolsätze zu ergänzen.
 
 ***
-Academicons is the Ultimate Icon Font for Academic Enthusiasts. Some Points about the Academicons which are listed in the below:
-
+Academicons ist die ultimative Icon-Schriftart für Akademik-Begeisterte. Hier sind einige Punkte über die Academicons aufgelistet:
 ## Academicons
 <ul>
     <li>Integration mit Font Awesome 5</li>
