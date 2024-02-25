@@ -601,6 +601,10 @@ $dot-display: inline-block;
   @include dot(8px, 8px, 15%, 5px, 4px);
 }
 
+.squared-small-right-dot {
+  @include dot(8px, 8px, 15%, 8px, 3px);
+}
+
 .date-dot {
   @include dot(2px, 2px, 50%, 1px, 1px);
 }
