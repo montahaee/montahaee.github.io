@@ -68,7 +68,7 @@ max_width: 1000px
 # Open Graph & Schema.org
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
 serve_schema_org: false # Include Schema.org in the HTML head
 og_image: myProfile.JPG # The site-wide (default for all links) Open Graph preview image
 
@@ -155,6 +155,7 @@ giscus:
   theme: preferred_color_scheme  # name of the color scheme (preferred works well with al-folio light/dark mode)
   emit_metadata: 0
   lang: en
+  loading: lazy
 
 # Disqus comments (DEPRECATED)
 disqus_shortname: #al-folio # put your disqus shortname
@@ -245,7 +246,7 @@ plugins:
   - jekyll-jupyter-notebook
   - jekyll-link-attributes
   - jekyll-minifier
-  - jekyll-github-metadata
+#  - jekyll-github-metadata
   - jekyll-multiple-languages-plugin
   - jekyll-paginate-v2
   - jekyll/scholar
