@@ -1143,3 +1143,20 @@ nav[data-toggle="toc"] {
 #toc-sidebar {
   z-index: 1;
 }
+
+.echarts {
+  height: 400px;
+  width: 100%;
+}
+
+.map {
+  height: 400px;
+  width: 100%;
+}
+
+// to more future regarding mobile touch slider
+swiper-container {
+  --swiper-navigation-color: var(--global-theme-color);
+  --swiper-pagination-color: var(--global-theme-color);
+  --swiper-pagination-bullet-inactive-color: var(--global-text-color);
+}
