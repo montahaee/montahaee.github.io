@@ -7,12 +7,7 @@ first_name: Morteza
 middle_name:
 last_name: Montahaee
 email: morteza.montahaee@outlook.com
-#description: > # the ">" symbol means to ignore newlines until "footer_text:"
-#  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-#  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
@@ -28,9 +23,6 @@ impressum_path:  # set to path to include impressum link in the footer, use the 
 # Theme
 # -----------------------------------------------------------------------------
 
-# code highlighter theme
-#highlight_theme_light: github   # https://github.com/jwarby/jekyll-pygments-themes
-#highlight_theme_dark: native    # https://github.com/jwarby/jekyll-pygments-themes
 
 # repo color theme
 repo_theme_light: default       # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
@@ -69,8 +61,8 @@ max_width: 1000px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 serve_og_meta: true # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: myProfile.JPG # The site-wide (default for all links) Open Graph preview image
+serve_schema_org: true # Include Schema.org in the HTML head
+og_image: assets/img/myProfile.JPG # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Social integration
@@ -127,7 +119,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: montaha # blog_name will be displayed in your blog page
+#blog_name: montaha # blog_name will be displayed in your blog page
 blog_nav_title: true # your blog must have a title for it to be displayed in the nav bar
 blog_description:  Venturing through the realms of academia with a discerning perspective
 permalink: /blog/:year/:title/
@@ -145,16 +137,16 @@ related_blog_posts:
 # the information below.
 giscus:
   repo: montahaee/montahaee.github.io     # <your-github-user-name>/<your-github-repo-name>
-  repo_id: #MDEwOlJlcG9zaXRvcnk2MDAyNDM2NQ==
-  category: Comments             # name of the category under which discussions will be created
-  category_id: #DIC_kwDOA5PmLc4CTBt6
+  repo_id: R_kgDOK_HVAg
+  category: Announcements        # name of the category under which discussions will be created
+  category_id: DIC_kwDOK_HVAs4CdhPO
   mapping: title                 # identify discussions by post title
   strict: 1                      # use strict identification mode
   reactions_enabled: 1           # enable (1) or disable (0) emoji reactions
   input_position: bottom         # whether to display input form below (bottom) or above (top) the comments
   theme: preferred_color_scheme  # name of the color scheme (preferred works well with al-folio light/dark mode)
   emit_metadata: 0
-  lang: en
+#  lang: de
   loading: lazy
 
 # Disqus comments (DEPRECATED)
@@ -181,13 +173,6 @@ collections:
     output: true
     permalink: /projects/:path/
 
-#  posts:
-#    en:
-#      output: true
-#      permalink: /blog/:name/
-#      de:
-#        output: true
-#        permalink: /:collection/:name/
 announcements:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
@@ -209,7 +194,7 @@ highlighter: rouge
 kramdown:
   input: GFM
   syntax_highlighter_opts:
-    css_class: 'highlight'
+    css_class: "highlight"
     span:
       line_numbers: false
     block:
@@ -225,10 +210,12 @@ exclude:
   - Gemfile.lock
   - Dockerfile
   - docker-compose.yml
+  - lighthouse_results
   - package.json
   - package-lock.json
   - purgecss.config.js
   - README.md
+  - LICENSE
   - vendor
 keep_files:
   - CNAME
@@ -373,10 +360,15 @@ imagemagick:
     - ".png"
     - ".tiff"
     - ".gif"
-    - ".webp"
   output_formats:
-#    webp: "-resize 800x"
     webp: "-quality 85"
+# Lazy loading images
+#   If you enable lazy loading, all images will add the loading="lazy" attribute.
+#   This will make your site load faster, but it may not be supported in all browsers.
+#   You can also set loading="" to other values for specific images to override the default behavior.
+#   Options: "auto", "eager", "lazy"
+#   See https://web.dev/browser-level-image-lazy-loading/ for more information.
+lazy_loading_images: true # enables lazy loading of images (recommended)
 
 # -----------------------------------------------------------------------------
 # Jekyll Diagrams
@@ -494,21 +486,22 @@ vega-lite:
 # Get external JSON data
 # -----------------------------------------------------------------------------
 #
+#   Uncomment the following only if you want to replace cv by resume.
 #jekyll_get_json:
 #  - data: resume_en
 #    json: "assets/json/resume_en.json" # it can also be an url
 #  - data: resume_de-de
 #    json: "assets/json/resume_de-de.json" # it can also be an url
-jsonresume:
-  - basics
-  - work
-  - education
-  - publications
-  - projects
-  - volunteer
-  - awards
-  - certificates
-  - skills
-  - languages
-  - interests
-  - references
+#jsonresume:
+#  - basics
+#  - work
+#  - education
+#  - publications
+#  - projects
+#  - volunteer
+#  - awards
+#  - certificates
+#  - skills
+#  - languages
+#  - interests
+#  - references
