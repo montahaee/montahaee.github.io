@@ -417,14 +417,15 @@ footer.fixed-bottom {
     color: var(--global-footer-text-color);
     padding-top: 9px;
     padding-bottom: 8px;
+    text-align: center;
   }
 
   a {
-    color: var(--global-footer-link-color);
+    color: var(--global-footer-hover-text-color);
 
     &:hover {
-      color: var(--global-theme-color);
-      text-decoration: none;
+      color: var(--global-footer-hover-text-color);
+      text-decoration: underline;
     }
   }
 }
@@ -434,6 +435,10 @@ footer.sticky-bottom {
   padding-top: 40px;
   padding-bottom: 40px;
   font-size: 0.9rem;
+
+  .container {
+    text-align: center;
+  }
 }
 
 // CV
@@ -486,13 +491,18 @@ footer.sticky-bottom {
 }
 
 .tag-category-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-bottom: 1px solid var(--global-divider-color);
   text-align: center;
   padding-top: 1rem;
+  padding-bottom: 2rem;
 
   ul {
     justify-content: center;
     display: flow-root;
+    padding-bottom: 2rem;
 
     p,
     li {
@@ -503,6 +513,7 @@ footer.sticky-bottom {
     }
   }
 }
+
 
 .post-title {
   mjx-container[jax="CHTML"][display="true"] {
@@ -607,6 +618,10 @@ $dot-display: inline-block;
 
 .date-dot {
   @include dot(2px, 2px, 50%, 1px, 1px);
+}
+
+.mini-dot {
+  @include dot(3px, 3px, 50%, 1px, 1px);
 }
 
 
@@ -959,7 +974,7 @@ progress::-moz-progress-bar {
 
 .progress-bar {
   background-color: var(--global-theme-color);
-  width: 0%;
+  width: 0;
   display: block;
   height: inherit;
 }
