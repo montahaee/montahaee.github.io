@@ -1,5 +1,5 @@
 ---
-layout: subpage
+layout: page
 title: titles.projects
 description: descriptions.projects
 permalink: /projects/

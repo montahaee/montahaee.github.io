@@ -1,5 +1,5 @@
 ---
-layout: subpage
+layout: page
 title: titles.repositories
 description: descriptions.repositories
 permalink: /repositories/
@@ -48,4 +48,3 @@ horizontal: true
 </div>
 {% endif %}
 
-[//]: # (</div>)
