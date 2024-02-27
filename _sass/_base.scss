@@ -632,7 +632,41 @@ $dot-display: inline-block;
   @include dot(3px, 3px, 50%, 1px, 10px);
 }
 
+// Post archive
 
+.bootstrap-table-responsive {
+  // Change the font family and size
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+
+  // Add borders to the table
+  border: 1px solid #ddd;
+
+  // Add padding to the cells
+  td, th {
+    padding: 15px;
+  }
+
+  // Add alternating row colors
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  // Style the table header
+  thead {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  // Add hover effect to the rows
+  tr:hover {
+    background-color: #ddd;
+  }
+}
+
+.bootstrap-table .fixed-table-container .table {
+  margin-bottom: 1rem !important;
+}
 
 // Distill
 
