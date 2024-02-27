@@ -1,7 +1,7 @@
 ---
 layout: post
 title: posts.titles.post11
-date: 2023-03-20 11:59:00-0400
+date: 2023-03-20 11:59:00
 description: posts.descriptions.post11
 categories: posts.categories.sample_post posts.categories.toc
 giscus_comments: true
