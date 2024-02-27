@@ -2,14 +2,14 @@
 layout: default
 ---
 <div class="post">
-  <header class="post-header">
+  <header class="card-header">
     <h1 class="post-title"><i class="fa-solid fa-calendar fa-sm"></i> {{ page.date | date: '%Y' }}</h1>
     <p class="post-description">{%- t descriptions.archive-year -%}</p>
   </header>
 
   <article>
-    <div class="table-responsive btn-outline-primary">
-      <table class="table table-sm table-borderless">
+    <div>
+      <table class="table table-sm table-borderless bootstrap-table-responsive">
         {%- for post in page.posts -%}
         <tr>
           <th scope="row">{%- include date_format.liquid format='short' date_from=post -%}</th>
