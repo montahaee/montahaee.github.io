@@ -1,17 +1,21 @@
 not_found:
   message: Sie werden innerhalb von 3 Sekunden zur Hauptseite weitergeleitet. Wenn Sie nicht weitergeleitet werden, gehen Sie bitte zurück zur
   main_page: Startseite
-#main:Sie können sogar eine kleine Notiz hinzufügen, welche Methode am besten geeignet ist, um Sie zu erreichen.
+main:   #Sie können sogar eine kleine Notiz hinzufügen, welche Methode am besten geeignet ist, um Sie zu erreichen.
   contact_note: ""
   footer_text: > # das ">" Symbol bedeutet, dass Zeilenumbrüche bis "titles:" ignoriert werden
-    Betrieben von <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> mit dem <a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a> Theme.
-    Gehostet von <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-#    Fotos von <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-  more_info: >
-    <p>555 Ihre Büronummer</p>
-    <p>123 Ihre Straßenadresse</p>
-    <p>Ihre Stadt, Bundesland 12345</p>
-  subtitle: <a href='#'>Zugehörigkeiten</a>. Adresse. Kontakte. Motto. Etc.
+    Betrieben von <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> mit dem <a href="https://github.com/alshedivat/al-folio">al-folio</a> Theme,
+    Gehostet von <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>
+#        Fotos von <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+
+  last_update: Letztes Update
+  date_format: '%d. %B %Y'
+ # Uncomment if you want mor indo under your profile photo.
+#  more_info: >
+#    <p>555 Ihre Büronummer</p>
+#    <p>123 Ihre Straßenadresse</p>
+#    <p>Ihre Stadt, Bundesland 12345</p>
+#  subtitle: <a href='#'>Zugehörigkeiten</a>. Adresse. Kontakte. Motto. Etc.
 titles:
   about: Bio
   blog: Blog

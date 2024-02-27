@@ -624,6 +624,14 @@ $dot-display: inline-block;
   @include dot(3px, 3px, 50%, 1px, 1px);
 }
 
+.mini-left-dot {
+  @include dot(3px, 3px, 50%, 10px, 1px);
+}
+
+.mini-right-dot {
+  @include dot(3px, 3px, 50%, 1px, 10px);
+}
+
 
 
 // Distill
