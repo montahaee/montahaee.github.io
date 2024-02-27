@@ -1,5 +1,5 @@
 ---
-layout: subpage
+layout: page
 title: projects.titles.project6
 description: projects.descriptions.project6
 img:

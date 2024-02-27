@@ -1,5 +1,5 @@
 ---
-layout: subpage
+layout: page
 title: projects.titles.project3
 description: projects.descriptions.project3
 img: assets/img/7.jpg
