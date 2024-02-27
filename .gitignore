@@ -1,7 +1,13 @@
 # IntelliJ IDEA
 .idea/
-#*.iml
-#*.iws
-#*.ipr
-#.idea_modules/
-
+_site/
+.bundle
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+.DS_store
+.ruby-version
+.tweet-cache
+Gemfile.lock
+node_modules/
+vendor
