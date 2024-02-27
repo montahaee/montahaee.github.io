@@ -17,8 +17,10 @@ layout: default
 
 <div class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">{%- t page.title -%} </h1>
+  {% comment %}<header class="page-header" style="--stagger: 1;" data-animate>{% endcomment %}
+  <header class="page-header">
+      {% comment %}{% assign animation_count = animation_count | plus: 1 %}{% endcomment %}
+      <h1 class="post-title">{%- t page.title -%} </h1>
     {% assign translated_title = site.translations[site.lang][page.title] %}
     <p class="post-meta">{%- include date_format.liquid format="long" date_from=page -%}
         {%- if page.author -%}
