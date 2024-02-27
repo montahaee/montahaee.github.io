@@ -63,7 +63,6 @@ jobs:
         npm install -g purgecss
         export JEKYLL_ENV=production
         bundle exec jekyll build --lsi
-        export JEKYLL_ENV=production
     - name: Fix permission
       run: |
         chmod a+x bin/*
