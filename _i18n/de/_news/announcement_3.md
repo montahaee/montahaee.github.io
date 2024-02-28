@@ -1,1 +1,1 @@
-Eine einfache Inline-Ankündigung mit Markdown-Emoji
+Eine einfache Inline-Ankündigung mit Markdown-Emoji! :sparkles: :smile:
