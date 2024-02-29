@@ -22,7 +22,7 @@ group :jekyll_plugins do
     gem 'unicode_utils'
     gem 'webrick'
     gem 'localization'
-    gem 'jekyll-github-metadata'
+    # gem 'jekyll-github-metadata'
    gem 'htmlcompressor'
    gem 'htmlbeautifier'
    gem 'jekyll-sass-converter'
