@@ -10,7 +10,9 @@ layout: default
   <article>
     <div>
       <table class="table table-sm table-borderless bootstrap-table-responsive">
-        {%- for post in page.posts -%}
+        {% assign yearly_posts = page.posts %}
+        {% assign post_count = yearly_posts | size %}
+        {%- for post in yearly_posts -%}
         <tr>
           <th scope="row">{%- include date_format.liquid format='short' date_from=post -%}</th>
           {%- comment -%}<th scope="row">{%- include date_format.liquid format='long' date_from=post -%}</th>{%- endcomment -%}
@@ -28,6 +30,11 @@ layout: default
           </td>
         </tr>
         {%- endfor -%}
+        {% if post_count < 18 %}
+          <tr class="last-row">
+            <td></td>
+          </tr>
+        {% endif %}
       </table>
     </div>
   </article>
