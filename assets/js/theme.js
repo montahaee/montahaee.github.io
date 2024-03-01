@@ -1,7 +1,7 @@
 // Has to be in the head tag, otherwise a flicker effect will occur.
 
 let toggleTheme = (theme) => {
-  if (theme == "dark") {
+  if (theme === "dark") {
     setTheme("light");
   } else {
     setTheme("dark");
@@ -24,7 +24,7 @@ let setTheme = (theme) => {
     // Add class to tables.
     let tables = document.getElementsByTagName("table");
     for (let i = 0; i < tables.length; i++) {
-      if (theme == "dark") {
+      if (theme === "dark") {
         tables[i].classList.add("table-dark");
       } else {
         tables[i].classList.remove("table-dark");
@@ -35,7 +35,7 @@ let setTheme = (theme) => {
     let jupyterNotebooks = document.getElementsByClassName("jupyter-notebook-iframe-container");
     for (let i = 0; i < jupyterNotebooks.length; i++) {
       let bodyElement = jupyterNotebooks[i].getElementsByTagName("iframe")[0].contentWindow.document.body;
-      if (theme == "dark") {
+      if (theme === "dark") {
         bodyElement.setAttribute("data-jp-theme-light", "false");
         bodyElement.setAttribute("data-jp-theme-name", "JupyterLab Dark");
       } else {
@@ -63,7 +63,7 @@ let setTheme = (theme) => {
 
 
 let setHighlight = (theme) => {
-  if (theme == "dark") {
+  if (theme === "dark") {
     document.getElementById("highlight_theme_light").media = "none";
     document.getElementById("highlight_theme_dark").media = "";
   } else {
@@ -104,7 +104,7 @@ let addMermaidZoom = (records, observer) => {
 
 
 let setMermaidTheme = (theme) => {
-  if (theme == "light") {
+  if (theme === "light") {
     // light theme name in mermaid is 'default'
     // https://mermaid.js.org/config/theming.html#available-themes
     theme = "default";
@@ -139,7 +139,7 @@ let transTheme = () => {
 
 
 let initTheme = (theme) => {
-  if (theme == null || theme == "null") {
+  if (theme == null || theme === "null") {
     const userPref = window.matchMedia;
     if (userPref && userPref("(prefers-color-scheme: dark)").matches) {
       theme = "dark";
