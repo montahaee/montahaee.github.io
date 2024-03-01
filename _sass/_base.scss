@@ -633,6 +633,10 @@ $dot-display: inline-block;
 }
 
 // Post archive
+html[data-theme='dark'] .card-header {
+  background-color: var(--global-card-header-dark-color);
+  color: var(--global-text-color);
+}
 
 .bootstrap-table-responsive {
   // Change the font family and size
@@ -640,33 +644,79 @@ $dot-display: inline-block;
   font-size: 16px;
 
   // Add borders to the table
-  border: 1px solid #ddd;
+  border: 1px solid var(--global-table-border-color);
 
   // Add padding to the cells
   td, th {
     padding: 15px;
   }
 
-  // Add alternating row colors
-  tr:nth-child(even) {
-    background-color: #f2f2f2;
-  }
-
   // Style the table header
   thead {
-    background-color: #4CAF50;
-    color: white;
+    background-color: var(--global-response-table-head);
+    color: var(--global-bg-color);
   }
 
-  // Add hover effect to the rows
-  tr:hover {
-    background-color: #ddd;
+
+  /* Set the height of the table */
+  height: calc(100vh - 100px);
+
+  /* Add a margin at the bottom */
+  margin-bottom: 50px;
+
+}
+
+.bootstrap-table-responsive tr.last-row {
+  /* Make the empty row grow to fill the available white/dark-space */
+  height: 100%;
+}
+
+html[data-theme='light'] .bootstrap-table-responsive{
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+
+  }
+
+  tr:nth-child(even):hover {
+    background-color: var(--global-table-hover-color);
+  }
+
+  tr.last-row {
+    background-color: var(--global-bg-color);
+  }
+
+  tr.last-row:hover {
+    background-color: var(--global-bg-color) !important;
   }
 }
+
+
+html[data-theme='dark'] .bootstrap-table-responsive{
+
+  tr:nth-child(even) {
+    background-color: var(--global-divider-color);
+
+  }
+
+  tr:nth-child(even):hover {
+    background-color: rgba(255,255,255,.25); /* Adjust this to the desired shade of gray */
+  }
+
+  tr.last-row {
+    background-color: var(--global-bg-color);
+  }
+
+  tr.last-row:hover {
+    background-color: var(--global-bg-color) !important;
+  }
+}
+
 
 .bootstrap-table .fixed-table-container .table {
   margin-bottom: 1rem !important;
 }
+
 
 // Distill
 
