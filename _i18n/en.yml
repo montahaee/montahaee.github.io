@@ -167,6 +167,10 @@ posts:
     redirect: Redirection
     integrations: Integration
 
+distill:
+  toc:
+    title: Contents
+
 projects:
   titles:
     project1: Project 1

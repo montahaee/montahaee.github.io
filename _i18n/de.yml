@@ -165,6 +165,9 @@ posts:
     redirect: Weiterleitung
     integrations: Einbindung
 
+distill:
+  toc:
+    title: Inhalte
 
 projects:
   titles:

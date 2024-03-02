@@ -4,7 +4,8 @@ title: posts.titles.post19
 date: 2023-09-15 19:53:00
 description: posts.descriptions.post19
 author: Mormon
-tags: posts.tags.math
+tags: 
+  - posts.tags.math
 categories: posts.categories.sample_post posts.categories.introductory
 giscus_comments: true
 related_posts: true
