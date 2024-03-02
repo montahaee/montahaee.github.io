@@ -27,10 +27,12 @@
 
   <d-front-matter>
     <script async type="text/json">{
+      {% comment %}seudo info {% endcomment %}
       "title": "{{ page.title }}",
-      {% comment %}title: {% t page.title %},{% endcomment %}
-      "description": "{{ page.description }}",
-      "published": "{{ page.date | date: '%B %-d, %Y'  }}",
+      "tags": "{{ page.tags }}",
+      {% assign date_format = site.translations[site.lang].main.date_format %}
+      "published": "{{ page.date | date:  date_format  }}",
+      "LANG": "{{ site.lang }}",
       "emoji": "{{ page.emoji }}",
       "authors": [
         {% for author in page.authors -%}
@@ -74,7 +76,41 @@
       <d-title>
         {% comment %}<h1>{{ page.title }}</h1>{% endcomment %}
         <h1>{% t page.title %}</h1>
-        {% comment %}<p>{{ page.description }}</p>{% endcomment %}
+        {% comment %}<p>{% t page.tags -%}</p>{% endcomment %}
+        {%- assign year = page.date | date: "%Y" -%}
+        {%- assign tags = page.tags | join: "" -%}
+        {%- assign url_beginning = page.url | slice: 0, 6 -%}
+        <p class="post-tags">
+          {%- if url_beginning == '/blog/' -%}
+            <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}"> <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} </a>
+          {%- else -%}
+            <i class="fa-solid fa-calendar fa-sm"></i> {{ year }}
+          {%- endif -%}
+          {%- if tags != "" -%}
+            <span class="squared-small-dot"></span>
+            {%- for tag in page.tags -%}
+              {%- if url_beginning == '/blog/' -%}
+                <a href="{{ tag | slugify | prepend: '/blog/tag/' | prepend: site.baseurl}}"> <i class="fa-solid fa-tag fa-sm"></i> {% t tag %}</a> &nbsp;
+              {%- else -%}
+                <i class="fa-solid fa-tag fa-sm"></i> {% t tag %} &nbsp;
+              {%- endif -%}
+
+            {%- endfor -%}
+          {%- endif -%}
+
+          {%- if categories != none -%}
+            <span class="squared-small-right-dot"></span>
+
+            {%- for category in page.categories -%}
+              {%- if url_beginning == '/blog/' -%}
+                <a href="{{ category | slugify | prepend: '/blog/category/' | prepend: site.baseurl}}"> <i class="fa-solid fa-layer-group fa-sm"></i> {% t category %}</a> &nbsp;
+              {%- else -%}
+                <i class="fa-solid fa-layer-group fa-sm"></i> {% t category %} &nbsp;
+              {%- endif -%}
+            {%- endfor -%}
+          {%- endif -%}
+
+        </p>
         <p>{% t page.description %}</p>
       </d-title>
 
@@ -84,7 +120,7 @@
         {% if page.toc -%}
         <d-contents>
           <nav class="l-text figcaption">
-          <h3>Contents</h3>
+          <h3>{{ site.translations[site.lang].distill.toc.title }}</h3>
             {% for section in page.toc -%}
             <div><a href="#{{ section.name | slugify }}">{{ section.name }}</a></div>
             {% if section.subsections -%}
