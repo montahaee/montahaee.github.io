@@ -52,7 +52,7 @@ navbar_fixed: true
 footer_fixed: true
 
 # Dimensions
-max_width: 1000px
+max_width: 1008px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -465,7 +465,7 @@ medium_zoom:
   version: "1.1.0"
   integrity: "sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc="
 mermaid:
-  version: "10.8.0"
+  version: "10.7.0"
   integrity: "sha256-TtLOdUA8mstPoO6sGvHIGx2ceXrrX4KgIItO06XOn8A="
 swiper:
   version: "11.0.5"
