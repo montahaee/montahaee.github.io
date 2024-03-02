@@ -97,7 +97,9 @@
         console.error('Don\'t know what to do with published date: ' + source.publishedDate);
       }
     }
+    target.tags = source.tags
     target.description = source.description;
+    target.LANG = source.LANG;
     target.emoji = source.emoji;
     target.authors = source.authors.map( (authorObject) => new Author(authorObject));
     target.katex = source.katex;
@@ -219,7 +221,7 @@
       return this._previewURL ? this._previewURL : this.url + '/thumbnail.jpg';
     }
 
-    // 'Thu, 08 Sep 2016 00:00:00 -0700',
+    // 'Thu, 08 Sep 2016 00:00:00-0700',
     get publishedDateRFC() {
       return RFC(this.publishedDate);
     }
@@ -257,6 +259,24 @@
     get publishedISODateOnly() {
       return this.publishedDate.toISOString().split('T')[0];
     }
+
+    // Function to format date based on site language
+    formatDate(lang) {
+      var formattedDate;
+      if (lang === 'en') {
+        // Format the date in English with month in long format
+        formattedDate = this.publishedDate.toLocaleDateString('en-US', { day: 'numeric', month: 'long', year: 'numeric' });
+      } else if (lang === 'de') {
+        // Format the date in German also with month in long format
+        formattedDate = this.publishedDate.toLocaleDateString('de-DE', { day: 'numeric', month: 'long', year: 'numeric' });
+      } else { // Format the date international with month in short format
+        formattedDate = `${this.publishedDay} ${this.publishedMonth} ${this.publishedYear}`;
+      }
+      return formattedDate;
+    }
+
+
+
 
     get volume() {
       const volume = this.publishedYear - 2015;
@@ -2065,6 +2085,22 @@ d-appendix > distill-appendix {
 
   }
 
+  // Create a dictionary for English to German translations
+  var translations = {
+    'en': {
+      'authors': 'Authors',
+      'affiliations': 'Affiliations',
+      'published': 'Published',
+      'noPublished': 'Not published yet.'
+    },
+    'de': {
+      'authors': 'Autoren',
+      'affiliations': 'Zugehörigkeiten',
+      'published': 'Veröffentlicht',
+      'noPublished': 'Noch nicht Veröffentlicht.'
+    }
+  };
+
   // Copyright 2018 The Distill Template Authors
   //
   // Licensed under the Apache License, Version 2.0 (the "License");
@@ -2085,8 +2121,8 @@ d-appendix > distill-appendix {
     return `
   <div class="byline grid">
     <div class="authors-affiliations grid">
-      <h3>Authors</h3>
-      <h3>Affiliations</h3>
+      <h3>${translations[frontMatter.LANG]['authors']}</h3>
+      <h3>${translations[frontMatter.LANG]['affiliations']}</h3>
       ${frontMatter.authors.map(author => `
         <p class="author">
           ${author.personalURL ? `
@@ -2101,15 +2137,15 @@ d-appendix > distill-appendix {
       `).join('')}
     </div>
     <div>
-      <h3>Published</h3>
+      <h3>${translations[frontMatter.LANG]['published']}</h3>
       ${frontMatter.publishedDate ? `
-        <p>${frontMatter.publishedMonth} ${frontMatter.publishedDay}, ${frontMatter.publishedYear}</p> ` : `
-        <p><em>Not published yet.</em></p>`}
+        <p>${frontMatter.formatDate(frontMatter.LANG)}</p> ` : `
+        <p><em>${translations[frontMatter.LANG]['noPublished']}</em></p>`}
       ${frontMatter.emoji ? `
         <p style= "margin: 10px 50px 20px 24px;font-size: 32px;">
         ${frontMatter.emoji}</p> ` : `
                                 
-        <p><em></em></p>`}   
+        <p><em></em></p>`}    
         
     </div>
   </div>
@@ -4899,11 +4935,11 @@ input[type="password"] {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
-  -webkit-border-radius: none;
-  -moz-border-radius: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
   -ms-border-radius: none;
   -o-border-radius: none;
-  border-radius: none;
+  border-radius: 0;
   outline: none;
 
   font-size: 18px;
