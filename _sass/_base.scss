@@ -633,6 +633,7 @@ $dot-display: inline-block;
 }
 
 // Post archive
+
 html[data-theme='dark'] .card-header {
   background-color: var(--global-card-header-dark-color);
   color: var(--global-text-color);
@@ -674,7 +675,7 @@ html[data-theme='dark'] .card-header {
 html[data-theme='light'] .bootstrap-table-responsive{
 
   tr:nth-child(even) {
-    background-color: #f2f2f2;
+    background-color: var(--global-light-hover-even-child-color);
 
   }
 
