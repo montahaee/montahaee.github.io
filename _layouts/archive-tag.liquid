@@ -3,8 +3,7 @@ layout: default
 ---
 <div class="post">
   <header class="card-header ">
-    {% comment %}<h1 class="post-title"><i class="fa-solid fa-hashtag fa-sm"></i> {{ page.title }}</h1>{% endcomment %}
-    <h1 class="post-title"><i class="fa-solid fa-hashtag fa-sm"></i> {% t page.title %}</h1>
+    <h1 class="post-title"><i class="fa-solid fa-tags fa-sm"></i> {% t page.title %}</h1>
     <p class="post-description">{%- t descriptions.archive-tag -%}</p>
   </header>
 
@@ -16,7 +15,6 @@ layout: default
         {%- for post in taged_posts -%}
         <tr>
           <th scope="row">{%- include date_format.liquid format='short' date_from=post -%}</th>
-          {%- comment -%}<th scope="row">{%- include date_format.liquid format='long' date_from=post -%}</th>{%- endcomment -%}
           <td>
             {%- if post.redirect == blank -%}
             {% comment %}<!--<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>-->{% endcomment %}

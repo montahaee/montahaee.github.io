@@ -39,7 +39,7 @@ pagination:
         <span class="post-span">
             <span class="squared-medium-dot"></span>
             <a href="{{ 'posts-tags-' | append: english_tag | slugify | prepend: '/blog/tag/' | prepend: site.baseurl }}">
-            <i class="fa-solid fa-hashtag fa-sm">&nbsp;</i>{{ tag }}</a>
+            <i class="fa-solid fa-tag fa-sm">&nbsp;</i>{{ tag }}</a>
         </span>
         {% unless forloop.last %}
              
@@ -50,7 +50,7 @@ pagination:
         <span class="post-span">
             <span class="squared-medium-dot"></span>
             <a href="{{ 'posts-categories-' | append: english_category | slugify | prepend: '/blog/category/' | prepend: site.baseurl }}">
-                <i class="fa-solid fa-tag fa-sm text-capitalize"></i> {{ category }}</a>
+                <i class="fa-solid fa-layer-group  fa-sm text-capitalize"></i> {{ category }}</a>
         </span>
         {% unless forloop.last %}
              
@@ -162,7 +162,7 @@ pagination:
             {% for tag in post.tags %}
         <span class="squared-small-dot"></span>
             <a href="{{ tag | slugify | prepend: '/blog/tag/' | prepend: site.baseurl }}">
-              <i class="fa-solid fa-hashtag fa-sm">&nbsp;</i> {%- t tag -%}</a> 
+              <i class="fa-solid fa-tag fa-sm">&nbsp;</i> {%- t tag -%}</a> 
               {% endfor %}
           {% endif %}
           {% if categories != "" %}
@@ -170,7 +170,7 @@ pagination:
                 <span style="display: inline-block;">
                  <span class="squared-small-dot"></span>
                  <a href="{{ category | slugify | prepend: '/blog/category/' | prepend: site.baseurl }}">
-                <i class="fa-solid fa-tag fa-sm"></i> {% t category %}</a> 
+                <i class="fa-solid fa-layer-group  fa-sm"></i> {% t category %}</a> 
                 </span>
               {% endfor %}
           {% endif %}
