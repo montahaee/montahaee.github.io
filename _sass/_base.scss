@@ -692,6 +692,7 @@ html[data-theme='dark'] .card-header {
 
 html[data-theme='dark'] .bootstrap-table-responsive{
 
+  border-color: var(--global-dark-table-border-color);
   tr:nth-child(even) {
     background-color: var(--global-divider-color);
 
