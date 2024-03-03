@@ -665,15 +665,6 @@ html[data-theme='dark'] .card-header {
   /* Add a margin at the bottom */
   margin-bottom: 50px;
 
-}
-
-.bootstrap-table-responsive tr.last-row {
-  /* Make the empty row grow to fill the available white/dark-space */
-  height: 100%;
-}
-
-html[data-theme='light'] .bootstrap-table-responsive{
-
   tr:nth-child(even) {
     background-color: var(--global-light-hover-even-child-color);
 
@@ -690,6 +681,12 @@ html[data-theme='light'] .bootstrap-table-responsive{
   tr.last-row:hover {
     background-color: var(--global-bg-color) !important;
   }
+
+}
+
+.bootstrap-table-responsive tr.last-row {
+  /* Make the empty row grow to fill the available white/dark-space */
+  height: 100%;
 }
 
 
