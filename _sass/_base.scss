@@ -588,7 +588,7 @@ footer.sticky-bottom {
 $dot-display: inline-block;
 @mixin dot($width, $height, $radius, $margin-left, $margin-right) {
   display: $dot-display;
-  background-color: $dark-gray6;
+  background-color: var( --global-display-dot-color);
   border-radius: $radius;
   width: $width;
   height: $height;
@@ -692,7 +692,7 @@ html[data-theme='dark'] .card-header {
 
 html[data-theme='dark'] .bootstrap-table-responsive{
 
-  border-color: var(--global-dark-table-border-color);
+  border-color: var(--global-dark-table-border-color) !important;
   tr:nth-child(even) {
     background-color: var(--global-divider-color);
 
