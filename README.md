@@ -2,12 +2,10 @@
 
 This is a personal academic website, built on Jekyll, an open-source static site generator. The original project was forked from [al-folio](https://github.com/alshedivat/al-folio), and has been customized to fit my needs.
 
-## Features
+The website supports multiple languages (currently German and English) using the [Jekyll Multiple Languages Plugin](https://github.com/kurtsson/jekyll-multiple-languages-plugin). 
+This plugin compiles your Jekyll site for one or more languages with a similar approach as Rails does. The different sites will
+be stored in subfolders with the same name as the language it contains.
 
-- **Bio**: A section dedicated to introducing yourself.
-- **Blog**: A space where thoughts, and experiences could be shared.
-- **Entertainment**:  A page to introduce your various desired world.
-- **CV**: A Page where you showcase your curriculum vitae and your interests.
 
 ## Getting Started
 
@@ -30,9 +28,22 @@ These instructions will get you a copy of the project up and running on your loc
 
 Now browse to http://localhost:4000
 
+## Deployment
+
+After making changes locally:
+
+1. Commit your changes: `git commit -am 'Add some feature'`
+2. Push to the branch: `git push origin main`
+3. The website will be automatically deployed via GitHub Pages
+
+To set the source for GitHub Pages, go to your repository settings, find the "Pages" section, and select the branch you want to use as your publishing source.
+
+If you encounter an error like `Error: Liquid syntax error: Unknown tag 'translate_file'`, you can fix it by going to your repository settings,
+setting the GitHub Pages source to "None", making a small change and pushing your code again. This would trigger a build and it should succeed this time.
+
 ## Contributing
 
-I welcome contributions, issues and feature requests. Feel free to check issues page if you want to contribute.
+I welcome contributions, issues, and feature requests. Feel free to check issues page if you want to contribute.
 
 ## License
 
