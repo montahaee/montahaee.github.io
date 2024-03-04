@@ -3,7 +3,7 @@
  ******************************************************************************/
 
 :root {
-  --global-bg-color: #{$dark-gray15};
+  --global-bg-color: #{$dark-gray16};
   --global-code-bg-color: #{$code-bg-color-light};
   --global-text-color: #{$black-color};
   --global-text-color-light: #{$grey-color};
@@ -16,12 +16,13 @@
   --global-footer-hover-text-color: #{$blue-color-light};
   --global-card-header-dark-color: #{$dark-gray2};
   --global-distill-app-color: #{$grey-color};
-  --global-display-dot-color: #{$dark-gray7};
- --global-light-hover-even-child-color: #{$dark-gray9};
-  --global-table-border-color: #{$dark-gray10};
+  --global-display-dot-color: #{$dark-gray8};
+ --global-light-hover-even-child-color: #{$dark-gray10};
+  --global-table-border-color: #{$dark-gray11};
   --global-dark-table-border-color: #{$dark-gray3};
   --global-divider-color: rgba(0,0,0,.1);
-  --global-table-even-child-color: #{$dark-gray11};
+  --global-table-even-child-color: #{$dark-gray12};
+  --global-table-even-child-dark-color: #{$dark-gray4};
   --global-card-bg-color: #{$white-color};
   --global-response-table-head: #{$green-color1};
   --global-tip-block: #42b983;
