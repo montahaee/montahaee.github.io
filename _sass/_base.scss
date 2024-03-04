@@ -665,13 +665,17 @@ html[data-theme='dark'] .card-header {
   /* Add a margin at the bottom */
   margin-bottom: 50px;
 
+  tr:hover {
+    background-color: var(--global-divider-color) !important;
+  }
+
   tr:nth-child(even) {
-    background-color: var(--global-light-hover-even-child-color);
+    background-color: var(--global-table-even-child-color);
 
   }
 
   tr:nth-child(even):hover {
-    background-color: var(--global-table-hover-color);
+    background-color: var(--global-light-hover-even-child-color);
   }
 
   tr.last-row {
