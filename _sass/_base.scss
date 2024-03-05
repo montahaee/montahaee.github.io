@@ -468,6 +468,53 @@ footer.sticky-bottom {
   color: var(--global-text-color);
 }
 
+.language {
+  display: flex;
+  align-items: inherit;
+  flex-direction: row;
+
+  p {
+    width: 75px;
+    margin-right: 20px;
+    text-align: right;
+    //padding: 0px 5px;
+  }
+}
+
+@mixin circle($filled) {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 1px solid #000;
+  @if $filled {
+    background-color: #000;
+  } @else {
+    background-color: #fff;
+  }
+}
+
+$levels: (
+        "A1": 1,
+        "A2": 2,
+        "B1": 3,
+        "B2": 4,
+        "C1": 5,
+        "C2": 6
+);
+
+@each $level, $filled in $levels {
+
+  .language-level-#{$level} {
+
+    @for $i from 1 through 6 {
+      span:nth-child(#{$i}) { @include circle($i <= $filled); }
+    }
+  }
+}
+
+
+
 // Repositories
 
 @media (min-width: 768px) {
