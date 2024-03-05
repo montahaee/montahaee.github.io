@@ -3,16 +3,12 @@
       <li class="list-group-item">
       <h5 class="font-italic">{{ content.title }}</h5>
       {% if content.items %}
-        <ul class="subitems">
+        <ul class="subitem">
           {% for subitem in content.items %}
             <li><span class="subitem">{{ subitem }}</span></li>
           {% endfor %}
         </ul>
       {% endif %}
-{% comment %}<!--      {% for desc in content.description %}-->
-<!--      <h6 class="title font-weight-bold ml-1 ml-md-4">{{desc.title}}</h6>-->
-<!--      <p class="ml-1 ml-md-4 ">{{ desc.item }}</p>-->
-<!--      {% endfor %}-->{% endcomment %}
       </li>
     {% endfor %}
 </ul>

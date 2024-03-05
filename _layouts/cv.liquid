@@ -8,14 +8,14 @@ layout: default
 <div class="post">
   <header class="page-header">
     <h1 class="post-title">{%- t page.title -%} {% if page.cv_pdf %}<a href="{{ page.cv_pdf  | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fa-solid fa-file-pdf"></i></a>{% endif %}</h1>
-{% comment %}<!--    <h1 class="post-title">{{ page.title }} {% if page.cv_pdf %}<a href="{{ page.cv_pdf | prepend: '/' | prepend: 'assets/pdf/' | prepend: site.baseurl_root}}" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fa-solid fa-file-pdf"></i></a>{% endif %}</h1>-->{% endcomment %}
     {% if page.description %}<p class="post-description">{%- t page.description -%}</p>{% endif %}
   </header>
 
   <article>
     <div class="cv">
       {% for entry in site.data[site.lang].cv %}
-      <a class="anchor" id="{{ entry.title }}"></a>
+      <a class="anchor" id="{{ site.translations[site.lang].entry.title }}"></a>
+      {% comment %}<a class="anchor" id="{{ entry.title }}"></a>{% endcomment %}
       <div class="card mt-3 p-3">
         <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
         <div>
@@ -25,6 +25,8 @@ layout: default
           {% include cv/map.liquid %}
           {% elsif entry.type == "nested_list" %}
           {% include cv/nested_list.liquid %}
+          {% elsif entry.type == "lang_table" %}
+          {% include cv/lang_table.liquid %}
           {% elsif entry.type == "time_table" %}
           {% include cv/time_table.liquid %}
           {% elsif entry.type == "list_groups" %}
@@ -41,8 +43,7 @@ layout: default
 {% else %}
 <div class="post">
   <header class="page-header">
-    <h1 class="post-title">{{ page.title }} {% if page.cv_pdf %}<a href="{{ page.cv_pdf | prepend: '/' | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fa-solid fa-file-pdf"></i></a>{% endif %}</h1>
-{% comment %}<!--    <h1 class="post-title">{{ page.title }} {% if page.cv_pdf %}<a href="{{ page.cv_pdf | prepend: '/' | prepend: 'assets/pdf/' | prepend: site.baseurl_root}}" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fa-solid fa-file-pdf"></i></a>{% endif %}</h1>-->{% endcomment %}
+    <h1 class="post-title">{%- t page.title -%} {% if page.cv_pdf %}<a href="{{ page.cv_pdf | prepend: '/' | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fa-solid fa-file-pdf"></i></a>{% endif %}</h1>
     {% if page.description %}<p class="post-description">{{ page.description }}</p>{% endif %}
   </header>
 
