@@ -36,7 +36,7 @@ descriptions:
   archive-tag: Archivbeiträgen mit diesem Tag
   archive-year: Archivbeiträgen aus diesem Jahr
   blog: Ein kritischem Blick durch die Sphären der Akademie
-  cv: Curriculum Vitae
+  cv: Mein Lebenslauf
   profiles: Mitglieder der Forschungsgruppe oder des Labors
   projects: Eine wachsende Sammlung Ihrer coolen Projekte
   publications: Veröffentlichungen nach Kategorien in umgekehrter chronologischer Reihenfolge
@@ -198,7 +198,7 @@ cv:
   countryCode: Ländercode
   courses: Kurse
   date: Datum
-  education: Bildung
+  education: Ausbildung
   email: E-Mail
   endDate: Enddatum
   fluency: Fließend

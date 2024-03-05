@@ -5,31 +5,10 @@
       value: Morteza Montahaee
     - name: Geburtsdatum
       value: 17.September 1984
-    - name: Sprache
-      value: Persisch, Englisch, Deutsch
+    - name: E-Mail
+      value: <a href="mailto:morteza.montahaee@rwth-aachen.de">morteza.montahaee@rwth-aachen.de</a>
 
-- title: Akademische Interessen
-  type: nested_list
-  contents:
-    - title: Variationsrechnung
-      items:
-        - Gesamtvariation-Regularisierung
-        - MAP-Schätzung
-    - title: Differentialgeometrie
-      items:
-        - Geometrische Transformation zur Bildregistrierung
-        - Geometrische Verarbeitung
-    - title: Datenwissenschaft
-      items:
-        - Merkmalsbasierte Bildregistrierung
-        - Vorhersageanalyse
-
-- title: Hobbies
-  type: list
-  contents:
-    - Ringen, Fußball, Wandern, Geschichte, Mathematik
-
-- title: Bildung
+- title: Ausbildung
   type: time_table
   contents:
     - title: B.Sc. in Angewandter Mathematik
@@ -140,3 +119,38 @@
         - title: Vorbereitung von Baumaterialien
           contents:
             - Mischen von Materialien (Zement, Sand und Wasser) für den Gebrauch
+- title: Akademische Interessen
+  type: nested_list
+  contents:
+    - title: Variationsrechnung
+      items:
+        - Gesamtvariation-Regularisierung
+        - MAP-Schätzung
+    - title: Differentialgeometrie
+      items:
+        - Geometrische Transformation zur Bildregistrierung
+        - Geometrische Verarbeitung
+    - title: Datenwissenschaft
+      items:
+        - Merkmalsbasierte Bildregistrierung
+        - Vorhersageanalyse
+
+- title: Hobbies
+  type: list
+  contents:
+    - <ul>
+      <li>Ringen, Fußball, Wandern</li>
+      <li>Geschichte, Mathematik</li>
+      </ul>
+
+- title: Sprachen
+  type: lang_table
+  contents:
+    - title: Persisch
+      level: C2
+    - title: Deutsch
+      level: C1
+    - title: Englisch
+      level: B2
+    - title: Arabisch
+      level: A2
