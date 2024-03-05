@@ -486,11 +486,11 @@ footer.sticky-bottom {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  border: 1px solid #000;
+  border: 1px solid var(--global-text-color);
   @if $filled {
-    background-color: #000;
+    background-color: var(--global-text-color);
   } @else {
-    background-color: #fff;
+    background-color: var(--global-card-bg-color);
   }
 }
 
