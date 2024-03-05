@@ -1,0 +1,12 @@
+<div class="card-text font-weight-light list-group list-group-flush">
+    {% for content in entry.contents %}
+        <div class="language">
+            <p>{{ content.title }}</p>
+            <div class="language-level-{{ content.level | replace: ' ', '-' }}">
+                {% for i in (1..6) %}
+                    <span></span>
+                {% endfor %}
+            </div>
+        </div>
+    {% endfor %}
+</div>
