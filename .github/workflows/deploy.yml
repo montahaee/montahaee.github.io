@@ -3,7 +3,8 @@ name: Deploy site
 on:
   push:
     branches:
-      - mormon
+      - master
+      - main
     paths:
       - "assets/**"
       - "**.html"
@@ -18,7 +19,8 @@ on:
       - "!README.md"
   pull_request:
     branches:
-      - mormon
+      - master
+      - main
     paths:
     - "assets/**"
     - "**.html"
