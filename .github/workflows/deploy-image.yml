@@ -2,14 +2,14 @@ name: Docker Image CI
 
 on:
   push:
-    branches: [ master ]
+    branches: [ mormon ]
 
 jobs: 
 
   build:
 
     runs-on: ubuntu-latest
-    if: github.repository_owner == 'alshedivat'
+    if: github.repository_owner == 'montahaee'
 
     steps:
     - name: Checkout
@@ -33,4 +33,4 @@ jobs:
         context: .
         push: true
         platforms: linux/amd64,linux/arm64/v8
-        tags: amirpourmand/al-folio
+        tags: montahaee/montahaee.github.io
