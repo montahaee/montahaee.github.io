@@ -30,11 +30,25 @@ repo_theme_dark: dark           # https://github.com/anuraghazra/github-readme-s
 repo_user:
   enabled: true
   icons: true
+  langs_count: 8                                      # How many languages do you list as most used language?
+  langs_hide: [tex, txt, batchfile, cmake, less]      # Which language don't you consider on the list?
+  layout: compact                                     # Which layout do you want to represent the above 'top languages card'?
+  states_hide: [contribs, stars]                      # Which states don't you want to represent in the 'statics card'?
+  size_weight: 0.5      # byte count!
+  count_weight: 0.5     # repo count! See also algorithm state https://github.com/anuraghazra/github-readme-stats/issues/1600#issuecomment-1046056305
+  states_show: [prs_merged]                                  # Which states do you want additionally represent in the 'statics card'?
+  card_width:          # Set the card's width manually.
+    statics: 300px
+    top_langs: 440px
+  line_height: 29     # Adjusting the statics card by the top languages card setting the line height between texts for the statics card.
   theme_dark: gotham
 repo_trophies:
   enabled: true
   theme_light: flat    # https://github.com/ryo-ma/github-profile-trophy
   theme_dark: alduin # https://github.com/ryo-ma/github-profile-trophy
+  rows_count: 2
+  columns_count: 3
+  excluded_rank: A
 
 # -----------------------------------------------------------------------------
 # RSS Feed
