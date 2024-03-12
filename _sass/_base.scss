@@ -352,21 +352,26 @@ blockquote {
 
 .social {
   text-align: center;
-
   .contact-icons {
     font-size: 4rem;
 
     a {
+
       i::before {
-        color: var(--global-text-color);
-        transition-property: all;
+        background: var(--global-social-color);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        //transition-property: all;
         transition-duration: 0.2s;
         transition-timing-function: ease-in-out;
+
       }
 
       &:hover {
         i::before {
-          color: var(--global-theme-color);
+          background: var(--global-social-color-hover);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
         }
       }
     }
@@ -449,14 +454,18 @@ footer.sticky-bottom {
   .card {
     background-color: var(--global-card-bg-color);
     border: 1px solid var(--global-divider-color);
-
+    max-width: 3000px;
     .list-group-item {
       background-color: inherit;
       border-color: var(--global-divider-color);
-
+      padding: 10px;
       .badge {
-        color: var(--global-card-bg-color) !important;
-        background-color: var(--global-theme-color) !important;
+        background: var(--global-cv-color);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-align-content: center;
+        box-shadow: 0 0 0 rgba(255, 255, 255, 0.5);
+        display: -webkit-flex;
       }
     }
   }
@@ -488,7 +497,11 @@ footer.sticky-bottom {
   border-radius: 50%;
   border: 1px solid var(--global-text-color);
   @if $filled {
-    background-color: var(--global-text-color);
+    //background-color: var(--global-text-color);
+    background: var(--global-cv-color);
+    -webkit-background-clip: content-box;
+    -webkit-text-fill-color: transparent;
+    -webkit-align-content: center;
   } @else {
     background-color: var(--global-card-bg-color);
   }
