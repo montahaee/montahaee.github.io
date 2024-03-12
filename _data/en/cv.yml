@@ -14,7 +14,7 @@
     - title: B.Sc. in Applied Mathematics
       institution: University of Payame Noor
       location: Pakdasht-Tehran, Iran
-      year: 10/2005-07/2009
+      year: 10/2005 - 07/2009
       description:
         - title: Bachelor’s thesis
           contents:
@@ -25,7 +25,7 @@
             - Mathematical Statistics and Models of Nature (ODE)
     - title: B.Sc. in Applied Mathematics and Computer Science
       institution: FH Aachen – University of Applied Sciences
-      year: 10/2019-Present
+      year: 10/2019 - Present
       location: Jülich, Germany
       description:
         - title: Focus Areas
@@ -39,7 +39,7 @@
     - title: Apprenticeship
       institution: DAP RWTH University
       location: Aachen, Germany
-      year: 10/2019-08/2023
+      year: 10/2019 - 08/2023
       description:
         - Worked on the development of an NX CAD library for generating Lattice in C# using Protobuf serialization
         - Designed workflow management of additive processes in a UML-compliant process modeling (IDAM) with Enterprise Architect (EA)
@@ -52,7 +52,7 @@
     #              - Sub-description 2.
     - title: Waiter and Event Assistant
       building: Event Probat GMBH
-      year: 11/2014-10/2019
+      year: 11/2014 - 10/2019
       location: Aachen, Germany
       description:
         - Served and prepared for events and weddings.
@@ -60,7 +60,7 @@
 
     - title: Library Assistant
       building: Central library of RWTH
-      year: 07/2016-09/2016
+      year: 07/2016 - 09/2016
       location: Aachen, Germany
       description:
         - Provided Media
@@ -68,7 +68,7 @@
         - Maintained Inventory
     - title: Delivery Assistant
       truck: Dachser Logistic
-      year: 11/2014-06/2015
+      year: 11/2014 - 06/2015
       location: Alsdorf, Germany
       description:
         - Loaded goods at the logistic center into a truck to deliver goods in East Belgium
@@ -76,7 +76,7 @@
 
     - title: Temporary employment
       industry: Frankenberg
-      year: 07/2012-10/2014
+      year: 07/2012 - 10/2014
       location: Würselen, Germany
       description:
         - title: Assisted in various stages of airplane food production
@@ -87,7 +87,7 @@
 
     - title: Military Service
       gopuram: Police central Station
-      year: 08/2009-04/2011
+      year: 08/2009 - 04/2011
       location: Tehran, Iran
       description:
         - title: Assisted in different Office tasks
@@ -98,7 +98,7 @@
 
     - title: Sales Assistant
       shop: Bicycle Bazaar
-      year: 10/2003-09/2005
+      year: 06/2003 - 09/2005
       location: Tehran, Iran
       description:
         - Selling various goods to customer
@@ -109,7 +109,7 @@
 
     - title: Construction Worker
       constructionWorker: Company of Renewals and Renovations of Buildings Rahmatie
-      year: 08/2002-09/2003
+      year: 08/2002 - 09/2003
       location: Tehran, Iran
       description:
         - title: Demolition

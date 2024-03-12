@@ -190,6 +190,7 @@ projects:
     fun: fun
     work: work
 cv:
+  pdf: apply/resume.pdf
   address: Address
   area: Area
   awarder: Awarder

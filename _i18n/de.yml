@@ -188,6 +188,7 @@ projects:
     fun: Spaß
     work: Arbeit
 cv:
+  pdf: apply/resume.pdf
   address: Adresse
   area: Bereich
   awarder: Aussteller
