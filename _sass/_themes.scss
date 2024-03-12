@@ -37,6 +37,10 @@
   --global-danger-block-bg: #ffe0e0;
   --global-danger-block-text: #600;
   --global-danger-block-title: #c00;
+  --global-social-color: linear-gradient(0.25turn,#{$color1}, #{$color4-1}, #{$color3})  !important;
+  --global-social-color-hover: linear-gradient(0.25turn,#{$color3}, #{$color4-1} ,#{$color1})  !important;
+  --global-cv-color: linear-gradient(0.25turn,#{$color1}, #{$color1-4}, #{$color3})  !important;
+
   .fa-sun {
     display : none;
   }
@@ -61,6 +65,10 @@
 }
 
 html[data-theme='dark'] {
+  --global-social-color: linear-gradient(0.25turn,#{$color5}, #{$color4}, #{$color3})  !important;
+  --global-social-color-hover: linear-gradient(0.25turn,#{$color3}, #{$color4} ,#{$color5})  !important;
+  --global-cv-color: linear-gradient(0.25turn,#{$color5}, #{$color4}, #{$color3})  !important;
+
   --global-bg-color: #{$grey-color-dark};
   --global-code-bg-color: #{$code-bg-color-dark};
   --global-text-color: #{$grey-color-light};
