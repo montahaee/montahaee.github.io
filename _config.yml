@@ -30,7 +30,7 @@ repo_theme_dark: dark           # https://github.com/anuraghazra/github-readme-s
 repo_user:
   enabled: true
   icons: true
-  langs_count: 8                                      # How many languages do you list as most used language?
+  langs_count: 10                                      # How many languages do you list as most used language?
   langs_hide: [tex, txt, batchfile, cmake, less]      # Which language don't you consider on the list?
   layout: compact                                     # Which layout do you want to represent the above 'top languages card'?
   states_hide: [contribs, stars]                      # Which states don't you want to represent in the 'statics card'?
@@ -40,7 +40,7 @@ repo_user:
   card_width:          # Set the card's width manually.
     statics: 300px
     top_langs: 440px
-  line_height: 29     # Adjusting the statics card by the top languages card setting the line height between texts for the statics card.
+  line_height: 34     # Adjusting the statics card by the top languages card setting the line height between texts for the statics card.
   theme_dark: gotham
 repo_trophies:
   enabled: true
@@ -160,7 +160,6 @@ giscus:
   input_position: bottom         # whether to display input form below (bottom) or above (top) the comments
   theme: preferred_color_scheme  # name of the color scheme (preferred works well with al-folio light/dark mode)
   emit_metadata: 0
-#  lang: de
   loading: lazy
 
 # Disqus comments (DEPRECATED)
@@ -273,7 +272,7 @@ defaults:
 # multi language settings
 default_locale_in_subfolder: false
 exclude_from_localizations: ["assets", "purgecss.config.js", "package-lock.json", "package.json"]
-languages: ["en", "de"]
+languages: ["en", "de"]   # The default language must the first language in the array (for more detaials see for example '/_layouts/cv.liquid').
 # -----------------------------------------------------------------------------
 # Jekyll Minifier
 # -----------------------------------------------------------------------------
