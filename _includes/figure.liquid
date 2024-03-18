@@ -89,6 +89,18 @@
     </div>
   {% endif %}
 
+  {% if include.background and include.style %}
+    {% unless include.background-image %}
+      background="{{ include.background  }}";
+    {% endunless %}
+  {%elsif include.style contains "--x" and include.style contains "--y" and include.class contains "magnify" %}
+    {% assign path =  include.path | relative_url %}
+    {% assign style = include.style | append: 'background-image: url(' | append: path | append: ')' %}
+    <div class="{{ include.class }}" style="{{ style | escape }}">
+
+    </div>
+  {% endif %}
+
 </figure>
 <caption>
 </caption>
