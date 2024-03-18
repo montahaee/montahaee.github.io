@@ -67,6 +67,14 @@ i.iconbuilding {
   margin-right: 0.25rem;
 }
 
+i.iconmagnifyPlus {
+  background: var(--global-cv-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 1.2rem;
+  margin-right: 0.05rem;
+}
+
 .iconbook {
   color: var(--global-theme-color);
   font-size: 0.95rem;
