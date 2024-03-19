@@ -38,7 +38,7 @@ descriptions:
   blog: Ein kritischem Blick durch die Sphären der Akademie
   cv: Mein Lebenslauf
   profiles: Mitglieder der Forschungsgruppe oder des Labors
-  projects: Eine wachsende Sammlung Ihrer coolen Projekte
+  projects: Eine wachsende Sammlung meiner coolen Projekte
   publications: Veröffentlichungen nach Kategorien in umgekehrter chronologischer Reihenfolge
   repositories: Miene öffentliche Github Repositorien und Statistik
   teaching: Materialien für Kurse, die Sie unterrichtet haben
@@ -172,14 +172,16 @@ distill:
 projects:
   titles:
     project1: Projekt 1
-    project2: Projekt 2
+#    project2: Projekt 2
+    project2: IDAM
     project3: Projekt 3
     project4: Projekt 4
     project5: Projekt 5
     project6: Projekt 6
   descriptions:
     project1: Ein Projekt mit einem Hintergrundbild
-    project2: Ein Projekt mit einem Hintergrundbild und Giscus-Kommentaren
+#    project2: Ein Projekt mit einem Hintergrundbild und Giscus-Kommentaren
+    project2: Implementierung von Ausgaben allgemeiner Verwaltungsaufgaben im IDAM
     project3: Ein Projekt, das auf eine andere Website umleitet
     project4: Ein weiteres ohne Bild
     project5: Ein Projekt mit einem Hintergrundbild
