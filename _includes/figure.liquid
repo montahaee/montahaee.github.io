@@ -101,6 +101,19 @@
     </div>
   {% endif %}
 
+  {% if include.id == include.title %}
+    <script src="{{ '/assets/js/image_magnifier.js' | relative_url }}"></script>
+  {% endif %}
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      {% if include.scale  %}
+      magnify("{{ include.id }}", {{ include.scale }});
+      {% else %}
+      magnify("{{ include.id }}", 3);
+      {% endif %}
+    });
+  </script>
 </figure>
 <caption>
 </caption>
