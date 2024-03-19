@@ -10,7 +10,6 @@ layout: default
         <h1 class="post-title">{%- t page.title -%}</h1>
         <p class="post-description">{%- if page.description -%}{%- t page.description -%}{%- endif -%}
         {% comment %}<p class="post-description">{%- if page.description -%}{{ page.description }}{%- endif -%}</p>{% endcomment %}
-
     </header>
 
     <article>
@@ -28,4 +27,7 @@ layout: default
     {%- if site.giscus and page.giscus_comments -%}
         {%- include giscus.liquid  -%}
     {%- endif -%}
+    {% if page.magnified %}
+        <script src="{{ '/assets/js/image_magnifier.js' | relative_url }}"></script>
+    {% endif %}
 </div>
