@@ -171,16 +171,14 @@ distill:
 
 projects:
   titles:
-    project1: Projekt 1
-#    project2: Projekt 2
+    project1: Gitter Generator
     project2: IDAM
     project3: Projekt 3
     project4: Projekt 4
     project5: Projekt 5
     project6: Projekt 6
   descriptions:
-    project1: Ein Projekt mit einem Hintergrundbild
-#    project2: Ein Projekt mit einem Hintergrundbild und Giscus-Kommentaren
+    project1: Entwurf und Implementierung eines Gitter-Struktur-Generators
     project2: Implementierung von Ausgaben allgemeiner Verwaltungsaufgaben im IDAM
     project3: Ein Projekt, das auf eine andere Website umleitet
     project4: Ein weiteres ohne Bild
