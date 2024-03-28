@@ -4,16 +4,8 @@
     "label": "Wissenschaftler",
     "image": "",
     "email": "albert@einstein.de",
-<<<<<<< HEAD
     "phone": "(49) 123-4567",
     "url": "https://montahaee.github.io/",
-||||||| e72fe18
-    "phone": "(912) 123-4567",
-    "url": "https://george-gca.github.io/multi-language-al-folio/",
-=======
-    "phone": "(912) 123-4567",
-    "url": "https://montahaee.github.io/",
->>>>>>> 7989c3885753f37882fa5b43a6d997ec45e11655
     "summary": "Deutschstämmiger theoretischer Physiker, weitgehend als einer der größten und einflussreichsten Wissenschaftler aller Zeiten eingestuft",
     "location": {
       "address": "2712 Broadway St",
