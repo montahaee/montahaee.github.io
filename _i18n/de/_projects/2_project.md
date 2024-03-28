@@ -59,7 +59,6 @@ mehr detailliert. Zusätzlich wird ein Überblick über die dabei verwendeten We
 geben.
 
 <br>
-<br>
 <h2 style="font-size: 24px;">Eingesetzte Werkzeuge</h2>
 Die Umsetzung des Projektes fand mit der Implementierungsunterstützung C# in der Mo-
 dellierungssprache UML 2 statt. Als Softwaremodellierungswerkzeug kam Enterprise Archi-

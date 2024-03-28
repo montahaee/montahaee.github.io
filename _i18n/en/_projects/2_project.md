@@ -51,7 +51,6 @@ optimization of all described process sequences of IDAM management, which are fi
 The following section provides more detailed modeling for the problem described above. In addition, an overview of the tools used is given.
 
 <br>
-<br>
 <h2 style="font-size: 24px;">Tools Used</h2>
 The implementation of the project took place with the implementation support C# in the modeling language UML 2.
  Enterprise Architect 15.2 was used as a software modeling tool. Version control and automatic generation of developer documentation were
