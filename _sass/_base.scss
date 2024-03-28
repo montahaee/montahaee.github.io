@@ -119,14 +119,6 @@ blockquote {
   text-align: center;
 }
 
-// Caption
-
-.caption {
-  font-size: 0.875rem;
-  margin-top: 0.75rem;
-  margin-bottom: 1.5rem;
-  text-align: center;
-}
 
 // Card
 
@@ -194,6 +186,45 @@ blockquote {
       }
     }
   }
+}
+
+.img-fluid {
+  margin: 0 auto; /* Center the image horizontally */
+  padding: 10px; /* Add space around the image */
+  box-shadow: 0 0 0 10px rgba($lighter-color1, 0.5);
+  border-radius: 50%; /* Make the image circular */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+
+.img-fluid {
+  background:  var(--global-image-boarder-color);
+  -webkit-background-clip: border-box;
+  margin: 0 auto; /* Center the image horizontally */
+  padding: 10px; /* Add space around the image */
+  //box-shadow: 0 4px 8px var(--global-divider-color); /* Optional: Add a shadow for depth */
+  box-shadow: 0 0 0 10px rgba($lighter-color1, 0.5);
+
+  border-radius: 50%; /* Optional: Make the image circular */
+  border:  1px solid #{$dark-gray6}; /* Darker border for better contrast *//* Optional: Add a border */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.img-fluid:hover {
+  background:  var(--global-image-boarder-hover-color);
+  -webkit-background-clip: border-box;
+  transform: scale(1.05); /* Slightly increase the image size on hover */
+  box-shadow: 0 0 0 10px var(--global-display-dot-color), /* Change border color on hover */
+  0 4px 8px var(--global-divider-color);
+}
+
+@media (max-width: 1008px) {
+  .img-fluid {
+    max-width: 75%; /* Use the full width of the container */
+    min-width: 150px; /* Prevent the image from becoming too small */
+  }
+
 }
 
 .post-description {
@@ -352,23 +383,29 @@ blockquote {
 
 .social {
   text-align: center;
-
   .contact-icons {
     font-size: 4rem;
 
     a {
+      transition: transform 0.3s ease !important; // Add !important here
+
       i::before {
-        color: var(--global-text-color);
-        transition-property: all;
-        transition-duration: 0.2s;
-        transition-timing-function: ease-in-out;
+        background: var(--global-social-color);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
       }
 
       &:hover {
         i::before {
-          color: var(--global-theme-color);
+          background: var(--global-social-color-hover);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
         }
       }
+    }
+    :hover{
+      transform: scale(1.05) !important; // Add !important here
+
     }
   }
 
@@ -449,14 +486,18 @@ footer.sticky-bottom {
   .card {
     background-color: var(--global-card-bg-color);
     border: 1px solid var(--global-divider-color);
-
+    max-width: 3000px;
     .list-group-item {
       background-color: inherit;
       border-color: var(--global-divider-color);
-
+      padding: 10px;
       .badge {
-        color: var(--global-card-bg-color) !important;
-        background-color: var(--global-theme-color) !important;
+        background: var(--global-cv-color);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-align-content: center;
+        box-shadow: 0 0 0 rgba(255, 255, 255, 0.5);
+        display: -webkit-flex;
       }
     }
   }
@@ -488,7 +529,11 @@ footer.sticky-bottom {
   border-radius: 50%;
   border: 1px solid var(--global-text-color);
   @if $filled {
-    background-color: var(--global-text-color);
+    //background-color: var(--global-text-color);
+    background: var(--global-cv-color);
+    -webkit-background-clip: content-box;
+    -webkit-text-fill-color: transparent;
+    -webkit-align-content: center;
   } @else {
     background-color: var(--global-card-bg-color);
   }
@@ -821,8 +866,195 @@ html[data-theme='dark'] .bootstrap-table-responsive{
     margin-bottom: 1rem;
     text-align: right;
   }
+
 }
 
+
+* {box-sizing: border-box;}
+
+.img-magnifier-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  max-width: 100%; /* from .image */
+}
+
+.img-magnifier-container img {
+  cursor: zoom-in; /* from .main img */
+  max-width: 100%; /* from .image img */
+}
+
+.img-magnifier-glass {
+  position: absolute;
+  border: 3px solid var(--global-divider-color);
+  border-radius: 50%;
+  cursor: none;
+  /*Set the size of the magnifier glass:*/
+  //width: 100px;
+  //height: 100px;
+  z-index: 1;
+  width: 14rem; /* from .zoom */
+  height: 14rem; /* from .zoom */
+  background: var(--global-hover-text-color); /* from .zoom */
+  pointer-events: none; /* from .zoom */
+  //transition: transform .25s ease, opacity 0s linear .25s;
+  transition: transform .25s ease, opacity 0s linear .25s, -webkit-transform .25s ease;
+  opacity: 0; /* from .zoom */
+  -webkit-transform: scale(0);
+  -webkit-transform-origin: 50% 50%;
+  transform: scale(0); /* from .zoom */
+  transform-origin: 50% 50%; /* from .zoom */
+  overflow: hidden; /* from .zoom */
+
+}
+
+.img-magnifier-glass.show {
+  -webkit-transform: scale(1);
+  transform: scale(1); /* from .zoom.show */
+  opacity: 1; /* from .zoom.show */
+  /* from .zoom.show */
+  transition: transform .25s ease, opacity 0s linear, -webkit-transform .25s ease;
+}
+
+.img-magnifier-glass .zoom-image {
+  position: absolute; /* from .zoom .zoom-image */
+  left: 0; /* from .zoom .zoom-image */
+  top: 0; /* from .zoom .zoom-image */
+}
+
+.bootstrap.modal-dialog {
+  max-width: 95% !important;
+}
+
+.bootstrap.modal-content img {
+  width: 100%;
+  height: auto;
+}
+
+.img-zoom {
+  transition: transform .2s; /* Animation */
+}
+
+.img-zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+.magnify {
+  position: relative;
+}
+
+.magnify::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: 200%; /* This controls the zoom level */
+  transition: background-position .3s;
+  opacity: 0;
+}
+
+.magnify:hover::before {
+  opacity: 1;
+}
+
+.magnify::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, transparent 30%, black 31%);
+  pointer-events: none; /* This allows the hover effect on the underlying div */
+}
+
+.magnify:hover::before {
+  background-position: var(--x) var(--y);
+}
+
+.image-container {
+  position: relative;
+}
+
+.hoverImage {
+  width: 100%;
+  transition: transform .2s;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:100%;
+  height:100%;
+  //background-color: rgba(0,0,0,0.5);
+  display:none;
+  justify-content:center;
+  align-items:center;
+  font-size:50px;
+  color:white;
+}
+
+//.image-container:hover .hoverImage {
+//  transform : scale(1.2);
+//}
+
+.image-container:hover .overlay{
+  display:flex;
+}
+
+// Caption
+
+.caption {
+  font-size: 0.875rem;
+  margin-top: 0.75rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-family: "Georgia", serif;
+  font-style: italic;
+  -webkit-flex: auto;
+  width: calc(100% - 1rem);
+}
+
+
+
+
+@mixin image-caption-wrapper($width, $display) {
+  display: $display;
+  .img-magnifier-container img {
+    max-width: calc(#{$width} + 0.001rem);
+    margin: auto;
+  }
+  @if $display == 'grid' {
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .caption {
+    //min-width:  calc(#{$width} + 0.001px) ;
+    max-width:  #{$width} ;
+    min-width: calc(#{$width} - 1rem);
+    margin: auto;
+    text-align: justify-all;
+    box-sizing: border-box;
+    grid-column: 1 / -1;
+  }
+}
+
+.image-270dg-grid-caption-wrapper{
+  @include image-caption-wrapper(75%, grid)
+}
+
+.image-300dg-grid-caption-wrapper{
+  @include image-caption-wrapper(80%, grid)
+}
 
 // Publications
 

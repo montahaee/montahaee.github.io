@@ -7,8 +7,8 @@
   --global-code-bg-color: #{$code-bg-color-light};
   --global-text-color: #{$black-color};
   --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$purple-color};
-  --global-hover-color: #{$purple-color};
+  --global-theme-color: #{$mixed-color_light};
+  --global-hover-color: #{$mixed-color_light};
   --global-hover-text-color: #{$white-color};
   --global-footer-bg-color: #{$grey-color-dark};
   --global-footer-text-color: #{$grey-color-light};
@@ -37,14 +37,26 @@
   --global-danger-block-bg: #ffe0e0;
   --global-danger-block-text: #600;
   --global-danger-block-title: #c00;
+  --global-social-color: linear-gradient(0.25turn,#{$color1}, #{$color4-1}, #{$color3})  !important;
+  --global-social-color-hover: linear-gradient(0.25turn,#{$color3}, #{$color4-1} ,#{$color1})  !important;
+  --global-cv-color: linear-gradient(0.25turn,#{$color1}, #{$color1-4}, #{$color3})  !important;
+  --global-image-boarder-color: linear-gradient(0.25turn, #{$mixed-color1_light}, #{$lighter-color1-4}, #{$lighter-color3}) !important;
+  --global-image-boarder-hover-color: linear-gradient(0.75turn, #{$mixed-color1_light}, #{$lighter-color1-4}, #{$lighter-color3}) !important;
+  --global-img-boarder: #{$img-light-bg-boarder-color};
+
   .fa-sun {
     display : none;
   }
+
   .fa-moon {
     padding-left: 10px;
-    padding-top: 12px;
-    display : block;
+    padding-top: 10px; /* Adjusted padding-top */
+    display: block;
+    font-size: 1.2em;
+    line-height: 15px;
+    transition: all 0.3s ease-in-out; /* Added transition */
   }
+
 
   .repo-img-light {
     display: block;
@@ -56,12 +68,18 @@
 }
 
 html[data-theme='dark'] {
+  --global-social-color: linear-gradient(0.25turn,#{$color5}, #{$color4}, #{$color3})  !important;
+  --global-social-color-hover: linear-gradient(0.25turn,#{$color3}, #{$color4} ,#{$color5})  !important;
+  --global-cv-color: linear-gradient(0.25turn,#{$color5}, #{$color4}, #{$color3})  !important;
+  --global-image-boarder-color: linear-gradient(0.25turn, #{$mixed-color1_dark}, #{$darker-color1-4}, #{$lighter-color3}) !important;
+  --global-image-boarder-hover-color: linear-gradient(0.75turn, #{$mixed-color1_dark}, #{$darker-color1-4}, #{$lighter-color3}) !important;
+
   --global-bg-color: #{$grey-color-dark};
   --global-code-bg-color: #{$code-bg-color-dark};
   --global-text-color: #{$grey-color-light};
   --global-text-color-light: #{$grey-color-light};
-  --global-theme-color: #{$cyan-color};
-  --global-hover-color: #{$cyan-color};
+  --global-theme-color: #{$mixed-color_dark};
+  --global-hover-color: #{$mixed-color_dark};
   --global-hover-text-color: #{$white-color};
   --global-footer-bg-color: #{$grey-color-light};
   --global-footer-text-color: #{$grey-color-dark};
@@ -69,6 +87,7 @@ html[data-theme='dark'] {
   --global-distill-app-color: #{$grey-color-light};
   --global-divider-color: #424246;
   --global-card-bg-color: #{$grey-900};
+  --global-img-boarder: #{$img-dark-bg-boarder-color};
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
@@ -87,6 +106,11 @@ html[data-theme='dark'] {
     padding-left: 10px;
     padding-top: 12px;
     display : block;
+    //color: #FFA500; /* Change the color to orange */
+    text-shadow: 2px 2px 4px #000000; /* Add a black shadow */
+    font-size: 1.2em;
+    line-height: 15px;
+    transition: all 0.3s ease-in-out; /* Added transition */
   }
   .fa-moon {
     display : none;

@@ -14,7 +14,7 @@
     - title: B.Sc. in Angewandter Mathematik
       institution: Universität von Payame Noor
       year: 10/2005 - 07/2009
-      location: Pakdasht-Tehran, Iran
+      location: Pakdasht-Teheran, Iran
       description:
         - title: Bachelorarbeit
           contents:
@@ -26,13 +26,13 @@
     - title: B.Sc. in Angewandter Mathematik und Informatik
       institution: FH Aachen – University of Applied Sciences
       year: 10/2019 - Heute
-      location: Jülich, Germany
+      location: Jülich, Deutschland
       description:
         - title: Schwerpunkte
           contents:
             - Lineare Algebra, Statistik, Numerik
             - Programmierung (OOP), Algorithmen und Datenstrukturen, Data Science, Datenbanken, Softwaretechnik, Web- und Kommunikationssysteme.
-        - Voraussichtlicher Abschluss April 2024
+        - Voraussichtlicher Abschluss Mai 2024
 
 - title: Erfahrung
   type: time_table
@@ -40,7 +40,7 @@
     - title: Ausbildung
       institution: DAP RWTH Universität
       year: 10/2019 - 08/2023
-      location: Aachen, Germany
+      location: Aachen, Deutschland
       description:
         - Arbeit an der Entwicklung einer NX CAD-Bibliothek zur Erzeugung von Gittern in C# unter Verwendung der Protobuf-Serialisierung
         - Entworfenes Workflow-Management additiver Prozesse in einem UML-konformen Prozessmodell (IDAM) mit Enterprise Architect (EA)
@@ -51,7 +51,7 @@
     - title: Kellner und Eventassistent
       building: Event Probat GMBH
       year: 11/2014-10/2019
-      location: Aachen, Germany
+      location: Aachen, Deutschland
       description:
         - Bedienung und Vorbereitung für Veranstaltungen und Hochzeiten.
         - Aufräumen nach Veranstaltungen und Hochzeiten.
@@ -59,7 +59,7 @@
     - title: Bibliotheksassistent
       building: Zentralbibliothek der RWTH
       year: 07/2016 - 09/2016
-      location: Aachen, Germany
+      location: Aachen, Deutschland
       description:
         - Bereitstellung von Medien
         - Arbeit an der Restaurierung
@@ -67,7 +67,7 @@
     - title: Lieferassistent
       truck: Dachser Logistic
       year: 11/2014-06/2015
-      location: Alsdorf, Germany
+      location: Alsdorf, Deutschland
       description:
         - Beladen von Waren im Logistikzentrum in einen Lastwagen zur Auslieferung von Gütern in Ostbelgien.
         - Abholen von Gegenständen und Rückkehr zum Logistikzentrum zum Ausladen der abgeholt Gegenstände
@@ -75,7 +75,7 @@
     - title: Zeitarbeit
       industry: Frankenberg
       year: 07/2012-10/2014
-      location: Würselen, Germany
+      location: Würselen, Deutschland
       description:
         - title: Unterstützung in verschiedenen Stadien der Flugzeugverpflegung
           contents:
@@ -86,7 +86,7 @@
     - title: Wehrdienst
       gopuram: Polizei-Zentralstation
       year: 08/2009 - 04/2011
-      location: Tehran, Iran
+      location: Teheran, Iran
       description:
         - title: Unterstützung bei verschiedenen Büroaufgaben
           contents:
@@ -96,8 +96,8 @@
 
     - title: Verkaufsassistent
       shop: Fahrradbasar
-      year: 08/2003 - 09/2005
-      location: Tehran, Iran
+      year: 06/2003 - 09/2005
+      location: Teheran, Iran
       description:
         - Verkauf verschiedener Waren an Kunden
         - Transport von Waren vom Lagerbereich auf den Verkaufsflur
@@ -108,7 +108,7 @@
     - title: Bauarbeiter
       constructionWorker: Bausanierungen und -renovierungen  Rahmatie GMBH
       year: 08/2009 - 04/2011
-      location: Tehran, Iran
+      location: Teheran, Iran
       description:
         - title: Abbruch
           contents:

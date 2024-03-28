@@ -4,7 +4,7 @@ not_found:
 main:   #Sie können sogar eine kleine Notiz hinzufügen, welche Methode am besten geeignet ist, um Sie zu erreichen.
   contact_note: ""
   footer_text: > # das ">" Symbol bedeutet, dass Zeilenumbrüche bis "titles:" ignoriert werden
-    Betrieben von <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> mit dem <a href="https://github.com/alshedivat/al-folio">al-folio</a> Theme,
+    Betrieben von <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>,
     Gehostet von <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>
 #        Fotos von <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
@@ -38,7 +38,7 @@ descriptions:
   blog: Ein kritischem Blick durch die Sphären der Akademie
   cv: Mein Lebenslauf
   profiles: Mitglieder der Forschungsgruppe oder des Labors
-  projects: Eine wachsende Sammlung Ihrer coolen Projekte
+  projects: Eine wachsende Sammlung meiner coolen Projekte
   publications: Veröffentlichungen nach Kategorien in umgekehrter chronologischer Reihenfolge
   repositories: Miene öffentliche Github Repositorien und Statistik
   teaching: Materialien für Kurse, die Sie unterrichtet haben
@@ -171,15 +171,15 @@ distill:
 
 projects:
   titles:
-    project1: Projekt 1
-    project2: Projekt 2
+    project1: Gitter Generator
+    project2: IDAM
     project3: Projekt 3
     project4: Projekt 4
     project5: Projekt 5
     project6: Projekt 6
   descriptions:
-    project1: Ein Projekt mit einem Hintergrundbild
-    project2: Ein Projekt mit einem Hintergrundbild und Giscus-Kommentaren
+    project1: Entwurf und Implementierung eines Gitter-Struktur-Generators
+    project2: Implementierung von Ausgaben allgemeiner Verwaltungsaufgaben im IDAM
     project3: Ein Projekt, das auf eine andere Website umleitet
     project4: Ein weiteres ohne Bild
     project5: Ein Projekt mit einem Hintergrundbild
@@ -188,6 +188,7 @@ projects:
     fun: Spaß
     work: Arbeit
 cv:
+  pdf: apply/resume.pdf
   address: Adresse
   area: Bereich
   awarder: Aussteller
