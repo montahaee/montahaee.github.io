@@ -1,10 +1,10 @@
 <div class="row justify-content-sm-center">
     <div class="img-magnifier-container col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid id= "PA process" alt="Pa" path="assets/img/myProj2/PA.jpg" scale=4.5
+        {% include figure.liquid id= "PA process" alt="Pa" path="assets/img/myProj2/PA.jpg" scale=6.5
         title="PA process" class="img-fluid rounded magnify z-depth-1"%}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0 image-container img-magnifier-container justify-content-sm-center">
-        {% include figure.liquid id="EN process" alt="En" path="assets/img/myProj2/EN_process.jpg" title="EN process" scale=4.5 
+        {% include figure.liquid id="EN process" alt="En" path="assets/img/myProj2/EN_process.jpg" title="EN process" scale=5.8 
         class="img-fluid rounded magnify z-depth-1" %}
     </div>
 </div>
@@ -27,21 +27,22 @@ All detailed processes are separately presented in an Excel file (EXD) (*[Figure
 optimization of all described process sequences of IDAM management, which are fixed in the EXD, through a uniformly formalized modeling language.
  
 <br>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0 img-magnifier-container" id="caption1">
-        {% include figure.liquid path="assets/img/myProj2/ZN_raw_process.png" title="ZN flowchart" id= "ZN flowchart"
-        class="img-fluid rounded z-depth-1 mx-auto d-block magnify" style="width:75%" alt="ZN flowchart" %}
-    </div>
-</div>
-<div>
-<div class="caption">
-    Figure 1: Some Process flow (Hover over to magnify
-    <tr>
-      <td style="vertical-align: top; text-align: center" >
-        <i class="fa-sharp fa-solid fa-magnifying-glass-plus iconmagnifyPlus" aria-hidden="true"></i>
-      </td>
-      <td class="building">)</td>
-    </tr>
+<div class="image-270dg-grid-caption-wrapper">
+ <div class="row">
+     <div class="col-sm mt-3 mt-md-0 img-magnifier-container" id="caption1">
+         {% include figure.liquid path="assets/img/myProj2/ZN_raw_process.png" title="ZN flowchart" id= "ZN flowchart"
+         class="img-fluid rounded z-depth-1 mx-auto d-block magnify" alt="ZN flowchart" %}
+     </div>
+ </div>
+ <div class="caption">
+     Figure 1: Some Process flow (Hover over to magnify
+     <tr>
+       <td style="vertical-align: top; text-align: center" >
+         <i class="fa-sharp fa-solid fa-magnifying-glass-plus iconmagnifyPlus" aria-hidden="true"></i>
+       </td>
+       <td class="building">)</td>
+     </tr>
+ </div>
 </div>
 <br>
 
@@ -61,25 +62,27 @@ The implementation of the project took place with the implementation support C# 
 
 The evaluation of the process sequences first required the responsibility of the different processes to be determined. A provisional design of the class
 
-and activity diagrams served for a better understanding. Based on the activity diagrams, a structuring was proposed and revised (<a href="#caption2"><i>Figure 2</i></a>).
+and activity diagrams served for a better understanding. Based on the activity diagrams, a structuring was proposed and revised+ (<a href="#caption2"><i>Figure 2</i></a>).
 
 <br>
 <br>
 <br>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0 img-magnifier-container" id="caption2">
-        {% include figure.liquid path="assets/img/myProj2/AT_activity0.png" title="Preliminary AT Activity" id= "Preliminary AT Activity"
-        class="img-fluid rounded z-depth-1 mx-auto d-block magnify" style="width:75%" alt="AT activity diagram" %}
-    </div>
-</div>
-<div class="caption">
-    Figure 2: preliminary modeling of a process corresponding to the EXD (Hover over to magnify
-    <tr>
-      <td style="vertical-align: top; text-align: center" >
-        <i class="fa-sharp fa-solid fa-magnifying-glass-plus iconmagnifyPlus" aria-hidden="true"></i>
-      </td>
-      <td class="building">)</td>
-    </tr>
+<div class="image-270dg-grid-caption-wrapper">
+ <div class="row">
+     <div class="col-sm mt-3 mt-md-0 img-magnifier-container" id="caption2">
+         {% include figure.liquid path="assets/img/myProj2/AT_activity0.png" title="Preliminary AT Activity" id= "Preliminary AT Activity"
+         class="img-fluid rounded z-depth-1 mx-auto d-block magnify" alt="AT activity diagram" %}
+     </div>
+ </div>
+ <div class="caption">
+     Figure 2: preliminary modeling of a process corresponding to the EXD <br> (Hover over to magnify
+     <tr>
+       <td style="vertical-align: top; text-align: center" >
+         <i class="fa-sharp fa-solid fa-magnifying-glass-plus iconmagnifyPlus" aria-hidden="true"></i>
+       </td>
+       <td class="building">)</td>
+     </tr>
+ </div>
 </div>
 
 <br>
@@ -95,41 +98,43 @@ The proposed modeling of the processes showed weaknesses of the models and was r
 <br>
 <br>
 <br>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0 img-magnifier-container justify-content-sm-center">
-        {% include figure.liquid path="assets/img/myProj2/workflowEngine.jpg" title="Workflow Engine" id= "Workflow Engine"
-        class="img-fluid rounded z-depth-1 mx-auto d-block magnify" style="width:75%" alt="workflowEngine class diagram"%}
-    </div>
+<div class="image-270dg-grid-caption-wrapper">
+ <div class="row">
+     <div class="col-sm mt-3 mt-md-0 img-magnifier-container justify-content-sm-center">
+         {% include figure.liquid path="assets/img/myProj2/workflowEngine.jpg" title="Workflow Engine" id= "Workflow Engine"
+         class="img-fluid rounded z-depth-1 mx-auto d-block magnify" alt="workflowEngine class diagram"%}
+     </div>
+ </div>
+ <div class="caption" id="caption3">
+     Figure 3: WorkfolwEngine serves as an mediator pattern (Hover over to magnify
+     <tr>
+       <td style="vertical-align: top; text-align: center" >
+         <i class="fa-sharp fa-solid fa-magnifying-glass-plus iconmagnifyPlus" aria-hidden="true"></i>
+       </td>
+       <td class="building">)</td>
+     </tr>
+ </div>
 </div>
-<div class="caption" id="caption3">
-    Figure 3: WorkfolwEngine serves as an mediator pattern (Hover over to magnify
-    <tr>
-      <td style="vertical-align: top; text-align: center" >
-        <i class="fa-sharp fa-solid fa-magnifying-glass-plus iconmagnifyPlus" aria-hidden="true"></i>
-      </td>
-      <td class="building">)</td>
-    </tr>
-</div>
-
 
 <br>
 <br>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0 img-magnifier-container justify-content-sm-center">
-        {% include figure.liquid path="assets/img/myProj2/AT_activity1.jpg" title="Modified AT Activity" id= "Modified AT Activity"
-        class="img-fluid rounded z-depth-1 mx-auto d-block magnify" style="width:75%" alt="AT activity diagram"%}
-    </div>
+<div class="image-270dg-grid-caption-wrapper">
+ <div class="row">
+     <div class="col-sm mt-3 mt-md-0 img-magnifier-container justify-content-sm-center">
+         {% include figure.liquid path="assets/img/myProj2/AT_activity1.jpg" title="Modified AT Activity" id= "Modified AT Activity"
+         class="img-fluid rounded z-depth-1 mx-auto d-block magnify" alt="AT activity diagram"%}
+     </div>
+ </div>
+ <div class="caption" id="caption4">
+     Figure 4: Modification of the activity diagram shown in the <a href="#caption2">Figure 2</a><br> (Hover over to magnify
+     <tr>
+       <td style="vertical-align: top; text-align: center" >
+         <i class="fa-sharp fa-solid fa-magnifying-glass-plus iconmagnifyPlus" aria-hidden="true"></i>
+       </td>
+       <td class="building">)</td>
+     </tr>
+ </div>
 </div>
-<div class="caption" id="caption4">
-    Figure 4: Modification of the activity diagram shown in the <a href="#caption2">Figure 2</a> (Hover over to magnify
-    <tr>
-      <td style="vertical-align: top; text-align: center" >
-        <i class="fa-sharp fa-solid fa-magnifying-glass-plus iconmagnifyPlus" aria-hidden="true"></i>
-      </td>
-      <td class="building">)</td>
-    </tr>
-</div>
-
 <h1 style="font-size: 32px;">Result</h1>
 The result of the project is a possible formalization of all process sequences to the advantage of the promoted solutions for administrative 
 problems, which often appeared in the branching chain of processes.

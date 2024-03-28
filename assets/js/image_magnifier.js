@@ -35,7 +35,7 @@ img.addEventListener('mouseout', function () {
 img.addEventListener('wheel', e => {
     e.deltaY > 0 ? zoomLevel-- : zoomLevel++;
     if (zoomLevel < 1) zoomLevel = 1;
-    if (zoomLevel > 5) zoomLevel = 5;
+    if (zoomLevel > 7) zoomLevel = 7;
     console.log(`zoom level: ${zoomLevel}`);
     glass.style.transform = `scale(${zoomLevel})`;
 });
