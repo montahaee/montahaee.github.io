@@ -40,6 +40,9 @@
   --global-social-color: linear-gradient(0.25turn,#{$color1}, #{$color4-1}, #{$color3})  !important;
   --global-social-color-hover: linear-gradient(0.25turn,#{$color3}, #{$color4-1} ,#{$color1})  !important;
   --global-cv-color: linear-gradient(0.25turn,#{$color1}, #{$color1-4}, #{$color3})  !important;
+  --global-image-boarder-color: linear-gradient(0.25turn, #{$mixed-color1_light}, #{$lighter-color1-4}, #{$lighter-color3}) !important;
+  --global-image-boarder-hover-color: linear-gradient(0.75turn, #{$mixed-color1_light}, #{$lighter-color1-4}, #{$lighter-color3}) !important;
+  --global-img-boarder: #{$img-light-bg-boarder-color};
 
   .fa-sun {
     display : none;
@@ -68,6 +71,8 @@ html[data-theme='dark'] {
   --global-social-color: linear-gradient(0.25turn,#{$color5}, #{$color4}, #{$color3})  !important;
   --global-social-color-hover: linear-gradient(0.25turn,#{$color3}, #{$color4} ,#{$color5})  !important;
   --global-cv-color: linear-gradient(0.25turn,#{$color5}, #{$color4}, #{$color3})  !important;
+  --global-image-boarder-color: linear-gradient(0.25turn, #{$mixed-color1_dark}, #{$darker-color1-4}, #{$lighter-color3}) !important;
+  --global-image-boarder-hover-color: linear-gradient(0.75turn, #{$mixed-color1_dark}, #{$darker-color1-4}, #{$lighter-color3}) !important;
 
   --global-bg-color: #{$grey-color-dark};
   --global-code-bg-color: #{$code-bg-color-dark};
@@ -82,6 +87,7 @@ html[data-theme='dark'] {
   --global-distill-app-color: #{$grey-color-light};
   --global-divider-color: #424246;
   --global-card-bg-color: #{$grey-900};
+  --global-img-boarder: #{$img-dark-bg-boarder-color};
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;

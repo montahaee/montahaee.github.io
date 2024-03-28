@@ -119,16 +119,6 @@ blockquote {
   text-align: center;
 }
 
-// Caption
-
-.caption {
-  font-size: 0.875rem;
-  margin-top: 0.75rem;
-  margin-bottom: 1.5rem;
-  text-align: center;
-  font-family: "Georgia", serif;
-  font-style: italic;
-}
 
 // Card
 
@@ -196,6 +186,45 @@ blockquote {
       }
     }
   }
+}
+
+.img-fluid {
+  margin: 0 auto; /* Center the image horizontally */
+  padding: 10px; /* Add space around the image */
+  box-shadow: 0 0 0 10px rgba($lighter-color1, 0.5);
+  border-radius: 50%; /* Make the image circular */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+
+.img-fluid {
+  background:  var(--global-image-boarder-color);
+  -webkit-background-clip: border-box;
+  margin: 0 auto; /* Center the image horizontally */
+  padding: 10px; /* Add space around the image */
+  //box-shadow: 0 4px 8px var(--global-divider-color); /* Optional: Add a shadow for depth */
+  box-shadow: 0 0 0 10px rgba($lighter-color1, 0.5);
+
+  border-radius: 50%; /* Optional: Make the image circular */
+  border:  1px solid #{$dark-gray6}; /* Darker border for better contrast *//* Optional: Add a border */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.img-fluid:hover {
+  background:  var(--global-image-boarder-hover-color);
+  -webkit-background-clip: border-box;
+  transform: scale(1.05); /* Slightly increase the image size on hover */
+  box-shadow: 0 0 0 10px var(--global-display-dot-color), /* Change border color on hover */
+  0 4px 8px var(--global-divider-color);
+}
+
+@media (max-width: 1008px) {
+  .img-fluid {
+    max-width: 75%; /* Use the full width of the container */
+    min-width: 150px; /* Prevent the image from becoming too small */
+  }
+
 }
 
 .post-description {
@@ -358,15 +387,12 @@ blockquote {
     font-size: 4rem;
 
     a {
+      transition: transform 0.3s ease !important; // Add !important here
 
       i::before {
         background: var(--global-social-color);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        //transition-property: all;
-        transition-duration: 0.2s;
-        transition-timing-function: ease-in-out;
-
       }
 
       &:hover {
@@ -376,6 +402,10 @@ blockquote {
           -webkit-text-fill-color: transparent;
         }
       }
+    }
+    :hover{
+      transform: scale(1.05) !important; // Add !important here
+
     }
   }
 
