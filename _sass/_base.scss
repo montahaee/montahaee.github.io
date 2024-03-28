@@ -1023,23 +1023,6 @@ html[data-theme='dark'] .bootstrap-table-responsive{
 
 
 
-//.image-caption-wrapper {
-//  display: grid;
-//  grid-template-columns: 1fr;
-//  flex-direction: column;
-//  align-items: center;
-//  justify-content: center;
-//  .img-magnifier-container img {
-//    max-width: 100%;
-//  }
-//  .caption {
-//    justify-content: center;
-//    box-sizing: inherit;
-//    margin: auto;
-//    grid-column: 1 / -1;
-//    width: inherit;
-//  }
-//}
 
 @mixin image-caption-wrapper($width, $display) {
   display: $display;
