@@ -1008,6 +1008,71 @@ html[data-theme='dark'] .bootstrap-table-responsive{
   display:flex;
 }
 
+// Caption
+
+.caption {
+  font-size: 0.875rem;
+  margin-top: 0.75rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-family: "Georgia", serif;
+  font-style: italic;
+  -webkit-flex: auto;
+  width: calc(100% - 1rem);
+}
+
+
+
+.image-caption-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .img-magnifier-container img {
+    max-width: 100%;
+  }
+  .caption {
+    justify-content: center;
+    box-sizing: inherit;
+    margin: auto;
+    grid-column: 1 / -1;
+    width: inherit;
+  }
+}
+
+@mixin image-caption-wrapper($width, $display) {
+  display: $display;
+  .img-magnifier-container img {
+    max-width: calc(#{$width} + 0.001rem);
+    margin: auto;
+  }
+  @if $display == 'grid' {
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .caption {
+    //min-width:  calc(#{$width} + 0.001px) ;
+    max-width:  #{$width} ;
+    min-width: calc(#{$width} - 1rem);
+    margin: auto;
+    text-align: justify-all;
+    box-sizing: border-box;
+    grid-column: 1 / -1;
+  }
+}
+
+.image-270dg-grid-caption-wrapper{
+  @include image-caption-wrapper(75%, grid)
+}
+
+.image-300dg-grid-caption-wrapper{
+  @include image-caption-wrapper(80%, grid)
+}
+
 // Publications
 
 .publications {
