@@ -1027,7 +1027,7 @@ html[data-theme='dark'] .bootstrap-table-responsive{
 @mixin image-caption-wrapper($width, $display) {
   display: $display;
   .img-magnifier-container img {
-    max-width: calc(#{$width} + 0.001rem);
+    max-width: calc(#{$width} + 0.001rem) !important;
     margin: auto;
   }
   @if $display == 'grid' {
