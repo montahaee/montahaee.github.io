@@ -67,7 +67,7 @@ and activity diagrams served for a better understanding. Based on the activity d
 <br>
 <br>
 <br>
-<div class="image-270dg-grid-caption-wrapper">
+<div class="image-270dg-grid-caption-wrapper" style="width:75%">
  <div class="row">
      <div class="col-sm mt-3 mt-md-0 img-magnifier-container" id="caption2">
          {% include figure.liquid path="assets/img/myProj2/AT_activity0.png" title="Preliminary AT Activity" id= "Preliminary AT Activity"
