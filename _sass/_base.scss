@@ -1037,7 +1037,7 @@ html[data-theme='dark'] .bootstrap-table-responsive{
     flex-direction: column;
   }
 
-  .caption {
+  .caption::before {
     //min-width:  calc(#{$width} + 0.001px) ;
     max-width:  #{$width} ;
     min-width: calc(#{$width} - 1rem);
