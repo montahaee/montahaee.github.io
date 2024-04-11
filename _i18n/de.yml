@@ -187,6 +187,8 @@ projects:
   categories:
     fun: Spaß
     work: Arbeit
+  redirections:
+    project3: https://unsplash.com
 cv:
   pdf: apply/resume.pdf
   address: Adresse
