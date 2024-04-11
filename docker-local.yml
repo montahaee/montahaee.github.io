@@ -3,8 +3,8 @@ version: "3"
 services:
   jekyll_custom:
     build: .
-    image: montahaee.github.io/-local-docker
-    container_name: montahaee.github.io/-local-website
+    image: montahaee.github.io-local-docker
+    container_name: montahaee.github.io-local-website
     command: bash -c "
       rm -f Gemfile.lock
       && bundler exec jekyll serve --watch --port=8080 --host=0.0.0.0 --livereload --verbose --trace"
