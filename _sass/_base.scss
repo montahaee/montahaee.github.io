@@ -1039,8 +1039,8 @@ html[data-theme='dark'] .bootstrap-table-responsive{
 
   .caption::before {
     //min-width:  calc(#{$width} + 0.001px) ;
-    max-width:  #{$width} ;
-    min-width: calc(#{$width} - 1rem);
+    max-width:  #{$width} !important;
+    min-width: calc(#{$width} - 1rem) !important;
     margin: auto;
     text-align: justify-all;
     box-sizing: border-box;
