@@ -1,9 +1,8 @@
 function magnify(imgID, zoom) {
-    var img, glass, w, h, bw;
-    img = document.getElementById(imgID);
+    try {
+        var img, glass, w, h, bw;
+        img = document.getElementById(imgID);
 
-    // Check if img is not null
-    if (img) {
         glass = document.createElement("DIV");
         glass.setAttribute("class", "img-magnifier-glass");
         img.parentElement.insertBefore(glass, img);
@@ -42,7 +41,6 @@ function magnify(imgID, zoom) {
             glass.style.transform = `scale(${zoomLevel})`;
         });
 
-
         function moveMagnifier(e) {
             var pos, x, y;
             e.preventDefault();
@@ -68,18 +66,11 @@ function magnify(imgID, zoom) {
             y = y - window.scrollY;
             return {x : x, y : y};
         }
-// function getCursorPos(e) {
-//   var a, x = 0, y = 0;
-//   e = e || window.Event;
-//   a = img.getBoundingClientRect();
-//   x = e.clientX - a.left;
-//   y = e.clientY - a.top;
-//   return {x : x, y : y};
-// }
-    } else {
-        console.log('Element with ID ' + imgID + ' not found.');
+    } catch (error) {
+        console.error(error);
     }
 }
+
 // Export the magnify function if using modules
 if (typeof module !== 'undefined') {
 module.exports = magnify;
