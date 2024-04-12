@@ -1,5 +1,5 @@
 <div class="card-item col">
-  <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
+  <a href="{% if project.redirect %}{%- t project.redirect %}{% else %}{{ project.url | relative_url }}{% endif %}">
     <div class="card hoverable">
       <div class="row g-0">
         {% if project.img %}
@@ -9,8 +9,22 @@
         {% endif %}
         <div class="{% if project.img %}col-md-6{% else %}col-md-12{% endif %}">
           <div class="card-body">
-            <h3 class="card-title text-lowercase">{{ project.title }}</h3>
-            <p class="card-text">{{ project.description }}</p>
+            <h3 class="card-title text-lowercase">{%- t project.title -%}
+                {%- if project.redirect -%}
+                    <svg width="2rem" height="2rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                                d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9"
+                                class="icon_svg-stroke"
+                                stroke="#999" stroke-width="1.5"
+                                fill="none"
+                                fill-rule="evenodd"
+                                stroke-linecap="round"
+                                stroke-linejoin="round">
+                        </path>
+                    </svg>
+                {% endif %}
+            </h3>
+            <p class="card-text">{%- t project.description -%}</p>
             <div class="row ml-1 mr-1 p-0">
               {% if project.github %}
                 <div class="github-icon">
