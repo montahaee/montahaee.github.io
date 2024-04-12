@@ -1028,6 +1028,8 @@ html[data-theme='dark'] .bootstrap-table-responsive{
   display: $display;
   .img-magnifier-container img {
     max-width: calc(#{$width} + 0.001rem) !important;
+    min-width: calc(#{$width} - 0.001rem) !important;
+    width: $width !important;
     margin: auto;
   }
   @if $display == 'grid' {
@@ -1039,6 +1041,7 @@ html[data-theme='dark'] .bootstrap-table-responsive{
 
   .caption::before {
     //min-width:  calc(#{$width} + 0.001px) ;
+    //max-width:  #{$width} !important;
     max-width:  #{$width} !important;
     min-width: calc(#{$width} - 1rem) !important;
     margin: auto;
