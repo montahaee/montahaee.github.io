@@ -23,7 +23,7 @@ The IDAM (Industrialization and Digitalization of Additive Manufacturing) resear
   in the automotive industry. The implementation of such metallic 3D printing is already taking place in some industrial companies like BMW and Automotive equipment manufacturer <a href="https://en.wikipedia.org/wiki/GKN">GKN</a> .
 
 The IDAM management approach is intended to describe the necessary target processes according to the criteria of the two aforementioned companies. 
-All detailed processes are separately presented in an Excel file (EXD) (*[Figure 1](#caption1)*) for producing a metallic 3D object. The aim of this project is a standardization and simultaneous  
+All detailed processes are separately presented in an Excel file (EXD) (**[Figure 1](#caption1)**) for producing a metallic 3D object. The aim of this project is a standardization and simultaneous  
 optimization of all described process sequences of IDAM management, which are fixed in the EXD, through a uniformly formalized modeling language.
  
 <br>
@@ -61,7 +61,7 @@ The implementation of the project took place with the implementation support C# 
 
 The evaluation of the process sequences first required the responsibility of the different processes to be determined. A provisional design of the class
 
-and activity diagrams served for a better understanding. Based on the activity diagrams, a structuring was proposed and revised+ (<a href="#caption2"><i>Figure 2</i></a>).
+and activity diagrams served for a better understanding. Based on the activity diagrams, a structuring was proposed and revised+ (<a href="#caption2"><b>Figure 2</b></a>).
 
 <br>
 <br>
@@ -90,9 +90,9 @@ and activity diagrams served for a better understanding. Based on the activity d
 The proposed modeling of the processes showed weaknesses of the models and was revised. The following explains some causes of errors and
  suggests their elimination, such as the termination of some processes without error handling or uncertainty of responsibility during 
  the verification of some activities both during autonomous transport trips and automatic load switching. In the end, a kind of mediator 
- pattern (<a href="#caption3"><i>Figure 3</i></a>)  emerged to remedy the mentioned model weakness, which after assigning the interactions between the classes 
+ pattern (<a href="#caption3"><b>Figure 3</b></a>)  emerged to remedy the mentioned model weakness, which after assigning the interactions between the classes 
  to the corresponding pattern in each process contributed to a considerable reduction and thus a clear readability of the activity diagrams 
- to the benefit of the customer (<a href="#caption4"><i>Figure 4</i></a>).
+ to the benefit of the customer (<a href="#caption4"><b>Figure 4</b></a>).
 
 <br>
 <br>
