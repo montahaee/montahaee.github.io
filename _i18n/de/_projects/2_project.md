@@ -27,7 +27,7 @@ dustriellen Firmen wie BMW und Automobilzulieferer <a href="https://de.wikipedia
 
 Das Vorgehensmodell IDAM-Management soll nach den Kriterien der beiden genannten
 Firmen erforderliche Sollabläufe schildern. Alle Detail-Prozess sind separat zum Produzie-
-ren eines metallischen 3D Objektes zusammen in einer Exceldatei(EXD) (*[Abbildung 1](#caption1)*) darge-
+ren eines metallischen 3D Objektes zusammen in einer Exceldatei(EXD) (**[Abbildung 1](#caption1)**) darge-
 stellt. Ziel dieses Projekts ist eine Standardisierung und gleichzeitige Optimierung aller be-
 schriebenen Prozessabläufe des IDAM-Managements, welche in der EXD fixiert sind, durch
 eine einheitlich formalisierte Modellierungssprache.
@@ -71,7 +71,7 @@ lerdokumentation erfolgten auf der allgemeinen GitLab der RWTH.
 Die Auswertung der Prozessfolgen verlangten zuerst die Zuständigkeit der unterschiedli-
 chen Prozesse festzulegen. Zum besseren Verständnis diente ein provisorischer Entwurf
 des Klassen- und Aktivitätsdiagramms. Anhand der Aktivitätsdiagramme wurde eine Struk-
-turierung vorgeschlagen und überarbeitet (<a href="#caption2"><i>Abbildung 2</i></a>).
+turierung vorgeschlagen und überarbeitet (<a href="#caption2"><b>Abbildung 2</b></a>).
 
 <br>
 <br>
@@ -101,9 +101,9 @@ Die vorgeschlagene Modellierung der Prozesse zeigte Schwächen der Modelle und w
 geschlagen, wie z.B. die Abbrüche einiger Prozesse ohne Fehlerhandlungen oder Unklar-
 heit für Zuständigkeit während der Verifizierung mancher Aktivitäten sowohl bei einem
 autonomen Transportfahrten als auch automatische Lastumschaltungen. Im Final entstand
-eine Art von Vermittlermuster (<a href="#caption3"><i>Abbildung 3</i></a>)  zur Behebung der genannten Modellschwäche, was folglich nach Zuordnung der Interaktionen zwischen den Klassen zum 
+eine Art von Vermittlermuster (<a href="#caption3"><b>Abbildung 3</b></a>)  zur Behebung der genannten Modellschwäche, was folglich nach Zuordnung der Interaktionen zwischen den Klassen zum 
 entsprechenden Muster in jedem Prozess zu einer erhebliche Reduzierung und damit eine deutliche Les-
-barkeit der Aktivitätsdiagrammen zu Gunst der Kunde beigetragen hat (<a href="#caption4"><i>Abbildung 4</i></a>).
+barkeit der Aktivitätsdiagrammen zu Gunst der Kunde beigetragen hat (<a href="#caption4"><b>Abbildung 4</b></a>).
 
 <br>
 <br>
