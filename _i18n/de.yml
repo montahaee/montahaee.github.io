@@ -172,15 +172,15 @@ distill:
 projects:
   titles:
     project1: Gitter Generator
-    project2: IDAM
-    project3: Projekt 3
+    project2: Herzkrankheit-svorhersage
+    project3: IDAM
     project4: Projekt 4
     project5: Projekt 5
     project6: Projekt 6
   descriptions:
     project1: Entwurf und Implementierung eines Gitter-Struktur-Generators
-    project2: Implementierung von Ausgaben allgemeiner Verwaltungsaufgaben im IDAM
-    project3: Ein Projekt, das auf eine andere Website umleitet
+    project2: Ein Mini-Projekt im Datascience
+    project3: Umsetzung allgemeiner Verwaltungsaufgaben
     project4: Ein weiteres ohne Bild
     project5: Ein Projekt mit einem Hintergrundbild
     project6: Ein Projekt ohne Bild
@@ -188,7 +188,7 @@ projects:
     fun: Spaß
     work: Arbeit
   redirections:
-    project3: https://unsplash.com
+    project2: /assets/pdf/de/projects/heart_disease_Prediction.pdf
 cv:
   pdf: apply/resume.pdf
   address: Adresse

@@ -174,15 +174,15 @@ distill:
 projects:
   titles:
     project1: Lattice Generator
-    project2: IDAM
-    project3: Project 3
+    project2: Heart Disease Prediction
+    project3: IDAM
     project4: Project 4
     project5: Project 5
     project6: Project 6
   descriptions:
     project1: Design and Implementation of a Lattice Structure Generator
-    project2: Implementation of Outputs of General Administrative Tasks in IDAM
-    project3: A project that redirects to another website
+    project2: A mini Project in Data Science
+    project3: Implementation of Outputs of General Administrative Tasks
     project4: Another without an image
     project5: A project with a background image
     project6: A project with no image
@@ -190,7 +190,7 @@ projects:
     fun: fun
     work: work
   redirections:
-    project3: https://unsplash.com
+    project2: /assets/pdf/en/projects/heart_disease_Prediction.pdf
 cv:
   pdf: apply/resume.pdf
   address: Address
