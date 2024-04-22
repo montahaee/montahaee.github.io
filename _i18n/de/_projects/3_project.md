@@ -1,10 +1,10 @@
 <div class="row justify-content-sm-center">
     <div class="img-magnifier-container col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid id= "PA process" alt="Pa" path="assets/img/myProj2/PA.jpg" scale=6.5
+        {% include figure.liquid id= "PA process" alt="Pa" path="assets/img/myProj3/PA.jpg" scale=6.5
         title="PA process" class="img-fluid rounded magnify z-depth-1"%}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0 image-container img-magnifier-container justify-content-sm-center">
-        {% include figure.liquid id="EN process" alt="En" path="assets/img/myProj2/EN_process.jpg" title="EN process" scale=5.8 
+        {% include figure.liquid id="EN process" alt="En" path="assets/img/myProj3/EN_process.jpg" title="EN process" scale=5.8 
         class="img-fluid rounded magnify z-depth-1" %}
     </div>
 </div>
@@ -36,7 +36,7 @@ eine einheitlich formalisierte Modellierungssprache.
 <div class="image-270dg-grid-caption-wrapper">
     <div class="row">
         <div class="col-sm mt-3 mt-md-0 img-magnifier-container" id="caption1">
-            {% include figure.liquid path="assets/img/myProj2/ZN_raw_process.png" title="ZN flowchart" id= "ZN flowchart"
+            {% include figure.liquid path="assets/img/myProj3/ZN_raw_process.png" title="ZN flowchart" id= "ZN flowchart"
             class="img-fluid rounded z-depth-1 mx-auto d-block magnify" alt="ZN flowchart" %}
         </div>
     </div>
@@ -79,7 +79,7 @@ turierung vorgeschlagen und überarbeitet (<a href="#caption2"><b>Abbildung 2</b
 <div class="image-270dg-grid-caption-wrapper">
     <div class="row">
         <div class="col-sm mt-3 mt-md-0 img-magnifier-container" id="caption2">
-            {% include figure.liquid path="assets/img/myProj2/AT_activity0.png" title="Preliminary AT Activity" id= "Preliminary AT Activity"
+            {% include figure.liquid path="assets/img/myProj3/AT_activity0.png" title="Preliminary AT Activity" id= "Preliminary AT Activity"
             class="img-fluid rounded z-depth-1 mx-auto d-block magnify" alt="AT activity diagram" %}
         </div>
     </div>
@@ -111,7 +111,7 @@ barkeit der Aktivitätsdiagrammen zu Gunst der Kunde beigetragen hat (<a href="#
 <div class="image-270dg-grid-caption-wrapper">
     <div class="row">
         <div class="col-sm mt-3 mt-md-0 img-magnifier-container justify-content-sm-center">
-            {% include figure.liquid path="assets/img/myProj2/workflowEngine.jpg" title="Workflow Engine" id= "Workflow Engine"
+            {% include figure.liquid path="assets/img/myProj3/workflowEngine.jpg" title="Workflow Engine" id= "Workflow Engine"
             class="img-fluid rounded z-depth-1 mx-auto d-block magnify" alt="workflowEngine class diagram"%}
         </div>
     </div>
@@ -132,7 +132,7 @@ barkeit der Aktivitätsdiagrammen zu Gunst der Kunde beigetragen hat (<a href="#
 <div class="image-270dg-grid-caption-wrapper">
     <div class="row">
         <div class="col-sm mt-3 mt-md-0 img-magnifier-container justify-content-sm-center">
-            {% include figure.liquid path="assets/img/myProj2/AT_activity1.jpg" title="Modified AT Activity" id= "Modified AT Activity"
+            {% include figure.liquid path="assets/img/myProj3/AT_activity1.jpg" title="Modified AT Activity" id= "Modified AT Activity"
             class="img-fluid rounded z-depth-1 mx-auto d-block magnify" alt="AT activity diagram"%}
         </div>
     </div>
