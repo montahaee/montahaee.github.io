@@ -2,9 +2,9 @@
 <div class="grid-item">
 
   <a href="{%- if project.redirect -%}
-  {%- t project.redirect %}{%- else -%}
-  {{ project.url | prepend: site.baseurl }}
-  {%- endif -%}">
+  {%- t project.redirect -%}{% assign _target="_blank" %}{%- else -%}
+  {{ project.url | prepend: site.baseurl }}{% assign _target="" %}
+  {%- endif -%}" target= "{{ _target }}">
     <div class="card hoverable">
       {%- if project.img -%}
       {%-
