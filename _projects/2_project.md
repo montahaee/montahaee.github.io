@@ -1,14 +1,11 @@
 ---
 layout: page
-title: projects.titles.project2
-description: projects.descriptions.project2
-img: assets/img/myProj2/workflowEngine.jpg
-importance: 2
+title: projects.titles.project3
+description: projects.descriptions.project3
+img: assets/img/myProj3/target_present_absent.png
+redirect: projects.redirections.project3
+importance: 3
 category: work
-magnified: true
-giscus_comments: true
-toc:
-  sidebar: left
 ---
 
-{% translate_file _projects/2_project.md %}
+{% translate_file _projects/3_project.md %}
