@@ -64,7 +64,13 @@ $mixed-color1_light: mix($lighter-color1, $color4-1,50%);
 $mixed-color1_dark: mix($lighter-color1, $color4-1,95%);
 $color5: #f69d3c !default;
 $mixed-color_dark: mix($lighter_color1,mix(mix($color3,$color5,100%), mix($color2,$color4,100%),50%),100%);
-$mixed-color_light: mix($darker-color1,mix(mix($color3,$color5,100%), mix($color2,$color4,100%),50%),100%);
+$mixed-color_light: mix($darker-color1,mix(mix(mix($color3,$color5,75%), $yellow-color,50%), mix($color2,$color4,75%),100%),75%);
+//$mixed-color_light: darken($mixed-color_light1, 10%);
+//$mixed-color_light2: mix($mixed-color_light1, $color2, 45%);
+//$mixed-color_light: darken($mixed-color_light2, 12%);
+//$mixed-color_light3: darken($mixed-color_light2, 12%);
+//$mixed-color_light: mix($mixed-color_light3, $yellow-color, 60%);
+
 $code-bg-color-light:     rgba($purple-color, 0.05);
 $code-bg-color-dark:      #2c3237 !default;
 $img-light-bg-boarder-color: mix($dark-gray12, $color4, 80%);
