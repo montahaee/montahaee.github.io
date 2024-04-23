@@ -1,7 +1,7 @@
 ---
 layout: post
 title: posts.titles.post19
-date: 2023-09-17 17:53:00
+date: posts.dates.post19
 description: posts.descriptions.post19
 author: Mormon
 tags: posts.tags.math
@@ -24,5 +24,5 @@ Die Einführung von "Elemente der Angewandten Funktionalanalysis" unterstreicht 
 
 ***
 
-Schließen Sie sich uns an, um diese aufregende Initiative zu feiern, und nutzen Sie den Reichtum an Wissen, der durch (<a href="https://www.ams.org/open-math-notes">offene Math Notes</a>) verfügbar ist.
+Schließen Sie sich uns an, um diese aufregende Initiative zu feiern, und nutzen Sie den Reichtum an Wissen, der durch (<a href="https://www.ams.org/open-math-notes">Open Math Notes</a>) verfügbar ist.
 Nutzen Sie die Gelegenheit, Ihren mathematischen Horizont zu erweitern, Ihr Verständnis zu vertiefen und zur lebendigen mathematischen Gemeinschaft beizutragen.
