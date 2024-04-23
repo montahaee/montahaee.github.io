@@ -14,10 +14,11 @@
     <h2 class="text-3xl font-semibold mb-4 mt-12">{% t blog.related_posts.title %}</h2>
     <p class="mb-2">{% t blog.related_posts.description %}</p>
   {% endunless %}
+  {% if post.url != page.url and post.tag == page.tag %}
   <li class="my-2">
     {% comment %}{% t post.title %}{% endcomment %}
     {% assign post_title = post.translations[site.lang].titles %}
-    <!--<a class="text-pink-700 underline font-semibold hover:text-pink-800" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>-->
     <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="{{ site.baseurl }}{{ post.url }}">{% t post.title %}</a>
   </li>
+  {% endif %}
 {% endfor %}

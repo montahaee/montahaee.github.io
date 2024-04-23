@@ -144,7 +144,7 @@ pagination:
   title: ':title - pagination.page :num'
 related_blog_posts:
   enabled: true
-  max_related: 5
+  max_related: 6
 #lsi: true
 # Giscus comments (RECOMMENDED)
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out
