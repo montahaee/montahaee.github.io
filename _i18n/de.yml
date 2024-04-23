@@ -1,3 +1,4 @@
+#YAML.load
 not_found:
   message: Sie werden innerhalb von 3 Sekunden zur Hauptseite weitergeleitet. Wenn Sie nicht weitergeleitet werden, gehen Sie bitte zurück zur
   main_page: Startseite
@@ -164,6 +165,9 @@ posts:
     diagrams: Diagramm
     redirect: Weiterleitung
     integrations: Einbindung
+
+  dates:
+    post19: 2023-09-17
 
 distill:
   toc:

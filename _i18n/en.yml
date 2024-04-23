@@ -167,6 +167,9 @@ posts:
     redirect: Redirection
     integrations: Integration
 
+  dates:
+    post19: 2023-09-17
+
 distill:
   toc:
     title: Contents
