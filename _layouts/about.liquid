@@ -11,7 +11,7 @@ layout: default
                   {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
 
                   {%- if page.profile.image_circular -%}
-                      {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
+                      {%- assign profile_image_class = "about-img-fluid z-depth-1 rounded-circle" -%}
                   {%- else -%}
                       {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
                   {%- endif -%}
@@ -63,6 +63,7 @@ layout: default
     <!-- Latest posts -->
     {%- if page.latest_posts -%}
       <h2><a href="{{ '/blog/' | prepend: site.baseurl }}" style="color: inherit;">{%- t titles.latest_posts -%}</a></h2>
+      <!--<h2><a href="{{ '/blog/' | prepend: site.baseurl }}" style="color: inherit;">{{ titles.latest_posts }}</a></h2>-->
       {%- include latest_posts.liquid -%}
     {%- endif -%}
 

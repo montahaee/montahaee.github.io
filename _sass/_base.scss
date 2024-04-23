@@ -219,6 +219,15 @@ blockquote {
   0 4px 8px var(--global-divider-color);
 }
 
+// about
+.about-img-fluid {
+  @extend .img-fluid;
+  &:hover {
+    transform: none;
+  }
+}
+
+
 @media (max-width: 1008px) {
   .img-fluid {
     max-width: 75%; /* Use the full width of the container */
