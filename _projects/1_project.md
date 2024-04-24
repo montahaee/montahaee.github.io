@@ -4,7 +4,7 @@ title: projects.titles.project1
 description: projects.descriptions.project1
 img: assets/img/myProj1/3d_revolve_4.png
 importance: 1
-category: work
+category: informatics
 magnified: true
 giscus_comments: true
 toc:

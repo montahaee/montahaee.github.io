@@ -4,7 +4,7 @@ title: projects.titles.project3
 description: projects.descriptions.project3
 img: assets/img/myProj3/workflowEngine.jpg
 importance: 3
-category: work
+category: informatics
 magnified: true
 giscus_comments: true
 toc:

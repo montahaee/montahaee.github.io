@@ -5,7 +5,7 @@ description: descriptions.projects
 permalink: /projects/
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [informatics, mathematics]
 horizontal: false
 ---
 <!--({%- assign proj_title_size = site.translations[site.lang].titles.projects | size -%})-->
