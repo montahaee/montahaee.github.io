@@ -1,0 +1,9 @@
+<script
+    defer
+    {% comment %}<!--src="https://cdn.jsdelivr.net/npm/pdfjs-dist@{{ site.pdfjs.version }}/+esm"-->{% endcomment %}
+    src="https://cdn.jsdelivr.net/npm/pdfjs-dist@{{ site.pdfjs.version }}/build/pdf.min.mjs"
+    integrity="{{ site.pdfjs.integrity }}"
+    crossorigin="anonymous"
+    type="module"
+    {% comment %}<!-- emac! necessary attribute for'.mjs' -->{% endcomment %}
+></script>
