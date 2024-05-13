@@ -194,7 +194,7 @@ projects:
     informatics: Informatics
   redirections:
     project2: /assets/pdf/en/projects/heart_disease_Prediction.pdf
-    project4: /assets/pdf/de/projects/JLL1_final.pdf
+    project4: /assets/pdf/en/projects/JLL1_final.pdf
 
 cv:
   pdf: apply/resume.pdf
