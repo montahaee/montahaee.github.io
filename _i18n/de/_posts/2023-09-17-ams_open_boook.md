@@ -1,7 +1,7 @@
 ---
 layout: post
 title: posts.titles.post19
-date: posts.dates.post19
+date: 2023-09-17 15:53:00
 description: posts.descriptions.post19
 author: Mormon
 tags: posts.tags.math
