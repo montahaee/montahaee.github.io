@@ -180,14 +180,14 @@ projects:
     project2: Heart Disease Prediction
     project3: IDAM
     project4: The Johnson-Lindenstrauss Lemma
-    project5: Project 5
+    project5: Data-Driven Exact Physics for SciML
     project6: Project 6
   descriptions:
     project1: Design and Implementation of a Lattice Structure Generator
     project2: A mini Project in Data Science
     project3: Implementation of Outputs of General Administrative Tasks
     project4: A crucial idea in dimensionality reduction
-    project5: A project with a background image
+    project5: ML in the Discretization of Elliptic Partial Differential Equations (on Germany)
     project6: A project with no image
   categories:
     mathematics: Mathematics
@@ -195,6 +195,7 @@ projects:
   redirections:
     project2: /assets/pdf/en/projects/heart_disease_Prediction.pdf
     project4: /assets/pdf/en/projects/JLL1_final.pdf
+    project5: /assets/pdf/de/projects/myFH_Bachelorthesis.pdf
 
 cv:
   pdf: apply/resume.pdf

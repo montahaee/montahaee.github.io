@@ -179,14 +179,14 @@ projects:
     project2: Herzkrankheit-svorhersage
     project3: IDAM
     project4: Das Johnson-Lindenstrauss Lemma
-    project5: Projekt 5
+    project5: Datengetrieben exakte Physik für WML
     project6: Projekt 6
   descriptions:
     project1: Entwurf und Implementierung eines Gitter-Struktur-Generators
     project2: Ein Mini-Projekt im Datascience
     project3: Umsetzung allgemeiner Verwaltungsaufgaben
     project4: Ein Schlüsselelement der Dimensionalitätsreduktion
-    project5: Ein Projekt mit einem Hintergrundbild
+    project5: ML in der Diskretisierung elliptischen partiellen Differentialgleichungen
     project6: Ein Projekt ohne Bild
   categories:
     mathematics: Mathematik
@@ -194,6 +194,7 @@ projects:
   redirections:
     project2: /assets/pdf/de/projects/heart_disease_Prediction.pdf
     project4: /assets/pdf/de/projects/JLL1_final.pdf
+    project5: /assets/pdf/de/projects/myFH_Bachelorthesis.pdf
 
 cv:
   pdf: apply/resume.pdf
