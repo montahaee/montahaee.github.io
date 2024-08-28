@@ -30,7 +30,8 @@
       description:
         - title: Bachelor’s thesis
           contents:
-            - Data-Driven Exact Physics for Scientific Machine Learning
+            - Data-driven exterior differential calculus on graphs applied to the
+              discretization of elliptic partial differential equations
         - title: Focus Areas
           contents:
             - Linear Algebra, Statistics, Numerics

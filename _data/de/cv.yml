@@ -30,7 +30,8 @@
       description:
         - title: Bachelorarbeit
           contents:
-            - Datengetriebene exakte Physik für wissenschaftliches Maschinenlernen
+            - Datengetriebene äußere Differentialrechnung auf Graphen zur Diskretisierung von
+              elliptisch partiellen Differentialgleichungen
         - title: Schwerpunkte
           contents:
             - Lineare Algebra, Statistik, Numerik
