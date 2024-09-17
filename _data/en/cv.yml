@@ -25,7 +25,7 @@
             - Mathematical Statistics and Models of Nature (ODE)
     - title: B.Sc. in Applied Mathematics and Computer Science
       institution: FH Aachen – University of Applied Sciences
-      year: 10/2019 - 09/2024
+      year: 10/2019 - today
       location: Jülich, Germany
       description:
         - title: Bachelor’s thesis
@@ -36,6 +36,7 @@
           contents:
             - Linear Algebra, Statistics, Numerics
             - Programming (OOP), Algorithms and Data Structures, Data Science, Databases, Software Engineering, Web and Communication Systems
+        - Upcoming Graduation September 2024
 - title: Experience
   type: time_table
   contents:
