@@ -117,9 +117,9 @@
                         {% if site.languages.size == 2 %}
                             <li class="nav-item active">
                                 {% if site.lang == site.languages.first %}
-                                    <a class="nav-link" href="{{site.baseurl_root}}/{{site.languages.last}}{{page.url}}">{{ site.languages.last | upcase }}</a>
+                                    <a class="nav-link" href="{{site.baseurl_root}}/{{site.languages.last}}{{page.url}}">{{ site.languages.first | upcase }}</a>
                                 {% elsif site.lang == site.languages.last %}
-                                    <a class="nav-link" href="{{site.baseurl_root}}{{ page.url }}">{{ site.languages.first | upcase }}</a>
+                                    <a class="nav-link" href="{{site.baseurl_root}}{{ page.url }}">{{ site.languages.last | upcase }}</a>
                                 {% endif %}
                             </li>
                         {% else %}
