@@ -2,6 +2,7 @@
  * Variables used throughout the theme.
  * To adjust anything, simply edit the variables below and rebuild the theme.
  ******************************************************************************/
+@use 'sass:color';
 
 // Colors
 $red-color:           #FF3636 !default;
@@ -9,9 +10,11 @@ $red-color-dark:      #B71C1C !default;
 $orange-color:        #F29105 !default;
 $blue-color:          #0076df !default;
 $blue-color-dark:     #00369f !default;
-$blue-color-light:    lighten($blue-color, 25%);
+//$blue-color-light:    lighten($blue-color, 25%);
+$blue-color-light:    color.adjust($blue-color, $lightness: 25%);
 $cyan-color:          #2698BA !default;
-$light-cyan-color:    lighten($cyan-color, 25%);
+//$light-cyan-color:    lighten($cyan-color, 25%);
+$light-cyan-color:    color.adjust($cyan-color, $lightness: 25%);
 $green-color:         #00ab37 !default;
 $green-color1:        #4CAF50 !default;
 $green-color-lime:    #B7D12A !default;
@@ -19,7 +22,8 @@ $green-color-dark:    #009f06 !default;
 $green-color-light:   #ddffdd !default;
 $green-color-bright:  #11D68B !default;
 $purple-color:        #B509AC !default;
-$light-purple-color:  lighten($purple-color, 25%);
+//$light-purple-color:  lighten($purple-color, 25%);
+$light-purple-color:  color.adjust($purple-color, $lightness: 25%);
 $pink-color:          #f92080 !default;
 $pink-color-light:    #ffdddd !default;
 $yellow-color:        #efcc00 !default;
@@ -41,7 +45,8 @@ $dark-gray14:         #f5f5f6;
 $dark-gray15:         #f8f8fa;
 $dark-gray16:         #fcfcfd;
 $grey-color:          #828282 !default;
-$grey-color-light:    lighten($grey-color, 40%);
+//$grey-color-light:    lighten($grey-color, 40%);
+$grey-color-light:    color.adjust($grey-color, $lightness: 40%);
 $grey-color-dark:     #1C1C1D;
 $grey-900:            #212529;
 
@@ -49,17 +54,24 @@ $white-color: #ffffff !default;
 $black-color: #000000 !default;
 $lighted_color1: #ffaaaa;
 $color1: #e66465;
-$darker-color1: darken($color1, 10%);
-$lighter-color1: lighten($color1, 20%);
+//$darker-color1: darken($color1, 10%);
+$darker-color1: color.adjust($color1, $lightness: -10%);
+
+//$lighter-color1: lighten($color1, 20%);
+$lighter-color1: color.adjust($color1, $lightness: 20%);
 $color2: #9198e5;
 $color3: #3f87a6 !default;
 $color4: #ebf8e1;
-$darker-color4: darken($color4, 20%);
+//$darker-color4: darken($color4, 20%);
+$darker-color4: color.adjust($color4, $lightness: -20%);
 $color4-1: mix($color4,$darker-color1,100%);
 $color1-4: mix($color1,$darker-color4,40%);
-$lighter-color1-4: lighten($color1-4,20%);
-$darker-color1-4: darken($color1-4,10%);
-$lighter-color3 : lighten($color3, 40%);
+//$lighter-color1-4: lighten($color1-4,20%);
+$lighter-color1-4: color.adjust($color1-4, $lightness: 20%);
+//$darker-color1-4: darken($color1-4,10%);
+$darker-color1-4: color.adjust($color1-4,$lightness: -10%);
+//$lighter-color3 : lighten($color3, 40%);
+$lighter-color3 : color.adjust($color3, $lightness: 40%);
 $mixed-color1_light: mix($lighter-color1, $color4-1,50%);
 $mixed-color1_dark: mix($lighter-color1, $color4-1,95%);
 $color5: #f69d3c !default;
