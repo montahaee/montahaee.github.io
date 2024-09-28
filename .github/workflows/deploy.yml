@@ -63,11 +63,8 @@ jobs:
         run: |
           npm install -g purgecss
           purgecss -c purgecss.config.js
-      - name: Clear Cache
-        run: |
-          rm -rf /home/runner/work/_actions/JamesIves/github-pages-deploy-action
       - name: Deploy 🚀
         if: github.event_name != 'pull_request'
-        uses: JamesIves/github-pages-deploy-action@v4
+        uses: JamesIves/github-pages-deploy-action@v4.6.4
         with:
           folder: _site
