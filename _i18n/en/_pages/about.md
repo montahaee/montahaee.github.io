@@ -1,4 +1,5 @@
-[Graduated](/assets/pdf/en/apply/bsc_degrees.pdf){:target="_blank"} in Applied Mathematics and Computer Science at <a href='https://www.fh-aachen.de/en/'>University of Applied Sciences</a>, Aachen and 
+[Graduated](/assets/pdf/en/apply/bsc_degrees.pdf){:target="_blank"} in Applied Mathematics and Computer Science at University of Applied Sciences \\
+<a href='https://www.fh-aachen.de/en/'>FH</a> Aachen and 
 in Applied Mathematics at <a href='https://en.wikipedia.org/wiki/Payame_Noor_University'>PNU</a>, Tehran-Pakdasht with completed
 <a href="https://www.rwth-aachen.de/cms/root/die-rwth/arbeiten-an-der-rwth/berufsausbildung/ausbildungsberufe/~vsa/math-techn-softwareentwickler/?lidx=1">
 MATSE</a> Apprenticeship.
