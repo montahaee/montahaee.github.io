@@ -34,7 +34,7 @@ In terms of requirement analysis for functions of the future library and code an
 - Ability to extrude, rotate, and revolve of a lattice
 - Ability to restrict the edges of a lattice in connection with geometric and mechanical properties
 
-The entire design of the class structure (__[Figure 2](#caption2 "Class diagram for Gitter-Struktur-Generator")__) was carried out only after a rough design of flowcharts and was conceived like the adapter pattern insofar as interfaces compatible with *NX-Open*  in our project should be used for the visualization of the lattice (__[Figure 3](#caption3)__). Since changes to the adapter class should not affect the overall architecture (*Principle of Loose Coupling* (PLC)), the module was created in another package.
+The entire design of the class structure (__[Figure 2](#caption2 "Class diagram for Gitter-Struktur-Generator")__) was carried out only after a rough design of flowcharts and was conceived like the <a href="https://refactoring.guru/design-patterns/adapter">adapter</a> pattern insofar as interfaces compatible with *NX-Open*  in our project should be used for the visualization of the lattice (__[Figure 3](#caption3)__). Since changes to the adapter class should not affect the overall architecture (*Principle of Loose Coupling* (PLC)), the module was created in another package.
 
 <br>
 <div class="image-270dg-grid-caption-wrapper">

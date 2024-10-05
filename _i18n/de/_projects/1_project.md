@@ -47,7 +47,7 @@ der bereits geschrieben Nicht-OOP stellen sich folgenden Merkmale heraus:
 - Möglichkeit der Einschränkungen der Kanten eins Gitters im Zusammenhang mit geometrischen und mechanischen Eigenschaften
 
 Der gesamte Entwurf der Klassenstruktur (__[Abbildung 2](#caption2 "Klassendiagramm für Gitter-Struktur-Generator")__) erfolgte erst nach einer Grobdesign von
-  Flussdiagrammen und wurde genau wie das Adaptermuster insofern konzipiert, als zur
+  Flussdiagrammen und wurde genau wie das <a href="https://refactoring.guru/design-patterns/adapter">Adapter</a>muster insofern konzipiert, als zur
   Visualisierung des Gitters Schnittstellen von *NX-Open* kompatible in unserem Projekt angewandt
   werden sollten (__[Abbildung 3](#caption3)__). Da Änderungen der Adapter-Klasse Gesamtarchitektur nicht beeinflussen
   sollen (Prinzip der losen Kopplung(PLK)) wurde das Modul in einem anderen Paket angelegt.
