@@ -44,14 +44,19 @@ $dark-gray13:         #f2f2f2;
 $dark-gray14:         #f5f5f6;
 $dark-gray15:         #f8f8fa;
 $dark-gray16:         #fcfcfd;
+$dark-gray17:         #fefefd;
 $grey-color:          #828282 !default;
 //$grey-color-light:    lighten($grey-color, 40%);
 $grey-color-light:    color.adjust($grey-color, $lightness: 40%);
 $grey-color-dark:     #1C1C1D;
 $grey-900:            #212529;
-
 $white-color: #ffffff !default;
+$semi-white-color: rgba(255, 255, 255, 0.4) !default;
+$semi-white-scolor: rgba(255, 255, 255, 0.2) !default;
+
 $black-color: #000000 !default;
+$semi-gray-color: rgba(0, 0, 0, 0.4) !default;
+$semi-gray-scolor: rgba(0, 0, 0, 0.2) !default;
 $lighted_color1: #ffaaaa;
 $color1: #e66465;
 //$darker-color1: darken($color1, 10%);
@@ -87,6 +92,7 @@ $code-bg-color-light:     rgba($purple-color, 0.05);
 $code-bg-color-dark:      #2c3237 !default;
 $img-light-bg-boarder-color: mix($dark-gray12, $color4, 80%);
 $img-dark-bg-boarder-color: mix($grey-900, $dark-gray3, 75%);
+
 // Font awesome location (inside your webfonts should be usually)
 //$fa-font-path: "../../_sass/font-awesome/fontawesome.scss";
 $fa-font-path: '../fonts/webfonts';

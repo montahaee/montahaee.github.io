@@ -9,7 +9,7 @@
   --global-text-color-light: #{$grey-color};
   --global-theme-color: #{$mixed-color_light};
   --global-hover-color: #{$mixed-color_light};
-  --global-hover-text-color: #{$white-color};
+  --global-hover-text-color: #{$dark-gray16};
   --global-footer-bg-color: #{$grey-color-dark};
   --global-footer-text-color: #{$grey-color-light};
   --global-footer-link-color: #{$white-color};
@@ -43,14 +43,17 @@
   --global-image-boarder-color: linear-gradient(0.25turn, #{$mixed-color1_light}, #{$lighter-color1-4}, #{$lighter-color3}) !important;
   --global-image-boarder-hover-color: linear-gradient(0.75turn, #{$mixed-color1_light}, #{$lighter-color1-4}, #{$lighter-color3}) !important;
   --global-img-boarder: #{$img-light-bg-boarder-color};
-
+  --modal-bg-color: #{$semi-gray-color};
+  --modal-content-bg-color: #{$dark-gray17};
+  --modal-border-color: #{#888};
+  --modal-shadow-color: #{$semi-white-scolor};
   .fa-sun {
     display : none;
   }
 
   .fa-moon {
     padding-left: 10px;
-    padding-top: 10px; /* Adjusted padding-top */
+    padding-top: 15px; /* Adjusted padding-top */
     display: block;
     font-size: 1.2em;
     line-height: 15px;
@@ -101,6 +104,11 @@ html[data-theme='dark'] {
   --global-danger-block-bg: #ffe0e0;
   --global-danger-block-text: #600;
   --global-danger-block-title: #c00;
+  --modal-bg-color: #{$semi-white-color};
+  --modal-content-bg-color: #{$dark-gray2};
+  --modal-border-color: #{$dark-gray9};
+  --modal-shadow-color: #{$semi-gray-scolor};
+
 
   .fa-sun {
     padding-left: 10px;
