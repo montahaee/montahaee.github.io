@@ -11,18 +11,6 @@
 - title: Ausbildung
   type: time_table
   contents:
-    - title: B.Sc. in Angewandter Mathematik
-      institution: Universität von Payame Noor
-      year: 10/2005 - 07/2009
-      location: Pakdasht-Teheran, Iran
-      description:
-        - title: Bachelorarbeit
-          contents:
-            - Anwendung nichtlinearer konjugierter Gradientenalgorithmen zur Schätzung der elektromagnetischen Inversion
-        - title: Schwerpunkte
-          contents:
-            - Lineare Algebra, Numerische (ODE) und Mathematische Analyse
-            - Mathematische Statistik und Modelle der Natur (ODE)
     - title: B.Sc. in Angewandter Mathematik und Informatik
       institution: FH Aachen – University of Applied Sciences
       year: 10/2019 - 09/2024
@@ -37,7 +25,18 @@
             - Lineare Algebra, Statistik, Numerik
             - Programmierung (OOP), Algorithmen und Datenstrukturen, Data Science, Datenbanken, Softwaretechnik, Web- und Kommunikationssysteme.
         - Bevorstehender Abschluss September 2024
-
+    - title: B.Sc. in Angewandter Mathematik
+      institution: Universität von Payame Noor
+      year: 10/2005 - 07/2009
+      location: Pakdasht-Teheran, Iran
+      description:
+        - title: Bachelorarbeit
+          contents:
+            - Anwendung nichtlinearer konjugierter Gradientenalgorithmen zur Schätzung der elektromagnetischen Inversion
+        - title: Schwerpunkte
+          contents:
+            - Lineare Algebra, Numerische (ODE) und Mathematische Analyse
+            - Mathematische Statistik und Modelle der Natur (ODE)
 - title: Erfahrung
   type: time_table
   contents:

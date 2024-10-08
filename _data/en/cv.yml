@@ -11,18 +11,6 @@
 - title: Education
   type: time_table
   contents:
-    - title: B.Sc. in Applied Mathematics
-      institution: University of Payame Noor
-      location: Pakdasht-Tehran, Iran
-      year: 10/2005 - 07/2009
-      description:
-        - title: Bachelor’s thesis
-          contents:
-            - Application of nonlinear conjugate gradient algorithms for the estimation of electromagnetic inversion
-        - title: Focus Areas
-          contents:
-            - Algebra, Numerical (ODE) and Mathematical Analysis
-            - Mathematical Statistics and Models of Nature (ODE)
     - title: B.Sc. in Applied Mathematics and Computer Science
       institution: FH Aachen – University of Applied Sciences
       year: 10/2019 - 09/2024
@@ -36,7 +24,18 @@
           contents:
             - Linear Algebra, Statistics, Numerics
             - Programming (OOP), Algorithms and Data Structures, Data Science, Databases, Software Engineering, Web and Communication Systems
-        - Upcoming Graduation September 2024
+    - title: B.Sc. in Applied Mathematics
+      institution: University of Payame Noor
+      location: Pakdasht-Tehran, Iran
+      year: 10/2005 - 07/2009
+      description:
+        - title: Bachelor’s thesis
+          contents:
+            - Application of nonlinear conjugate gradient algorithms for the estimation of electromagnetic inversion
+        - title: Focus Areas
+          contents:
+            - Algebra, Numerical (ODE) and Mathematical Analysis
+            - Mathematical Statistics and Models of Nature (ODE)
 - title: Experience
   type: time_table
   contents:
