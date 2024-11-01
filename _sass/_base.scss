@@ -265,7 +265,10 @@ blockquote {
 
 .navbar .dropdown-menu {
   background-color: var(--global-bg-color);
-  border: 1px solid var(--global-divider-color);
+  min-width: 100px; /* Adjust this to control the minimum width */
+  max-width: 200px; /* Optional: limits the maximum width */
+  width: auto; /* Automatically adjusts based on content */
+  height: auto;
 
   a:not(.active) {
     color: var(--global-text-color);
@@ -282,10 +285,14 @@ blockquote {
 
 .dropdown-item {
   color: var(--global-text-color);
+  //font-size-adjust: 1/;
+  font-size: .75rem!important;
 
   &:hover {
     color: var(--global-hover-color);
     background-color: var(--global-bg-color);
+    //font-size-adjust: 2/3;
+
   }
 }
 
@@ -1479,6 +1486,8 @@ progress::-moz-progress-bar {
 
   .dropdown-menu {
     background-color: var(--global-bg-color);
+    width: 30px; /* Adjust the width as needed */
+    height: auto;
   }
 
   .dropdown-item {
@@ -1500,9 +1509,19 @@ progress::-moz-progress-bar {
   }
 }
 
+.flag {
+  width: 24px;  /* Set the desired width */
+  height: 24px; /* Set the desired height */
+  object-fit: cover; /* Maintain aspect ratio while covering the given dimensions */
+}
+
 /* Table of Contents */
 nav[data-toggle="toc"] {
-  top: 5rem;
+  top: 5rem;//.flag {
+//  width: 24px;  /* Set the desired width */
+//  height: 24px; /* Set the desired height */
+//  object-fit: cover; /* Maintain aspect ratio while covering the given dimensions */
+//}
 
   .nav .nav>li>a {
     font-size: .75rem;
