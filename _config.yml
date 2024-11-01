@@ -273,6 +273,8 @@ defaults:
 default_locale_in_subfolder: false
 exclude_from_localizations: ["assets", "purgecss.config.js", "package-lock.json", "package.json"]
 languages: ["en", "de"]   # The default language must the first language in the array (for more detaials see for example '/_layouts/cv.liquid').
+flag: true
+toggle: true
 # -----------------------------------------------------------------------------
 # Jekyll Minifier
 # -----------------------------------------------------------------------------
