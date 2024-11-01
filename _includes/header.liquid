@@ -1,5 +1,6 @@
 <header>
     <!-- Nav Bar -->
+    <!--{% comment %}<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css">{% endcomment %}-->
     <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
         <div class="container">
             {% if page.permalink != '/' %}
@@ -112,14 +113,23 @@
                             {% endif %}
                         {% endif %}
                     {% endfor %}
-                    <!-- Toogle language -->
+                    <!-- Toggle language -->
                     {% if site.enable_localization and site.languages.size >= 2 %}
-                        {% if site.languages.size == 2 %}
+                        {% if site.languages.size == 2 and site.toggle != true %}
                             <li class="nav-item active">
-                                {% if site.lang == site.languages.first %}
-                                    <a class="nav-link" href="{{site.baseurl_root}}/{{site.languages.last}}{{page.url}}">{{ site.languages.first | upcase }}</a>
-                                {% elsif site.lang == site.languages.last %}
-                                    <a class="nav-link" href="{{site.baseurl_root}}{{ page.url }}">{{ site.languages.last | upcase }}</a>
+                                {% if site.flag %}
+                                    {% if site.lang == site.languages.first %}
+                                        <a class="nav-link" href="{{site.baseurl_root}}/{{site.languages.last}}{{page.url}}">{{ site.languages.first | upcase }}</a>
+                                        {% comment %}<a class="nav-link" href="{{site.baseurl_root}}/{{site.languages.last}}{{page.url}}"><i class="fa-solid  fa-flag-{{site.languages.first}}" aria-hidden="true"></i></a>{% endcomment %}
+                                    {% elsif site.lang == site.languages.last %}
+                                     <a class="nav-link" href="{{site.baseurl_root}}{{ page.url }}">{{ site.languages.last | upcase }}</a>
+                                {% else %}
+                                     {% if site.lang == site.languages.first %}
+                                        <a class="nav-link" href="{{site.baseurl_root}}/{{site.languages.last}}{{page.url}}">{{ site.languages.first | upcase }}</a>
+                                     {% elsif site.lang == site.languages.last %}
+                                     <a class="nav-link" href="{{site.baseurl_root}}{{ page.url }}">{{ site.languages.last | upcase }}</a>
+                                     {% endif %}
+                                    {% endif %}
                                 {% endif %}
                             </li>
                         {% else %}
@@ -133,7 +143,7 @@
                                         aria-haspopup="true"
                                         aria-expanded="false"
                                 >
-                                    {{- site.lang | upcase }}
+                                    <img src="../assets/img/{{ site.lang }}.png" alt="{{ site.lang | upcase }}" class="flag">
                                     {% if page.title == p.title %}
                                         <span class="sr-only">(current)</span>
                                     {% endif %}
@@ -146,10 +156,24 @@
                                                 <div class="dropdown-divider"></div>
                                             {% endif %}
                                             {% if l == site.languages.first %}
-                                                <a class="dropdown-item" href="{{site.baseurl_root}}{{page.url}}">{{ l | upcase }}</a>
+                                                <a class="dropdown-item" href="{{site.baseurl_root}}{{page.url}}">
+                                                    {% if site.flag %}
+                                                        {{ 'English' | upcase }}
                                             {% else %}
-                                                <a class="dropdown-item" href="{{site.baseurl_root}}/{{l}}{{page.url}}">{{ l | upcase }}</a>
+                                                    {{ l | upcase }}
                                             {% endif %}
+                                                </a>
+                                    {% else %}
+                                    <a class="dropdown-item"
+                                       href="{{ site.baseurl_root }}/{{ l }}{{ page.url }}">
+                                        {% if site.flag %}
+                                            {{ 'Deutsch' | upcase }}
+
+                                        {% else %}
+                                        {{ l | upcase }}
+                                        {% endif %}
+                                    </a>
+                                    {% endif %}
                                             {% assign language_set = true %}
                                         {% endif %}
                                     {% endfor %}
