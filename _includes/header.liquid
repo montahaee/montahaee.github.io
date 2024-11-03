@@ -117,22 +117,48 @@
                     {% if site.enable_localization and site.languages.size >= 2 %}
                         {% if site.languages.size == 2 and site.toggle != true %}
                             <li class="nav-item active">
-                                {% if site.flag %}
-                                    {% if site.lang == site.languages.first %}
-                                        <a class="nav-link" href="{{site.baseurl_root}}/{{site.languages.last}}{{page.url}}">{{ site.languages.first | upcase }}</a>
-                                        {% comment %}<a class="nav-link" href="{{site.baseurl_root}}/{{site.languages.last}}{{page.url}}"><i class="fa-solid  fa-flag-{{site.languages.first}}" aria-hidden="true"></i></a>{% endcomment %}
-                                    {% elsif site.lang == site.languages.last %}
-                                     <a class="nav-link" href="{{site.baseurl_root}}{{ page.url }}">{{ site.languages.last | upcase }}</a>
-                                {% else %}
-                                     {% if site.lang == site.languages.first %}
-                                        <a class="nav-link" href="{{site.baseurl_root}}/{{site.languages.last}}{{page.url}}">{{ site.languages.first | upcase }}</a>
-                                     {% elsif site.lang == site.languages.last %}
-                                     <a class="nav-link" href="{{site.baseurl_root}}{{ page.url }}">{{ site.languages.last | upcase }}</a>
-                                     {% endif %}
+                                {% if site.lang == site.languages.first %}
+                                    {% if site.flag %}
+                                        {% assign lang_flag = "/assets/img/" | append: site.lang | append: ".png" %}
+                                        {% assign filtered_files = site.static_files | where: "path", lang_flag %}
+                                        {% if filtered_files.size > 0 %}
+                                            <a class="nav-link" href="{{ site.baseurl_root }}/{{ site.languages.last }}{{ page.url }}">
+                                                <img src="{{ lang_flag }}" alt="{{ site.lang | upcase }}" class="flag">
+                                                {{ site.lang | upcase }}
+                                            </a>
+                                        {% else %}
+                                            <a class="nav-link" href="{{ site.baseurl_root }}/{{ site.languages.last }}{{ page.url }}">
+                                                {{ site.lang | upcase }}
+                                            </a>
+                                        {% endif %}
+                                    {% else %}
+                                        <a class="nav-link" href="{{ site.baseurl_root }}/{{ site.languages.last }}{{ page.url }}">
+                                            {{ site.lang | upcase }}
+                                        </a>
+                                    {% endif %}
+
+                                {% elsif site.lang == site.languages.last %}
+                                    {% if site.flag %}
+                                        {% assign lang_flag = "/assets/img/" | append: site.lang | append: ".png" %}
+                                        {% assign filtered_files = site.static_files | where: "path", lang_flag %}
+                                        {% if filtered_files.size > 0 %}
+                                            <a class="nav-link" href="{{ site.baseurl_root }}{{ page.url }}">
+                                                <img src="{{ lang_flag }}" alt="{{ site.lang | upcase }}" class="flag">
+                                                {{ site.languages.last | upcase }}
+                                            </a>
+                                        {% else %}
+                                            <a class="nav-link" href="{{ site.baseurl_root }}{{ page.url }}">
+                                                {{ site.languages.last | upcase }}
+                                            </a>
+                                        {% endif %}
+                                    {% else %}
+                                        <a class="nav-link" href="{{ site.baseurl_root }}{{ page.url }}">
+                                            {{ site.languages.last | upcase }}
+                                        </a>
                                     {% endif %}
                                 {% endif %}
                             </li>
-                        {% else %}
+                        {% else%}
                             <li class="nav-item dropdown {% if page.title == p.title %}active{% endif %}">
                                 <a
                                         class="nav-link dropdown-toggle"
@@ -147,9 +173,9 @@
                                     {% assign lang_flag = "/assets/img/" | append: site.lang | append: ".png" %}
                                     {% assign filtered_files = site.static_files | where: "path", lang_flag %}
                                     {% if filtered_files.size > 0 %}
-                                        <img src="{{ lang_flag }}" alt="{{ site.lang | upcase }}" class="flag">
+                                        <img src="{{ lang_flag }}" alt="{{ site.lang | upcase }}" class="flag"> {{ site.lang | upcase }}
                                     {% else %}
-                                        <img src="/assets/img/default.png" alt="Default" class="flag">
+                                        {{ site.lang | upcase }}
                                     {% endif %}
 
                                     {% if page.title == p.title %}
