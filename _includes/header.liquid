@@ -143,7 +143,15 @@
                                         aria-haspopup="true"
                                         aria-expanded="false"
                                 >
-                                    <img src="../assets/img/{{ site.lang }}.png" alt="{{ site.lang | upcase }}" class="flag">
+                                    {% comment %}<img src="../assets/img/{{ site.lang }}.png" alt="{{ site.lang | upcase }}" class="flag">{% endcomment %}
+                                    {% assign lang_flag = "/assets/img/" | append: site.lang | append: ".png" %}
+                                    {% assign filtered_files = site.static_files | where: "path", lang_flag %}
+                                    {% if filtered_files.size > 0 %}
+                                        <img src="{{ lang_flag }}" alt="{{ site.lang | upcase }}" class="flag">
+                                    {% else %}
+                                        <img src="/assets/img/default.png" alt="Default" class="flag">
+                                    {% endif %}
+
                                     {% if page.title == p.title %}
                                         <span class="sr-only">(current)</span>
                                     {% endif %}
