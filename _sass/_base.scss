@@ -264,11 +264,12 @@ blockquote {
 }
 
 .navbar .dropdown-menu {
-  background-color: var(--global-bg-color);
+  background-color: var(--modal-content-bg-color);
   min-width: 100px; /* Adjust this to control the minimum width */
   max-width: 200px; /* Optional: limits the maximum width */
   width: auto; /* Automatically adjusts based on content */
   height: auto;
+  border: 2px solid var(--modal-border-color);
 
   a:not(.active) {
     color: var(--global-text-color);
@@ -287,6 +288,14 @@ blockquote {
   color: var(--global-text-color);
   //font-size-adjust: 1/;
   font-size: .75rem!important;
+  .country{
+    color: inherit;
+    font-weight: bold;      /* Bold text for emphasis */
+    letter-spacing: 0.5px;  /* Slight spacing for readability */
+    text-transform: uppercase; /* Ensure all caps for consistency */
+    text-shadow: 0.5px 0.5px 1px var(--modal-shadow-color); /* Soft shadow for depth */
+    transition: color 0.3s ease, text-shadow 0.3s ease; /* Smooth transition for hover */
+  }
 
   &:hover {
     color: var(--global-hover-color);
