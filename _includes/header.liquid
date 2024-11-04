@@ -124,16 +124,16 @@
                                         {% if filtered_files.size > 0 %}
                                             <a class="nav-link" href="{{ site.baseurl_root }}/{{ site.languages.last }}{{ page.url }}">
                                                 <img src="{{ lang_flag }}" alt="{{ site.lang | upcase }}" class="flag">
-                                                {{ site.lang | upcase }}
+                                                <span class="country-id">{{ site.lang }}</span>
                                             </a>
                                         {% else %}
                                             <a class="nav-link" href="{{ site.baseurl_root }}/{{ site.languages.last }}{{ page.url }}">
-                                                {{ site.lang | upcase }}
+                                                <span class="country-id">{{ site.lang }}</span>
                                             </a>
                                         {% endif %}
                                     {% else %}
                                         <a class="nav-link" href="{{ site.baseurl_root }}/{{ site.languages.last }}{{ page.url }}">
-                                            {{ site.lang | upcase }}
+                                            <span class="country-id">{{ site.lang }}</span>
                                         </a>
                                     {% endif %}
 
@@ -143,17 +143,17 @@
                                         {% assign filtered_files = site.static_files | where: "path", lang_flag %}
                                         {% if filtered_files.size > 0 %}
                                             <a class="nav-link" href="{{ site.baseurl_root }}{{ page.url }}">
-                                                <img src="{{ lang_flag }}" alt="{{ site.lang | upcase }}" class="flag">
-                                                {{ site.languages.last | upcase }}
+                                                <img src="{{ lang_flag }}" alt="{{ site.lang }}" class="flag">
+                                                <span class="country-id">{{ site.languages.last }}</span>
                                             </a>
                                         {% else %}
                                             <a class="nav-link" href="{{ site.baseurl_root }}{{ page.url }}">
-                                                {{ site.languages.last | upcase }}
+                                                <span class="country-id">{{ site.languages.last }}</span>
                                             </a>
                                         {% endif %}
                                     {% else %}
                                         <a class="nav-link" href="{{ site.baseurl_root }}{{ page.url }}">
-                                            {{ site.languages.last | upcase }}
+                                             <span class="country-id">{{ site.languages.last }}</span>
                                         </a>
                                     {% endif %}
                                 {% endif %}
@@ -173,7 +173,7 @@
                                     {% assign lang_flag = "/assets/img/" | append: site.lang | append: ".png" %}
                                     {% assign filtered_files = site.static_files | where: "path", lang_flag %}
                                     {% if filtered_files.size > 0 %}
-                                        <img src="{{ lang_flag }}" alt="{{ site.lang | upcase }}" class="flag"> {{ site.lang | upcase }}
+                                        <img src="{{ lang_flag }}" alt="{{ site.lang | upcase }}" class="flag"> <span class="country-id">{{ site.lang | upcase }}</span>
                                     {% else %}
                                         {{ site.lang | upcase }}
                                     {% endif %}
@@ -192,7 +192,7 @@
                                             {% if l == site.languages.first %}
                                                 <a class="dropdown-item" href="{{site.baseurl_root}}{{page.url}}">
                                                     {% if site.flag %}
-                                                        {{ 'English' | upcase }}
+                                                        <span class="country">{{ 'English' }}</span>
                                             {% else %}
                                                     {{ l | upcase }}
                                             {% endif %}
@@ -201,10 +201,10 @@
                                     <a class="dropdown-item"
                                        href="{{ site.baseurl_root }}/{{ l }}{{ page.url }}">
                                         {% if site.flag %}
-                                            {{ 'Deutsch' | upcase }}
+                                            <span class="country">{{ 'Deutsch' }}</span>
 
                                         {% else %}
-                                        {{ l | upcase }}
+                                            <span class="country">{{ l | upcase }}</span>
                                         {% endif %}
                                     </a>
                                     {% endif %}
