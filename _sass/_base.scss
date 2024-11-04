@@ -309,6 +309,15 @@ blockquote {
 
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
+    .country-id {
+      font-size: 0.875rem;
+      color: inherit;
+      font-weight: bold;      /* Bold text for emphasis */
+      letter-spacing: 0.5px;  /* Slight spacing for readability */
+      text-transform: uppercase; /* Ensure all caps for consistency */
+      text-shadow: 0.5px 0.5px 1px var(--modal-shadow-color); /* Soft shadow for depth */
+      transition: color 0.3s ease, text-shadow 0.3s ease; /* Smooth transition for hover */
+    }
 
     &:hover {
       color: var(--global-hover-color);
@@ -319,6 +328,7 @@ blockquote {
     background-color: inherit;
     font-weight: bolder;
     color: var(--global-theme-color);
+    //font-size: 8pt;
 
     &:hover {
       color: var(--global-hover-color);
@@ -1468,6 +1478,7 @@ progress::-moz-progress-bar {
 
   .btn-secondary.dropdown-toggle {
     border: 1px solid var(--global-divider-color);
+    //font-size: 1pt;
 
     .page-size {
       color: inherit;
@@ -1510,18 +1521,19 @@ progress::-moz-progress-bar {
 }
 
 .flag {
-  width: 24px;  /* Set the desired width */
-  height: 24px; /* Set the desired height */
+  width: 20px;  /* Set the desired width */
+  height: 20px; /* Set the desired height */
   object-fit: cover; /* Maintain aspect ratio while covering the given dimensions */
+
+}
+.flag::after{
+  content: "{{ site.lang | upcase }}";
+  font-size: 8pt;
 }
 
 /* Table of Contents */
 nav[data-toggle="toc"] {
-  top: 5rem;//.flag {
-//  width: 24px;  /* Set the desired width */
-//  height: 24px; /* Set the desired height */
-//  object-fit: cover; /* Maintain aspect ratio while covering the given dimensions */
-//}
+  top: 5rem;
 
   .nav .nav>li>a {
     font-size: .75rem;
