@@ -1,0 +1,8 @@
+{% assign lang_flag = "/assets/img/" | append: lang | append: ".png" %}
+{% assign filtered_files = site.static_files | where: "path", lang_flag %}
+<a class="nav-link" href="{{ url }}">
+    {% if site.flag and filtered_files.size > 0 %}
+        <img src="{{ lang_flag }}" alt="{{ lang | upcase }}" class="flag">
+    {% endif %}
+    <span class="country-id">{{ lang | upcase }}</span>
+</a>
