@@ -4,4 +4,6 @@ MATSE</a> Ausbildung an der <a href="https://www.rwth-aachen.de/go/id/a/?lidx=1"
 In meiner Ausbildung erwarb ich Kenntnisse in Softwareentwicklung, spezialisiert 
 auf Differentialgeometrie, Datenbankmanagement und Data Science.<br> 
 Leidenschaftlich bin ich daran interessiert, mathematische Methoden zur Lösung komplexer Probleme
-anzuwenden und mathematische Modelle zu erforschen und zugehörige Implementation nach Design Pattern Prinzipien umzusetzen.
+anzuwenden und mathematische Modelle zu erforschen und zugehörige Implementation nach Design Pattern Prinzipien umzusetzen.\\
+Seit Januar 2025, arbeite ich als Softwareentwickler bei [LeiKon](https://leikon.de/) und spezialisiere mich
+auf Alarmmanagement (EEMUA 191, ASM Consortium, IEC 62682), Produktionsdatenerfassung, Prozesssteuerung, industrielles Ethernet und eingebettete Systeme.  
