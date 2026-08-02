@@ -1,13 +1,13 @@
 ---
-layout: page
-title: titles.repositories
-description: descriptions.repositories
-permalink: /repositories/
-nav: true
-nav_order: 4
-published: true
-category: string
-horizontal: true
+#layout: page
+#title: titles.repositories
+#description: descriptions.repositories
+#permalink: /repositories/
+#nav: true
+#nav_order: 4
+#published: true
+#category: string
+#horizontal: true
 ---
 
 
