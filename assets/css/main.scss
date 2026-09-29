@@ -3,18 +3,18 @@
 ---
 @charset "utf-8";
 
-// Dimensions
-$max-content-width: #{ abs({{ site.max_width }})};
+@use "sass:math";
 
-
-@import
-"../../_sass/variables",
-"../../_sass/themes",
-"../../_sass/layout",
-"../../_sass/base",
-"../../_sass/distill",
-"../../_sass/cv",
-"../../_sass/font-awesome/fontawesome",
-"../../_sass/font-awesome/brands",
-"../../_sass/font-awesome/solid",
-"../../_sass/font-awesome/regular";
+// Dimensions (Liquid is filled in by Jekyll before Sass runs)
+@use "variables" with (
+  $max-content-width: math.abs({{ site.max_width }})
+);
+@use "themes";
+@use "layout";
+@use "base";
+@use "distill";
+@use "cv";
+@use "font-awesome/fontawesome";
+@use "font-awesome/brands";
+@use "font-awesome/solid";
+@use "font-awesome/regular";
