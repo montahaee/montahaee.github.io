@@ -25,7 +25,7 @@ group :jekyll_plugins do
     # gem 'jekyll-github-metadata'
    gem 'htmlcompressor'
    gem 'htmlbeautifier'
-   gem 'jekyll-sass-converter'
+   gem 'jekyll-sass-converter', '~> 3.0.0'
 end
 group :other_plugins do
     gem 'feedjira'

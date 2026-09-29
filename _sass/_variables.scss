@@ -10,10 +10,8 @@ $red-color-dark:      #B71C1C !default;
 $orange-color:        #F29105 !default;
 $blue-color:          #0076df !default;
 $blue-color-dark:     #00369f !default;
-//$blue-color-light:    lighten($blue-color, 25%);
 $blue-color-light:    color.adjust($blue-color, $lightness: 25%);
 $cyan-color:          #2698BA !default;
-//$light-cyan-color:    lighten($cyan-color, 25%);
 $light-cyan-color:    color.adjust($cyan-color, $lightness: 25%);
 $green-color:         #00ab37 !default;
 $green-color1:        #4CAF50 !default;
@@ -22,7 +20,6 @@ $green-color-dark:    #009f06 !default;
 $green-color-light:   #ddffdd !default;
 $green-color-bright:  #11D68B !default;
 $purple-color:        #B509AC !default;
-//$light-purple-color:  lighten($purple-color, 25%);
 $light-purple-color:  color.adjust($purple-color, $lightness: 25%);
 $pink-color:          #f92080 !default;
 $pink-color-light:    #ffdddd !default;
@@ -37,7 +34,7 @@ $dark-gray7:          #919191;
 $dark-gray8:          #9e9e9e;
 $dark-gray9:          #aaa;
 $dark-mgray10:        #ccc;
-$dark-gray10:          #ddd;
+$dark-gray10:         #ddd;
 $dark-gray11:         #e8e8e8;
 $dark-gray12:         #ededed;
 $dark-gray13:         #f2f2f2;
@@ -46,53 +43,68 @@ $dark-gray15:         #f8f8fa;
 $dark-gray16:         #fcfcfd;
 $dark-gray17:         #fefefd;
 $grey-color:          #828282 !default;
-//$grey-color-light:    lighten($grey-color, 40%);
 $grey-color-light:    color.adjust($grey-color, $lightness: 40%);
 $grey-color-dark:     #1C1C1D;
 $grey-900:            #212529;
-$white-color: #ffffff !default;
-$semi-white-color: rgba(255, 255, 255, 0.4) !default;
-$semi-white-scolor: rgba(255, 255, 255, 0.2) !default;
+$white-color:         #ffffff !default;
+$semi-white-color:    rgba(255, 255, 255, 0.4) !default;
+$semi-white-scolor:   rgba(255, 255, 255, 0.2) !default;
 
-$black-color: #000000 !default;
-$semi-gray-color: rgba(0, 0, 0, 0.4) !default;
-$semi-gray-scolor: rgba(0, 0, 0, 0.2) !default;
-$lighted_color1: #ffaaaa;
-$color1: #e66465;
-//$darker-color1: darken($color1, 10%);
-$darker-color1: color.adjust($color1, $lightness: -10%);
+$black-color:         #000000 !default;
+$semi-gray-color:     rgba(0, 0, 0, 0.4) !default;
+$semi-gray-scolor:    rgba(0, 0, 0, 0.2) !default;
+$lighted_color1:      #ffaaaa;
+$color1:              #e66465;
+$darker-color1:       color.adjust($color1, $lightness: -10%);
+$lighter-color1:      color.adjust($color1, $lightness: 20%);
+$color2:              #9198e5;
+$color3:              #3f87a6 !default;
+$color4:              #ebf8e1;
+$darker-color4:       color.adjust($color4, $lightness: -20%);
 
-//$lighter-color1: lighten($color1, 20%);
-$lighter-color1: color.adjust($color1, $lightness: 20%);
-$color2: #9198e5;
-$color3: #3f87a6 !default;
-$color4: #ebf8e1;
-//$darker-color4: darken($color4, 20%);
-$darker-color4: color.adjust($color4, $lightness: -20%);
-$color4-1: mix($color4,$darker-color1,100%);
-$color1-4: mix($color1,$darker-color4,40%);
-//$lighter-color1-4: lighten($color1-4,20%);
-$lighter-color1-4: color.adjust($color1-4, $lightness: 20%);
-//$darker-color1-4: darken($color1-4,10%);
-$darker-color1-4: color.adjust($color1-4,$lightness: -10%);
-//$lighter-color3 : lighten($color3, 40%);
-$lighter-color3 : color.adjust($color3, $lightness: 40%);
-$mixed-color1_light: mix($lighter-color1, $color4-1,50%);
-$mixed-color1_dark: mix($lighter-color1, $color4-1,95%);
-$color5: #f69d3c !default;
-$mixed-color_dark: mix($lighter_color1,mix(mix($color3,$color5,100%), mix($color2,$color4,100%),50%),100%);
-$mixed-color_light: mix($darker-color1,mix(mix(mix($color3,$color5,75%), $yellow-color,50%), mix($color2,$color4,75%),100%),75%);
-//$mixed-color_light: darken($mixed-color_light1, 10%);
-//$mixed-color_light2: mix($mixed-color_light1, $color2, 45%);
-//$mixed-color_light: darken($mixed-color_light2, 12%);
-//$mixed-color_light3: darken($mixed-color_light2, 12%);
-//$mixed-color_light: mix($mixed-color_light3, $yellow-color, 60%);
+// FIXED: Changed mix() to color.mix()
+$color4-1:            color.mix($color4, $darker-color1, 100%);
+$color1-4:            color.mix($color1, $darker-color4, 40%);
+$lighter-color1-4:    color.adjust($color1-4, $lightness: 20%);
+$darker-color1-4:     color.adjust($color1-4, $lightness: -10%);
+$lighter-color3:      color.adjust($color3, $lightness: 40%);
+
+// FIXED: Changed mix() to color.mix()
+$mixed-color1_light:  color.mix($lighter-color1, $color4-1, 50%);
+$mixed-color1_dark:   color.mix($lighter-color1, $color4-1, 95%);
+
+$color5:              #f69d3c !default;
+
+// FIXED: Changed variable name from $lighter_color1 to $lighter-color1
+// FIXED: Changed all mix() to color.mix()
+$mixed-color_dark:    color.mix(
+        $lighter-color1,
+        color.mix(
+                color.mix($color3, $color5, 100%),
+                color.mix($color2, $color4, 100%),
+                50%
+        ),
+        100%
+);
+
+$mixed-color_light:   color.mix(
+        $darker-color1,
+        color.mix(
+                color.mix(
+                        color.mix($color3, $color5, 75%),
+                        $yellow-color,
+                        50%
+                ),
+                color.mix($color2, $color4, 75%),
+                100%
+        ),
+        75%
+);
 
 $code-bg-color-light:     rgba($purple-color, 0.05);
 $code-bg-color-dark:      #2c3237 !default;
-$img-light-bg-boarder-color: mix($dark-gray12, $color4, 80%);
-$img-dark-bg-boarder-color: mix($grey-900, $dark-gray3, 75%);
+$img-light-bg-boarder-color: color.mix($dark-gray12, $color4, 80%);
+$img-dark-bg-boarder-color: color.mix($grey-900, $dark-gray3, 75%);
 
 // Font awesome location (inside your webfonts should be usually)
-//$fa-font-path: "../../_sass/font-awesome/fontawesome.scss";
 $fa-font-path: '../fonts/webfonts';

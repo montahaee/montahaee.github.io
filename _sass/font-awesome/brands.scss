@@ -3,6 +3,7 @@
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  * Copyright 2023 Fonticons, Inc.
  */
+@use "sass:string";
 @import 'functions';
 @import 'variables';
 /*!
@@ -33,5 +34,5 @@
 }
 
 @each $name, $icon in $fa-brand-icons {
-  .#{$fa-css-prefix}-#{$name}:before { content: unquote("\"#{ $icon }\""); }
+  .#{$fa-css-prefix}-#{$name}:before { content: string.unquote("\"#{ $icon }\""); }
 }
